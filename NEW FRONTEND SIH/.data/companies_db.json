@@ -1,0 +1,117 @@
+[
+  {
+    "id": "comp-ind-001",
+    "name": "CleanAqua Infrastructure Pvt Ltd",
+    "legalEntityName": "CleanAqua Urban Solutions India Ltd",
+    "sector": "Water Supply & Wastewater Engineering",
+    "technologyDomains": [
+      "Water Supply & Drainage",
+      "Hydrodynamic Jetting",
+      "Pipe Relining",
+      "Underground Sensor Telemetry"
+    ],
+    "district": "Chennai",
+    "state": "Tamil Nadu",
+    "verified": true,
+    "esgGrade": "AAA",
+    "activeWorkOrdersCount": 4,
+    "completedWorkOrdersCount": 49,
+    "rating": 4.9,
+    "contactEmail": "contracts@cleanaqua.in",
+    "contactPhone": "+91 44 2855 9012",
+    "turnaroundTimeAvgDays": 2.1,
+    "availableCapacity": "high"
+  },
+  {
+    "id": "comp-ind-002",
+    "name": "Apex CivilTech Urban Roads",
+    "legalEntityName": "Apex Infrastructure & Highway Solutions Pvt Ltd",
+    "sector": "Civil Highways & Pavements",
+    "technologyDomains": [
+      "Roads & Transportation",
+      "Cold-Mix Bituminous Laying",
+      "Ground Penetrating Radar",
+      "Cave-in Stabilization"
+    ],
+    "district": "Chennai",
+    "state": "Tamil Nadu",
+    "verified": true,
+    "esgGrade": "AAA",
+    "activeWorkOrdersCount": 2,
+    "completedWorkOrdersCount": 62,
+    "rating": 4.8,
+    "contactEmail": "tenders@apexcivil.com",
+    "contactPhone": "+91 44 4921 7890",
+    "turnaroundTimeAvgDays": 1.8,
+    "availableCapacity": "high"
+  },
+  {
+    "id": "comp-ind-003",
+    "name": "UrjaGrid Power Innovations",
+    "legalEntityName": "UrjaGrid Smart Energy & Microgrid Technologies Ltd",
+    "sector": "Electrical Grid & Smart Infrastructure",
+    "technologyDomains": [
+      "Electricity & Lighting",
+      "Underground Cable Fault Locators",
+      "Transformer Telemetry",
+      "LED Solar Microgrids"
+    ],
+    "district": "Chennai",
+    "state": "Tamil Nadu",
+    "verified": true,
+    "esgGrade": "AA",
+    "activeWorkOrdersCount": 1,
+    "completedWorkOrdersCount": 34,
+    "rating": 4.9,
+    "contactEmail": "projects@urjagrid.in",
+    "contactPhone": "+91 44 6712 3450",
+    "turnaroundTimeAvgDays": 1.2,
+    "availableCapacity": "high"
+  },
+  {
+    "id": "comp-ind-004",
+    "name": "EcoBio Waste Recyclers",
+    "legalEntityName": "EcoBio Waste Processing & Remediation LLP",
+    "sector": "Environmental Solid Waste Governance",
+    "technologyDomains": [
+      "Solid Waste & Cleanliness",
+      "Bioremediation",
+      "Hazardous Waste Removal",
+      "Automated Sorting"
+    ],
+    "district": "Chennai",
+    "state": "Tamil Nadu",
+    "verified": true,
+    "esgGrade": "AA",
+    "activeWorkOrdersCount": 0,
+    "completedWorkOrdersCount": 29,
+    "rating": 4.7,
+    "contactEmail": "ops@ecobio.org",
+    "contactPhone": "+91 44 3301 9821",
+    "turnaroundTimeAvgDays": 1.5,
+    "availableCapacity": "high"
+  },
+  {
+    "id": "comp-ind-005",
+    "name": "ArogyaHealth Mobile Sanitize",
+    "legalEntityName": "ArogyaHealth Public Wellness & Epidemic Defense Pvt Ltd",
+    "sector": "Public Health & Sanitation",
+    "technologyDomains": [
+      "Public Health & Sanitation",
+      "Vector Control Sprayers",
+      "Hospital Sanitization",
+      "Drinking Water Chlorination"
+    ],
+    "district": "Chennai",
+    "state": "Tamil Nadu",
+    "verified": true,
+    "esgGrade": "AAA",
+    "activeWorkOrdersCount": 0,
+    "completedWorkOrdersCount": 19,
+    "rating": 4.9,
+    "contactEmail": "nodal@arogyahealth.org",
+    "contactPhone": "+91 44 2441 5567",
+    "turnaroundTimeAvgDays": 0.8,
+    "availableCapacity": "high"
+  }
+]

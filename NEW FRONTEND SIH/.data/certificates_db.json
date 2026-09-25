@@ -1,0 +1,58 @@
+[
+  {
+    "id": "CERT-2026-0001",
+    "collaborationId": "CR-2026-0001",
+    "recipientId": "fac-001",
+    "recipientName": "Dr. R. Ramanujam, Ph.D.",
+    "recipientRole": "faculty_mentor",
+    "universityName": "Indian Institute of Technology Madras",
+    "industryPartnerName": "CleanAqua Infrastructure Pvt Ltd",
+    "projectTitle": "AI Acoustic Sonar Pipeline Leakage Telemetry System",
+    "certificateNumber": "SX-GOV-IND-UNIV-2026-0041",
+    "academicCreditsAwarded": 4,
+    "issuedAt": "2026-09-23T15:29:08.508Z",
+    "verificationHash": "SX-HASH-VERIFIED-9831-7721"
+  },
+  {
+    "id": "CERT-2026-0002",
+    "collaborationId": "CR-2026-0001",
+    "recipientId": "stu-001",
+    "recipientName": "Aditya Krishnan",
+    "recipientRole": "student_innovator",
+    "universityName": "Indian Institute of Technology Madras",
+    "industryPartnerName": "CleanAqua Infrastructure Pvt Ltd",
+    "projectTitle": "AI Acoustic Sonar Pipeline Leakage Telemetry System",
+    "certificateNumber": "SX-GOV-IND-UNIV-2026-0042",
+    "academicCreditsAwarded": 4,
+    "issuedAt": "2026-09-23T15:29:08.508Z",
+    "verificationHash": "SX-HASH-VERIFIED-9831-7722"
+  },
+  {
+    "id": "CERT-2026-9335",
+    "collaborationId": "CR-2026-0014",
+    "recipientId": "fac-001",
+    "recipientName": "Dr. R. Ramanujam, Ph.D.",
+    "recipientRole": "faculty_mentor",
+    "universityName": "Indian Institute of Technology Madras",
+    "industryPartnerName": "CleanAqua Infrastructure Pvt Ltd",
+    "projectTitle": "Subterranean Water Main Rupture with Cavity Formation",
+    "certificateNumber": "SX-CERT-FAC-CR-2026-0014",
+    "academicCreditsAwarded": 4,
+    "issuedAt": "2026-09-24T15:48:54.328Z",
+    "verificationHash": "HASH-FAC-MUFPIO54"
+  },
+  {
+    "id": "CERT-2026-1437",
+    "collaborationId": "CR-2026-0014",
+    "recipientId": "team-001",
+    "recipientName": "Team AquaSense AI",
+    "recipientRole": "student_innovator",
+    "universityName": "Indian Institute of Technology Madras",
+    "industryPartnerName": "CleanAqua Infrastructure Pvt Ltd",
+    "projectTitle": "Subterranean Water Main Rupture with Cavity Formation",
+    "certificateNumber": "SX-CERT-STU-CR-2026-0014",
+    "academicCreditsAwarded": 4,
+    "issuedAt": "2026-09-24T15:48:54.328Z",
+    "verificationHash": "HASH-STU-MUFPIO54"
+  }
+]

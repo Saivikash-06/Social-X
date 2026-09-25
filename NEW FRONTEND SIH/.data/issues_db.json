@@ -1,0 +1,2130 @@
+[
+  {
+    "id": "SOC-2026-008821",
+    "title": "Potable Water Main Line Fracture & Flooding",
+    "description": "A primary underground water supply line has cracked at the 14th Main crossroad, causing severe loss of municipal water and traffic blockage.",
+    "category": "Water Supply & Drainage",
+    "status": "assigned_to_university",
+    "priority": "high",
+    "citizenId": "usr-cit-01",
+    "citizenName": "Vikash (Citizen)",
+    "citizenPhone": "+91 98401 22891",
+    "citizenEmail": "citizen.vikash@example.com",
+    "location": "14th Main Rd, Indiranagar, Bengaluru, Karnataka 560038",
+    "district": "Bengaluru Urban",
+    "state": "Karnataka",
+    "wardNo": "Ward 142",
+    "gpsCoordinates": {
+      "lat": 12.9716,
+      "lng": 77.5946
+    },
+    "assignedDepartment": "Municipal Administration & Water Supply",
+    "assignedOfficer": "Thiru S. Sivakumar, IAS",
+    "officerId": "off-tn-001",
+    "officerContact": "+91 94480 12345",
+    "aiConfidence": 97.4,
+    "aiPrediction": {
+      "severity": "High Municipal Hazard",
+      "estimatedResolutionHours": 24,
+      "recommendedMaterial": [
+        "DI Feeder Pipe (900mm)",
+        "Hydraulic Trench Cutter"
+      ],
+      "suggestedSlaHours": 24
+    },
+    "ocrExtractedText": "BWSSB VALVE PIT #4 - CAUTION POTABLE FEED",
+    "sttTranscript": "Huge water leak on 14th Main, Indiranagar. Road is getting inundated and people cannot walk.",
+    "attachments": {
+      "images": [
+        {
+          "id": "att-1",
+          "label": "Broken water main flooding carriageway",
+          "url": "https://images.unsplash.com/photo-1541888946425-d0fbb18086f6?auto=format&fit=crop&w=800&q=80"
+        }
+      ],
+      "videos": [],
+      "voiceNotes": [],
+      "documents": []
+    },
+    "timeline": [
+      {
+        "id": "tl-1",
+        "stage": "Submission",
+        "title": "Grievance Logged",
+        "description": "Citizen filed report with photo and voice recording.",
+        "actor": "Citizen Portal",
+        "actorRole": "Citizen",
+        "timestamp": "2026-09-20 09:30 AM",
+        "completed": true
+      },
+      {
+        "id": "tl-2",
+        "stage": "AI Analysis",
+        "title": "Multimodal AI Classification",
+        "description": "AI engine validated image OCR and speech transcript. Matched to Municipal Water Supply (97.4% confidence).",
+        "actor": "Social-X AI Neural Engine",
+        "actorRole": "Automated System",
+        "timestamp": "2026-09-20 09:31 AM",
+        "completed": true
+      },
+      {
+        "id": "tl-3",
+        "stage": "Department Dispatch",
+        "title": "Assigned to Municipal Administration & Water Supply",
+        "description": "Dispatched to Executive Engineer Thiru S. Sivakumar. SLA clock active (24 hrs).",
+        "actor": "Municipal Routing Gateway",
+        "actorRole": "Government",
+        "timestamp": "2026-09-20 10:15 AM",
+        "completed": true,
+        "isCurrent": true
+      },
+      {
+        "id": "tl-1790314366342",
+        "stage": "Assigned to University",
+        "title": "Industry Initiated University Research & Prototyping",
+        "description": "CleanAqua Infrastructure Pvt Ltd partnered with National Institute of Technology Tiruchirappalli (Civil Engineering) under Research Grant ₹1,20,000. Faculty Mentor: Dr. S. Anitha, Ph.D..",
+        "actor": "CleanAqua Infrastructure Pvt Ltd",
+        "actorRole": "Industry Solution Partner",
+        "timestamp": "25 Sept 2026, 11:02 am",
+        "completed": true
+      }
+    ],
+    "officerNotes": [
+      {
+        "id": "note-1",
+        "author": "Thiru S. Sivakumar, IAS",
+        "authorRole": "Executive Engineer",
+        "note": "Ground repair squad dispatched with de-watering pumps and replacement DI sleeve.",
+        "timestamp": "2026-09-20 11:00 AM"
+      }
+    ],
+    "resolutionHistory": [
+      {
+        "id": "rh-1",
+        "action": "Case Assigned",
+        "performedBy": "AI Router",
+        "role": "Automated System",
+        "details": "Assigned based on high confidence pipeline rupture detection.",
+        "timestamp": "2026-09-20 09:31 AM"
+      }
+    ],
+    "createdAt": "2026-09-20T09:30:00.000Z",
+    "updatedAt": "2026-09-25T05:32:46.342Z",
+    "slaDeadline": "2026-09-21 09:30 AM (24h SLA)",
+    "universityCollaborationId": "CR-2026-0013",
+    "universityName": "National Institute of Technology Tiruchirappalli",
+    "facultyMentorName": "Dr. S. Anitha, Ph.D."
+  },
+  {
+    "id": "SOC-2026-006402",
+    "title": "Large Pothole Cluster & Caved-in Asphalt",
+    "description": "Deep cratered road surface causing frequent two-wheeler skids following heavy monsoon rainfall.",
+    "category": "Roads & Transportation",
+    "status": "resolved",
+    "priority": "medium",
+    "citizenId": "usr-cit-01",
+    "citizenName": "Vikash (Citizen)",
+    "citizenPhone": "+91 98401 22891",
+    "citizenEmail": "citizen.vikash@example.com",
+    "location": "Koramangala 4th Block, 80 Feet Road, Bengaluru",
+    "district": "Bengaluru Urban",
+    "state": "Karnataka",
+    "wardNo": "Ward 151",
+    "gpsCoordinates": {
+      "lat": 12.935,
+      "lng": 77.624
+    },
+    "assignedDepartment": "Highways & Minor Ports (Roads)",
+    "assignedOfficer": "Er. S. Anbarasan",
+    "officerId": "off-tn-004",
+    "aiConfidence": 96.8,
+    "aiPrediction": {
+      "severity": "Road Cavity Grade 2",
+      "estimatedResolutionHours": 48,
+      "recommendedMaterial": [
+        "Cold-mix Bituminous Asphalt",
+        "Vibratory Roller"
+      ],
+      "suggestedSlaHours": 48
+    },
+    "attachments": {
+      "images": [
+        {
+          "id": "att-2",
+          "label": "Pothole depth measurement",
+          "url": "https://images.unsplash.com/photo-1515162816999-a0c47dc192f7?auto=format&fit=crop&w=800&q=80"
+        }
+      ],
+      "videos": [],
+      "voiceNotes": [],
+      "documents": []
+    },
+    "timeline": [
+      {
+        "id": "tl-201",
+        "stage": "Submission",
+        "title": "Report Submitted",
+        "description": "Reported with photos.",
+        "actor": "Vikash (Citizen)",
+        "actorRole": "Citizen",
+        "timestamp": "2026-09-18 02:10 PM",
+        "completed": true
+      },
+      {
+        "id": "tl-202",
+        "stage": "Resolution",
+        "title": "Hot-Mix Asphalt Paving Completed",
+        "description": "Road patch finalized and stamped by municipal inspection team.",
+        "actor": "Er. S. Anbarasan",
+        "actorRole": "Executive Engineer",
+        "timestamp": "2026-09-19 05:00 PM",
+        "completed": true
+      }
+    ],
+    "officerNotes": [],
+    "resolutionHistory": [
+      {
+        "id": "rh-201",
+        "action": "Resolved",
+        "performedBy": "Er. S. Anbarasan",
+        "role": "Executive Engineer",
+        "details": "Bitumen hot mix applied, compacted and road opened for traffic.",
+        "timestamp": "2026-09-19 05:00 PM"
+      }
+    ],
+    "createdAt": "2026-09-18T14:10:00.000Z",
+    "updatedAt": "2026-09-19T17:00:00.000Z",
+    "resolvedAt": "2026-09-19T17:00:00.000Z"
+  },
+  {
+    "id": "TN-CIVIC-9021",
+    "title": "Major High-Pressure Potable Water Main Burst & Road Cave-in",
+    "description": "A 900mm DI feeder conduit ruptured near the Anna Salai intersection, flooding the carriageway and undermining asphalt substructure.",
+    "category": "Water Supply & Sewage",
+    "status": "in_progress",
+    "priority": "critical",
+    "citizenId": "CIT-TN-88219",
+    "citizenName": "R. Sundaramurthy",
+    "citizenPhone": "+91 98401 22891",
+    "location": "Anna Salai, Near DMS Metro, Teynampet",
+    "district": "Chennai",
+    "state": "Tamil Nadu",
+    "wardNo": "Ward 118",
+    "gpsCoordinates": {
+      "lat": 13.0425,
+      "lng": 80.2514
+    },
+    "assignedDepartment": "Municipal Administration & Water Supply",
+    "assignedOfficer": "Thiru S. Sivakumar, IAS",
+    "officerId": "off-tn-001",
+    "aiConfidence": 98.4,
+    "aiPrediction": {
+      "severity": "Emergency Class 1 Hazard",
+      "estimatedResolutionHours": 12,
+      "recommendedMaterial": [
+        "900mm DI Pipe",
+        "Hydraulic Sump Pump"
+      ],
+      "suggestedSlaHours": 12
+    },
+    "attachments": {
+      "images": [
+        {
+          "id": "img-1",
+          "url": "https://images.unsplash.com/photo-1541888946425-d0fbb186c5f7?w=800&auto=format&fit=crop&q=80",
+          "label": "Burst Pipeline Crater & Geyser"
+        }
+      ],
+      "videos": [],
+      "voiceNotes": [],
+      "documents": []
+    },
+    "timeline": [],
+    "officerNotes": [],
+    "resolutionHistory": [],
+    "createdAt": "2026-09-22T06:15:00.000Z",
+    "updatedAt": "2026-09-22T06:30:00.000Z",
+    "slaDeadline": "2026-09-22 06:15 PM (12h SLA)"
+  },
+  {
+    "id": "TN-CIVIC-8974",
+    "title": "Hazardous 11kV HT Power Line Snapped Over Pedestrian Footway",
+    "description": "A tree branch collapsed onto live high-tension overhead cables along South Veli Street. Cable is hanging 1.5 meters from pedestrian walkway, posing immediate electrocution hazard.",
+    "category": "Electricity & Streetlights",
+    "status": "in_progress",
+    "priority": "critical",
+    "citizenId": "CIT-TN-45102",
+    "citizenName": "Meenakshi Sundaram",
+    "citizenPhone": "+91 94432 89100",
+    "location": "South Veli Street, Opposite District Hospital",
+    "district": "Madurai",
+    "state": "Tamil Nadu",
+    "wardNo": "Ward 42",
+    "gpsCoordinates": {
+      "lat": 9.9195,
+      "lng": 78.1193
+    },
+    "assignedDepartment": "Tamil Nadu Generation & Distribution (Electricity)",
+    "assignedOfficer": "Er. K. Ramanathan, M.E.",
+    "officerId": "off-tn-003",
+    "aiConfidence": 99.1,
+    "aiPrediction": {
+      "severity": "Critical Life-Safety Hazard",
+      "estimatedResolutionHours": 4,
+      "recommendedMaterial": [
+        "11kV ACSR Conductor (50m)",
+        "Insulator Assemblies"
+      ],
+      "suggestedSlaHours": 4
+    },
+    "attachments": {
+      "images": [
+        {
+          "id": "img-3",
+          "url": "https://images.unsplash.com/photo-1544725176-7c40e5a71c5e?w=800&auto=format&fit=crop&q=80",
+          "label": "Live Cable Dangling Near School Crosswalk"
+        }
+      ],
+      "videos": [],
+      "voiceNotes": [],
+      "documents": []
+    },
+    "timeline": [],
+    "officerNotes": [],
+    "resolutionHistory": [],
+    "createdAt": "2026-09-22T07:00:00.000Z",
+    "updatedAt": "2026-09-22T07:25:00.000Z",
+    "slaDeadline": "2026-09-22 11:00 AM (4h SLA)"
+  },
+  {
+    "id": "SOC-2026-000125",
+    "title": "Ruptured high-pressure water pipe and road cave-in",
+    "description": "Severe underground water main burst near the junction. Deep crater formed in tarmac, potential threat to pedestrians and vehicles.",
+    "category": "Water Supply & Drainage",
+    "priority": "critical",
+    "status": "submitted",
+    "citizenId": "usr-cit-01",
+    "citizenName": "Vikash (Citizen)",
+    "citizenPhone": "+91 98401 22891",
+    "citizenEmail": "citizen.vikash@example.com",
+    "isAnonymous": false,
+    "location": "Anna Salai, Chennai, Ward 114",
+    "district": "Chennai",
+    "state": "Tamil Nadu",
+    "wardNo": "Ward 118",
+    "gpsCoordinates": {
+      "lat": 13.0827,
+      "lng": 80.2707
+    },
+    "assignedDepartment": "Municipal Administration & Water Supply",
+    "assignedOfficer": "Thiru S. Sivakumar, IAS",
+    "officerId": "off-tn-001",
+    "aiConfidence": 98,
+    "aiPrediction": {
+      "severity": "Critical Life-Safety Emergency",
+      "estimatedResolutionHours": 12,
+      "recommendedMaterial": [
+        "900mm DI Feeder Conduit",
+        "Hydraulic De-watering Pump (15HP)",
+        "Repair Clamps & Gaskets"
+      ],
+      "suggestedSlaHours": 12
+    },
+    "attachments": {
+      "images": [
+        {
+          "id": "img-1790242124969-0",
+          "url": "https://images.unsplash.com/photo-1541888946425-d0fbb18f13f7?w=800",
+          "label": "water_leak_crater.jpg"
+        }
+      ],
+      "videos": [],
+      "voiceNotes": [],
+      "documents": []
+    },
+    "timeline": [
+      {
+        "id": "tl-1790242124989-1",
+        "stage": "Submission",
+        "title": "Grievance Logged",
+        "description": "Citizen filed complaint. Status set to Submitted.",
+        "actor": "Vikash (Citizen)",
+        "actorRole": "Citizen",
+        "timestamp": "24 Sept 2026, 2:58 pm",
+        "completed": true,
+        "isCurrent": false
+      },
+      {
+        "id": "tl-1790242124989-2",
+        "stage": "AI Multimodal Routing",
+        "title": "AI Classified & Department Assigned",
+        "description": "Neural classifier verified issue with 98% confidence. Routed to Municipal Administration & Water Supply. Priority: CRITICAL.",
+        "actor": "Social-X AI Neural Engine",
+        "actorRole": "AI Orchestrator",
+        "timestamp": "24 Sept 2026, 2:58 pm",
+        "completed": true,
+        "isCurrent": true
+      },
+      {
+        "id": "tl-1790242124989-3",
+        "stage": "Department Dispatch",
+        "title": "Docketed in Municipal Administration & Water Supply Queue",
+        "description": "Officer Thiru S. Sivakumar, IAS assigned. SLA timer initialized for 12 hours.",
+        "actor": "Municipal Routing Gateway",
+        "actorRole": "Government Gateway",
+        "timestamp": "24 Sept 2026, 2:58 pm",
+        "completed": false,
+        "isCurrent": false
+      }
+    ],
+    "officerNotes": [
+      {
+        "id": "note-1790242124989",
+        "author": "Social-X AI System",
+        "authorRole": "Automated Classifier",
+        "note": "Incident automatically routed to Municipal Administration & Water Supply based on severity score (Critical Life-Safety Emergency).",
+        "timestamp": "24 Sept 2026, 2:58 pm"
+      }
+    ],
+    "resolutionHistory": [
+      {
+        "id": "rh-1790242124989-1",
+        "action": "Complaint Created",
+        "performedBy": "Vikash (Citizen)",
+        "role": "Citizen",
+        "details": "Issue filed with status Submitted. Generated Issue ID: SOC-2026-000125.",
+        "timestamp": "24 Sept 2026, 2:58 pm"
+      },
+      {
+        "id": "rh-1790242124989-2",
+        "action": "AI Routing",
+        "performedBy": "AI Router",
+        "role": "System",
+        "details": "Assigned to Municipal Administration & Water Supply (Officer: Thiru S. Sivakumar, IAS).",
+        "timestamp": "24 Sept 2026, 2:58 pm"
+      }
+    ],
+    "createdAt": "2026-09-24T09:28:44.970Z",
+    "updatedAt": "2026-09-24T09:28:44.970Z",
+    "slaDeadline": "25 Sept 2026, 2:58 am (12h SLA)"
+  },
+  {
+    "id": "SOC-2026-000126",
+    "title": "Ruptured high-pressure water pipe and road cave-in",
+    "description": "Severe underground water main burst near the junction. Deep crater formed in tarmac, potential threat to pedestrians and vehicles.",
+    "category": "Water Supply & Drainage",
+    "priority": "critical",
+    "status": "resolved",
+    "citizenId": "usr-cit-01",
+    "citizenName": "Vikash (Citizen)",
+    "citizenPhone": "+91 98401 22891",
+    "citizenEmail": "citizen.vikash@example.com",
+    "isAnonymous": false,
+    "location": "Anna Salai, Chennai, Ward 114",
+    "district": "Chennai",
+    "state": "Tamil Nadu",
+    "wardNo": "Ward 118",
+    "gpsCoordinates": {
+      "lat": 13.0827,
+      "lng": 80.2707
+    },
+    "assignedDepartment": "Municipal Administration & Water Supply",
+    "assignedOfficer": "Thiru S. Sivakumar, IAS",
+    "officerId": "off-tn-001",
+    "aiConfidence": 97.6,
+    "aiPrediction": {
+      "severity": "Critical Life-Safety Emergency",
+      "estimatedResolutionHours": 12,
+      "recommendedMaterial": [
+        "900mm DI Feeder Conduit",
+        "Hydraulic De-watering Pump (15HP)",
+        "Repair Clamps & Gaskets"
+      ],
+      "suggestedSlaHours": 12
+    },
+    "attachments": {
+      "images": [
+        {
+          "id": "img-1790242171870-0",
+          "url": "https://images.unsplash.com/photo-1541888946425-d0fbb18f13f7?w=800",
+          "label": "water_leak_crater.jpg"
+        }
+      ],
+      "videos": [],
+      "voiceNotes": [],
+      "documents": []
+    },
+    "timeline": [
+      {
+        "id": "tl-1790242171870-1",
+        "stage": "Submission",
+        "title": "Grievance Logged",
+        "description": "Citizen filed complaint. Status set to Submitted.",
+        "actor": "Vikash (Citizen)",
+        "actorRole": "Citizen",
+        "timestamp": "24 Sept 2026, 2:59 pm",
+        "completed": true,
+        "isCurrent": false
+      },
+      {
+        "id": "tl-1790242171870-2",
+        "stage": "AI Multimodal Routing",
+        "title": "AI Classified & Department Assigned",
+        "description": "Neural classifier verified issue with 97.6% confidence. Routed to Municipal Administration & Water Supply. Priority: CRITICAL.",
+        "actor": "Social-X AI Neural Engine",
+        "actorRole": "AI Orchestrator",
+        "timestamp": "24 Sept 2026, 2:59 pm",
+        "completed": true,
+        "isCurrent": true
+      },
+      {
+        "id": "tl-1790242171870-3",
+        "stage": "Department Dispatch",
+        "title": "Docketed in Municipal Administration & Water Supply Queue",
+        "description": "Officer Thiru S. Sivakumar, IAS assigned. SLA timer initialized for 12 hours.",
+        "actor": "Municipal Routing Gateway",
+        "actorRole": "Government Gateway",
+        "timestamp": "24 Sept 2026, 2:59 pm",
+        "completed": false,
+        "isCurrent": false
+      },
+      {
+        "id": "tl-1790242173409",
+        "stage": "IN PROGRESS",
+        "title": "Status Updated to IN PROGRESS",
+        "description": "Case status transitioned from submitted to in_progress by Authorized Government Official.",
+        "actor": "Authorized Government Official",
+        "actorRole": "Government Officer",
+        "timestamp": "24 Sept 2026, 2:59 pm",
+        "completed": true,
+        "isCurrent": true
+      },
+      {
+        "id": "tl-1790242173439",
+        "stage": "RESOLVED",
+        "title": "Status Updated to RESOLVED",
+        "description": "Case status transitioned from in_progress to resolved by Authorized Government Official.",
+        "actor": "Authorized Government Official",
+        "actorRole": "Government Officer",
+        "timestamp": "24 Sept 2026, 2:59 pm",
+        "completed": true,
+        "isCurrent": true
+      }
+    ],
+    "officerNotes": [
+      {
+        "id": "note-1790242171870",
+        "author": "Social-X AI System",
+        "authorRole": "Automated Classifier",
+        "note": "Incident automatically routed to Municipal Administration & Water Supply based on severity score (Critical Life-Safety Emergency).",
+        "timestamp": "24 Sept 2026, 2:59 pm"
+      }
+    ],
+    "resolutionHistory": [
+      {
+        "id": "rh-1790242171870-1",
+        "action": "Complaint Created",
+        "performedBy": "Vikash (Citizen)",
+        "role": "Citizen",
+        "details": "Issue filed with status Submitted. Generated Issue ID: SOC-2026-000126.",
+        "timestamp": "24 Sept 2026, 2:59 pm"
+      },
+      {
+        "id": "rh-1790242171870-2",
+        "action": "AI Routing",
+        "performedBy": "AI Router",
+        "role": "System",
+        "details": "Assigned to Municipal Administration & Water Supply (Officer: Thiru S. Sivakumar, IAS).",
+        "timestamp": "24 Sept 2026, 2:59 pm"
+      },
+      {
+        "id": "rh-1790242173409",
+        "action": "Status Change: in_progress",
+        "performedBy": "Authorized Government Official",
+        "role": "Government Officer",
+        "details": "Status changed to in_progress.",
+        "timestamp": "24 Sept 2026, 2:59 pm"
+      },
+      {
+        "id": "rh-1790242173439",
+        "action": "Status Change: resolved",
+        "performedBy": "Authorized Government Official",
+        "role": "Government Officer",
+        "details": "Status changed to resolved.",
+        "timestamp": "24 Sept 2026, 2:59 pm"
+      }
+    ],
+    "createdAt": "2026-09-24T09:29:31.870Z",
+    "updatedAt": "2026-09-24T09:29:33.438Z",
+    "slaDeadline": "25 Sept 2026, 2:59 am (12h SLA)",
+    "resolvedAt": "2026-09-24T09:29:33.439Z"
+  },
+  {
+    "id": "SOC-2026-000127",
+    "title": "Ruptured high-pressure water pipe and road cave-in",
+    "description": "Severe underground water main burst near the junction. Deep crater formed in tarmac, potential threat to pedestrians and vehicles.",
+    "category": "Water Supply & Drainage",
+    "priority": "critical",
+    "status": "resolved",
+    "citizenId": "usr-cit-01",
+    "citizenName": "Vikash (Citizen)",
+    "citizenPhone": "+91 98401 22891",
+    "citizenEmail": "citizen.vikash@example.com",
+    "isAnonymous": false,
+    "location": "Anna Salai, Chennai, Ward 114",
+    "district": "Chennai",
+    "state": "Tamil Nadu",
+    "wardNo": "Ward 118",
+    "gpsCoordinates": {
+      "lat": 13.0827,
+      "lng": 80.2707
+    },
+    "assignedDepartment": "Municipal Administration & Water Supply",
+    "assignedOfficer": "Thiru S. Sivakumar, IAS",
+    "officerId": "off-tn-001",
+    "aiConfidence": 97.2,
+    "aiPrediction": {
+      "severity": "Critical Life-Safety Emergency",
+      "estimatedResolutionHours": 12,
+      "recommendedMaterial": [
+        "900mm DI Feeder Conduit",
+        "Hydraulic De-watering Pump (15HP)",
+        "Repair Clamps & Gaskets"
+      ],
+      "suggestedSlaHours": 12
+    },
+    "attachments": {
+      "images": [
+        {
+          "id": "img-1790242214955-0",
+          "url": "https://images.unsplash.com/photo-1541888946425-d0fbb18f13f7?w=800",
+          "label": "water_leak_crater.jpg"
+        }
+      ],
+      "videos": [],
+      "voiceNotes": [],
+      "documents": []
+    },
+    "timeline": [
+      {
+        "id": "tl-1790242214959-1",
+        "stage": "Submission",
+        "title": "Grievance Logged",
+        "description": "Citizen filed complaint. Status set to Submitted.",
+        "actor": "Vikash (Citizen)",
+        "actorRole": "Citizen",
+        "timestamp": "24 Sept 2026, 3:00 pm",
+        "completed": true,
+        "isCurrent": false
+      },
+      {
+        "id": "tl-1790242214959-2",
+        "stage": "AI Multimodal Routing",
+        "title": "AI Classified & Department Assigned",
+        "description": "Neural classifier verified issue with 97.2% confidence. Routed to Municipal Administration & Water Supply. Priority: CRITICAL.",
+        "actor": "Social-X AI Neural Engine",
+        "actorRole": "AI Orchestrator",
+        "timestamp": "24 Sept 2026, 3:00 pm",
+        "completed": true,
+        "isCurrent": true
+      },
+      {
+        "id": "tl-1790242214959-3",
+        "stage": "Department Dispatch",
+        "title": "Docketed in Municipal Administration & Water Supply Queue",
+        "description": "Officer Thiru S. Sivakumar, IAS assigned. SLA timer initialized for 12 hours.",
+        "actor": "Municipal Routing Gateway",
+        "actorRole": "Government Gateway",
+        "timestamp": "24 Sept 2026, 3:00 pm",
+        "completed": false,
+        "isCurrent": false
+      },
+      {
+        "id": "tl-1790242215103",
+        "stage": "IN PROGRESS",
+        "title": "Status Updated to IN PROGRESS",
+        "description": "Case status transitioned from submitted to in_progress by Authorized Government Official.",
+        "actor": "Authorized Government Official",
+        "actorRole": "Government Officer",
+        "timestamp": "24 Sept 2026, 3:00 pm",
+        "completed": true,
+        "isCurrent": true
+      },
+      {
+        "id": "tl-1790242215167",
+        "stage": "RESOLVED",
+        "title": "Status Updated to RESOLVED",
+        "description": "Case status transitioned from in_progress to resolved by Authorized Government Official.",
+        "actor": "Authorized Government Official",
+        "actorRole": "Government Officer",
+        "timestamp": "24 Sept 2026, 3:00 pm",
+        "completed": true,
+        "isCurrent": true
+      }
+    ],
+    "officerNotes": [
+      {
+        "id": "note-1790242214959",
+        "author": "Social-X AI System",
+        "authorRole": "Automated Classifier",
+        "note": "Incident automatically routed to Municipal Administration & Water Supply based on severity score (Critical Life-Safety Emergency).",
+        "timestamp": "24 Sept 2026, 3:00 pm"
+      }
+    ],
+    "resolutionHistory": [
+      {
+        "id": "rh-1790242214959-1",
+        "action": "Complaint Created",
+        "performedBy": "Vikash (Citizen)",
+        "role": "Citizen",
+        "details": "Issue filed with status Submitted. Generated Issue ID: SOC-2026-000127.",
+        "timestamp": "24 Sept 2026, 3:00 pm"
+      },
+      {
+        "id": "rh-1790242214959-2",
+        "action": "AI Routing",
+        "performedBy": "AI Router",
+        "role": "System",
+        "details": "Assigned to Municipal Administration & Water Supply (Officer: Thiru S. Sivakumar, IAS).",
+        "timestamp": "24 Sept 2026, 3:00 pm"
+      },
+      {
+        "id": "rh-1790242215103",
+        "action": "Status Change: in_progress",
+        "performedBy": "Authorized Government Official",
+        "role": "Government Officer",
+        "details": "Status changed to in_progress.",
+        "timestamp": "24 Sept 2026, 3:00 pm"
+      },
+      {
+        "id": "rh-1790242215167",
+        "action": "Status Change: resolved",
+        "performedBy": "Authorized Government Official",
+        "role": "Government Officer",
+        "details": "Status changed to resolved.",
+        "timestamp": "24 Sept 2026, 3:00 pm"
+      }
+    ],
+    "createdAt": "2026-09-24T09:30:14.956Z",
+    "updatedAt": "2026-09-24T09:30:15.167Z",
+    "slaDeadline": "25 Sept 2026, 3:00 am (12h SLA)",
+    "resolvedAt": "2026-09-24T09:30:15.167Z"
+  },
+  {
+    "id": "SOC-2026-000128",
+    "title": "Ruptured high-pressure water pipe and road cave-in",
+    "description": "Severe underground water main burst near the junction. Deep crater formed in tarmac, potential threat to pedestrians and vehicles.",
+    "category": "Water Supply & Drainage",
+    "priority": "critical",
+    "status": "resolved",
+    "citizenId": "usr-cit-01",
+    "citizenName": "Vikash (Citizen)",
+    "citizenPhone": "+91 98401 22891",
+    "citizenEmail": "citizen.vikash@example.com",
+    "isAnonymous": false,
+    "location": "Anna Salai, Chennai, Ward 114",
+    "district": "Chennai",
+    "state": "Tamil Nadu",
+    "wardNo": "Ward 118",
+    "gpsCoordinates": {
+      "lat": 13.0827,
+      "lng": 80.2707
+    },
+    "assignedDepartment": "Municipal Administration & Water Supply",
+    "assignedOfficer": "Thiru S. Sivakumar, IAS",
+    "officerId": "off-tn-001",
+    "aiConfidence": 98.1,
+    "aiPrediction": {
+      "severity": "Critical Life-Safety Emergency",
+      "estimatedResolutionHours": 12,
+      "recommendedMaterial": [
+        "900mm DI Feeder Conduit",
+        "Hydraulic De-watering Pump (15HP)",
+        "Repair Clamps & Gaskets"
+      ],
+      "suggestedSlaHours": 12
+    },
+    "attachments": {
+      "images": [
+        {
+          "id": "img-1790242254310-0",
+          "url": "https://images.unsplash.com/photo-1541888946425-d0fbb18f13f7?w=800",
+          "label": "water_leak_crater.jpg"
+        }
+      ],
+      "videos": [],
+      "voiceNotes": [],
+      "documents": []
+    },
+    "timeline": [
+      {
+        "id": "tl-1790242254310-1",
+        "stage": "Submission",
+        "title": "Grievance Logged",
+        "description": "Citizen filed complaint. Status set to Submitted.",
+        "actor": "Vikash (Citizen)",
+        "actorRole": "Citizen",
+        "timestamp": "24 Sept 2026, 3:00 pm",
+        "completed": true,
+        "isCurrent": false
+      },
+      {
+        "id": "tl-1790242254310-2",
+        "stage": "AI Multimodal Routing",
+        "title": "AI Classified & Department Assigned",
+        "description": "Neural classifier verified issue with 98.1% confidence. Routed to Municipal Administration & Water Supply. Priority: CRITICAL.",
+        "actor": "Social-X AI Neural Engine",
+        "actorRole": "AI Orchestrator",
+        "timestamp": "24 Sept 2026, 3:00 pm",
+        "completed": true,
+        "isCurrent": true
+      },
+      {
+        "id": "tl-1790242254310-3",
+        "stage": "Department Dispatch",
+        "title": "Docketed in Municipal Administration & Water Supply Queue",
+        "description": "Officer Thiru S. Sivakumar, IAS assigned. SLA timer initialized for 12 hours.",
+        "actor": "Municipal Routing Gateway",
+        "actorRole": "Government Gateway",
+        "timestamp": "24 Sept 2026, 3:00 pm",
+        "completed": false,
+        "isCurrent": false
+      },
+      {
+        "id": "tl-1790242254410",
+        "stage": "IN PROGRESS",
+        "title": "Status Updated to IN PROGRESS",
+        "description": "Case status transitioned from submitted to in_progress by Authorized Government Official.",
+        "actor": "Authorized Government Official",
+        "actorRole": "Government Officer",
+        "timestamp": "24 Sept 2026, 3:00 pm",
+        "completed": true,
+        "isCurrent": true
+      },
+      {
+        "id": "tl-1790242254452",
+        "stage": "RESOLVED",
+        "title": "Status Updated to RESOLVED",
+        "description": "Case status transitioned from in_progress to resolved by Authorized Government Official.",
+        "actor": "Authorized Government Official",
+        "actorRole": "Government Officer",
+        "timestamp": "24 Sept 2026, 3:00 pm",
+        "completed": true,
+        "isCurrent": true
+      }
+    ],
+    "officerNotes": [
+      {
+        "id": "note-1790242254310",
+        "author": "Social-X AI System",
+        "authorRole": "Automated Classifier",
+        "note": "Incident automatically routed to Municipal Administration & Water Supply based on severity score (Critical Life-Safety Emergency).",
+        "timestamp": "24 Sept 2026, 3:00 pm"
+      }
+    ],
+    "resolutionHistory": [
+      {
+        "id": "rh-1790242254310-1",
+        "action": "Complaint Created",
+        "performedBy": "Vikash (Citizen)",
+        "role": "Citizen",
+        "details": "Issue filed with status Submitted. Generated Issue ID: SOC-2026-000128.",
+        "timestamp": "24 Sept 2026, 3:00 pm"
+      },
+      {
+        "id": "rh-1790242254310-2",
+        "action": "AI Routing",
+        "performedBy": "AI Router",
+        "role": "System",
+        "details": "Assigned to Municipal Administration & Water Supply (Officer: Thiru S. Sivakumar, IAS).",
+        "timestamp": "24 Sept 2026, 3:00 pm"
+      },
+      {
+        "id": "rh-1790242254410",
+        "action": "Status Change: in_progress",
+        "performedBy": "Authorized Government Official",
+        "role": "Government Officer",
+        "details": "Status changed to in_progress.",
+        "timestamp": "24 Sept 2026, 3:00 pm"
+      },
+      {
+        "id": "rh-1790242254452",
+        "action": "Status Change: resolved",
+        "performedBy": "Authorized Government Official",
+        "role": "Government Officer",
+        "details": "Status changed to resolved.",
+        "timestamp": "24 Sept 2026, 3:00 pm"
+      }
+    ],
+    "createdAt": "2026-09-24T09:30:54.310Z",
+    "updatedAt": "2026-09-24T09:30:54.452Z",
+    "slaDeadline": "25 Sept 2026, 3:00 am (12h SLA)",
+    "resolvedAt": "2026-09-24T09:30:54.452Z"
+  },
+  {
+    "id": "SOC-2026-000129",
+    "title": "Ruptured high-pressure water pipe and road cave-in",
+    "description": "Severe underground water main burst near the junction. Deep crater formed in tarmac, potential threat to pedestrians and vehicles.",
+    "category": "Water Supply & Drainage",
+    "priority": "critical",
+    "status": "resolved",
+    "citizenId": "usr-cit-01",
+    "citizenName": "Vikash (Citizen)",
+    "citizenPhone": "+91 98401 22891",
+    "citizenEmail": "citizen.vikash@example.com",
+    "isAnonymous": false,
+    "location": "Anna Salai, Chennai, Ward 114",
+    "district": "Chennai",
+    "state": "Tamil Nadu",
+    "wardNo": "Ward 118",
+    "gpsCoordinates": {
+      "lat": 13.0827,
+      "lng": 80.2707
+    },
+    "assignedDepartment": "Municipal Administration & Water Supply",
+    "assignedOfficer": "Thiru S. Sivakumar, IAS",
+    "officerId": "off-tn-001",
+    "aiConfidence": 97.7,
+    "aiPrediction": {
+      "severity": "Critical Life-Safety Emergency",
+      "estimatedResolutionHours": 12,
+      "recommendedMaterial": [
+        "900mm DI Feeder Conduit",
+        "Hydraulic De-watering Pump (15HP)",
+        "Repair Clamps & Gaskets"
+      ],
+      "suggestedSlaHours": 12
+    },
+    "attachments": {
+      "images": [
+        {
+          "id": "img-1790242765356-0",
+          "url": "https://images.unsplash.com/photo-1541888946425-d0fbb18f13f7?w=800",
+          "label": "water_leak_crater.jpg"
+        }
+      ],
+      "videos": [],
+      "voiceNotes": [],
+      "documents": []
+    },
+    "timeline": [
+      {
+        "id": "tl-1790242765356-1",
+        "stage": "Submission",
+        "title": "Grievance Logged",
+        "description": "Citizen filed complaint. Status set to Submitted.",
+        "actor": "Vikash (Citizen)",
+        "actorRole": "Citizen",
+        "timestamp": "24 Sept 2026, 3:09 pm",
+        "completed": true,
+        "isCurrent": false
+      },
+      {
+        "id": "tl-1790242765356-2",
+        "stage": "AI Multimodal Routing",
+        "title": "AI Classified & Department Assigned",
+        "description": "Neural classifier verified issue with 97.7% confidence. Routed to Municipal Administration & Water Supply. Priority: CRITICAL.",
+        "actor": "Social-X AI Neural Engine",
+        "actorRole": "AI Orchestrator",
+        "timestamp": "24 Sept 2026, 3:09 pm",
+        "completed": true,
+        "isCurrent": true
+      },
+      {
+        "id": "tl-1790242765356-3",
+        "stage": "Department Dispatch",
+        "title": "Docketed in Municipal Administration & Water Supply Queue",
+        "description": "Officer Thiru S. Sivakumar, IAS assigned. SLA timer initialized for 12 hours.",
+        "actor": "Municipal Routing Gateway",
+        "actorRole": "Government Gateway",
+        "timestamp": "24 Sept 2026, 3:09 pm",
+        "completed": false,
+        "isCurrent": false
+      },
+      {
+        "id": "tl-1790242765423",
+        "stage": "IN PROGRESS",
+        "title": "Status Updated to IN PROGRESS",
+        "description": "Case status transitioned from submitted to in_progress by Authorized Government Official.",
+        "actor": "Authorized Government Official",
+        "actorRole": "Government Officer",
+        "timestamp": "24 Sept 2026, 3:09 pm",
+        "completed": true,
+        "isCurrent": true
+      },
+      {
+        "id": "tl-1790242765457",
+        "stage": "RESOLVED",
+        "title": "Status Updated to RESOLVED",
+        "description": "Case status transitioned from in_progress to resolved by Authorized Government Official.",
+        "actor": "Authorized Government Official",
+        "actorRole": "Government Officer",
+        "timestamp": "24 Sept 2026, 3:09 pm",
+        "completed": true,
+        "isCurrent": true
+      }
+    ],
+    "officerNotes": [
+      {
+        "id": "note-1790242765356",
+        "author": "Social-X AI System",
+        "authorRole": "Automated Classifier",
+        "note": "Incident automatically routed to Municipal Administration & Water Supply based on severity score (Critical Life-Safety Emergency).",
+        "timestamp": "24 Sept 2026, 3:09 pm"
+      }
+    ],
+    "resolutionHistory": [
+      {
+        "id": "rh-1790242765356-1",
+        "action": "Complaint Created",
+        "performedBy": "Vikash (Citizen)",
+        "role": "Citizen",
+        "details": "Issue filed with status Submitted. Generated Issue ID: SOC-2026-000129.",
+        "timestamp": "24 Sept 2026, 3:09 pm"
+      },
+      {
+        "id": "rh-1790242765356-2",
+        "action": "AI Routing",
+        "performedBy": "AI Router",
+        "role": "System",
+        "details": "Assigned to Municipal Administration & Water Supply (Officer: Thiru S. Sivakumar, IAS).",
+        "timestamp": "24 Sept 2026, 3:09 pm"
+      },
+      {
+        "id": "rh-1790242765423",
+        "action": "Status Change: in_progress",
+        "performedBy": "Authorized Government Official",
+        "role": "Government Officer",
+        "details": "Status changed to in_progress.",
+        "timestamp": "24 Sept 2026, 3:09 pm"
+      },
+      {
+        "id": "rh-1790242765457",
+        "action": "Status Change: resolved",
+        "performedBy": "Authorized Government Official",
+        "role": "Government Officer",
+        "details": "Status changed to resolved.",
+        "timestamp": "24 Sept 2026, 3:09 pm"
+      }
+    ],
+    "createdAt": "2026-09-24T09:39:25.356Z",
+    "updatedAt": "2026-09-24T09:39:25.456Z",
+    "slaDeadline": "25 Sept 2026, 3:09 am (12h SLA)",
+    "resolvedAt": "2026-09-24T09:39:25.456Z"
+  },
+  {
+    "id": "SOC-2026-000130",
+    "title": "water issue",
+    "description": "water issue.",
+    "category": "Water Supply & Drainage",
+    "priority": "high",
+    "status": "submitted",
+    "citizenId": "usr-cit-01",
+    "citizenName": "Vikash (Citizen)",
+    "citizenPhone": "+91 98401 22891",
+    "citizenEmail": "citizen.vikash@example.com",
+    "location": "14th Main Rd, Indiranagar, Bengaluru",
+    "district": "Bengaluru Urban",
+    "state": "Karnataka",
+    "wardNo": "Ward 142",
+    "gpsCoordinates": {
+      "lat": 12.9716,
+      "lng": 77.5946
+    },
+    "assignedDepartment": "Municipal Administration & Water Supply",
+    "assignedOfficer": "Thiru S. Sivakumar, IAS",
+    "officerId": "off-tn-001",
+    "aiConfidence": 98.6,
+    "aiPrediction": {
+      "severity": "Moderate Societal Impact",
+      "estimatedResolutionHours": 48,
+      "recommendedMaterial": [
+        "900mm DI Feeder Conduit",
+        "Hydraulic De-watering Pump (15HP)",
+        "Repair Clamps & Gaskets"
+      ],
+      "suggestedSlaHours": 48
+    },
+    "aiAnalysis": {
+      "category": "Water Supply & Drainage",
+      "priority": "medium",
+      "isDuplicate": false,
+      "isEmergency": false,
+      "sentiment": "neutral",
+      "sentimentScore": 0,
+      "recommendedDepartment": "Municipal Administration & Water Supply",
+      "recommendedStakeholders": [
+        "government",
+        "industry",
+        "university"
+      ],
+      "estimatedCost": 25000,
+      "estimatedCompletionDays": 2,
+      "estimatedResolutionHours": 48,
+      "confidenceScore": 98.6
+    },
+    "routingTargets": [
+      "government"
+    ],
+    "attachments": {
+      "images": [
+        {
+          "id": "img-1790326280067-1",
+          "url": "https://images.unsplash.com/photo-1541888946425-d0fbb18086f6?auto=format&fit=crop&w=800&q=80",
+          "label": "water issue"
+        }
+      ],
+      "videos": [],
+      "voiceNotes": [],
+      "documents": []
+    },
+    "timeline": [
+      {
+        "id": "tl-1790326280121-1",
+        "stage": "Submitted",
+        "title": "Grievance Logged",
+        "description": "Citizen filed complaint. Status set to Submitted.",
+        "actor": "Vikash (Citizen)",
+        "actorRole": "Citizen",
+        "timestamp": "25 Sept 2026, 2:21 pm",
+        "completed": true,
+        "isCurrent": false
+      },
+      {
+        "id": "tl-1790326280121-2",
+        "stage": "AI Analysis",
+        "title": "Multimodal AI Analysis & Duplicate Check",
+        "description": "Neural engine executed OCR, STT, and sentiment (neutral, score: 0). Duplicate: None. Estimated Cost: ₹25,000.",
+        "actor": "Social-X AI Neural Engine",
+        "actorRole": "AI Orchestrator",
+        "timestamp": "25 Sept 2026, 2:21 pm",
+        "completed": true,
+        "isCurrent": true
+      },
+      {
+        "id": "tl-1790326280134-3",
+        "stage": "Government Review",
+        "title": "Docketed in Municipal Administration & Water Supply Queue",
+        "description": "Officer Thiru S. Sivakumar, IAS assigned. SLA timer initialized for 48 hours.",
+        "actor": "Municipal Routing Gateway",
+        "actorRole": "Government Gateway",
+        "timestamp": "25 Sept 2026, 2:21 pm",
+        "completed": false,
+        "isCurrent": false
+      }
+    ],
+    "officerNotes": [
+      {
+        "id": "note-1790326280135",
+        "author": "Social-X AI Engine",
+        "authorRole": "Automated Classifier",
+        "note": "Complaint analyzed: Moderate Societal Impact. Routed to GOVERNMENT. Estimated repair cost: ₹25,000.",
+        "timestamp": "25 Sept 2026, 2:21 pm"
+      }
+    ],
+    "resolutionHistory": [
+      {
+        "id": "rh-1790326280135-1",
+        "action": "Complaint Created",
+        "performedBy": "Vikash (Citizen)",
+        "role": "Citizen",
+        "details": "Issue filed with status Submitted. Generated Issue ID: SOC-2026-000130.",
+        "timestamp": "25 Sept 2026, 2:21 pm"
+      },
+      {
+        "id": "rh-1790326280135-2",
+        "action": "AI Routing",
+        "performedBy": "AI Router",
+        "role": "System",
+        "details": "Smart routed to Municipal Administration & Water Supply (Officer: Thiru S. Sivakumar, IAS). Priority: HIGH.",
+        "timestamp": "25 Sept 2026, 2:21 pm"
+      }
+    ],
+    "createdAt": "2026-09-25T08:51:20.070Z",
+    "updatedAt": "2026-09-25T08:51:20.070Z",
+    "slaDeadline": "27 Sept 2026, 2:21 pm (48h SLA)"
+  },
+  {
+    "id": "SOC-2026-000131",
+    "title": "High-Tech IoT Leakage & Deep Submersible Pump Motor Overhaul",
+    "description": "Deep bore water well system sensor array failure and structural crack requiring specialized sonar ultrasonic inspection and robotic repair.",
+    "category": "Water Supply & Sanitation",
+    "priority": "high",
+    "status": "in_progress",
+    "citizenId": "usr-cit-01",
+    "citizenName": "Dr. Ananya Sundaram",
+    "citizenPhone": "+91 97890 55432",
+    "citizenEmail": "ananya.sundaram@techpark.in",
+    "location": "Peelamedu Tech Park Zone, Ward 22",
+    "district": "Chennai",
+    "state": "Tamil Nadu",
+    "wardNo": "Ward 118",
+    "gpsCoordinates": {
+      "lat": 13.0425,
+      "lng": 80.2514
+    },
+    "assignedDepartment": "Tamil Nadu Water Supply & Drainage Board",
+    "assignedOfficer": "Thiru S. Sivakumar, IAS",
+    "officerId": "off-tn-001",
+    "aiConfidence": 98.1,
+    "aiPrediction": {
+      "severity": "High Municipal Risk",
+      "estimatedResolutionHours": 24,
+      "recommendedMaterial": [
+        "900mm DI Feeder Conduit",
+        "Hydraulic De-watering Pump (15HP)",
+        "Repair Clamps & Gaskets"
+      ],
+      "suggestedSlaHours": 24
+    },
+    "attachments": {
+      "images": [
+        {
+          "id": "img-1790247280111-1",
+          "url": "https://images.unsplash.com/photo-1541888946425-d0fbb18086f6?auto=format&fit=crop&w=800&q=80",
+          "label": "High-Tech IoT Leakage & Deep Submersible Pump Motor Overhaul"
+        }
+      ],
+      "videos": [],
+      "voiceNotes": [],
+      "documents": []
+    },
+    "timeline": [
+      {
+        "id": "tl-1790247280112-1",
+        "stage": "Submission",
+        "title": "Grievance Logged",
+        "description": "Citizen filed complaint. Status set to Submitted.",
+        "actor": "Dr. Ananya Sundaram",
+        "actorRole": "Citizen",
+        "timestamp": "24 Sept 2026, 4:24 pm",
+        "completed": true,
+        "isCurrent": false
+      },
+      {
+        "id": "tl-1790247280112-2",
+        "stage": "AI Multimodal Routing",
+        "title": "AI Classified & Department Assigned",
+        "description": "Neural classifier verified issue with 98.1% confidence. Routed to Tamil Nadu Water Supply & Drainage Board. Priority: HIGH.",
+        "actor": "Social-X AI Neural Engine",
+        "actorRole": "AI Orchestrator",
+        "timestamp": "24 Sept 2026, 4:24 pm",
+        "completed": true,
+        "isCurrent": true
+      },
+      {
+        "id": "tl-1790247280112-3",
+        "stage": "Department Dispatch",
+        "title": "Docketed in Tamil Nadu Water Supply & Drainage Board Queue",
+        "description": "Officer Thiru S. Sivakumar, IAS assigned. SLA timer initialized for 24 hours.",
+        "actor": "Municipal Routing Gateway",
+        "actorRole": "Government Gateway",
+        "timestamp": "24 Sept 2026, 4:24 pm",
+        "completed": false,
+        "isCurrent": false
+      },
+      {
+        "id": "tl-1790247285348",
+        "stage": "Assigned to Industry",
+        "title": "Municipal Work Order Issued to Partner",
+        "description": "Government outsourced specialized repair to registered industry partner CleanAqua Infrastructure Pvt Ltd under Work Order #WO-2026-0043 (Budget: ₹3,75,000).",
+        "actor": "Dr. K. Vijayakumar, Superintending Engineer",
+        "actorRole": "Government Authority",
+        "timestamp": "24 Sept 2026, 4:24 pm",
+        "completed": true
+      },
+      {
+        "id": "tl-1790314350512",
+        "stage": "Industry Accepted",
+        "title": "Work Order Accepted by Industry Partner",
+        "description": "CleanAqua Infrastructure Pvt Ltd formally accepted municipal contract #WO-2026-0043. Mobilization commences.",
+        "actor": "CleanAqua Infrastructure Pvt Ltd",
+        "actorRole": "Industry Solution Partner",
+        "timestamp": "25 Sept 2026, 11:02 am",
+        "completed": true
+      },
+      {
+        "id": "tl-1790314350649",
+        "stage": "Industry Accepted",
+        "title": "Work Order Accepted by Industry Partner",
+        "description": "CleanAqua Infrastructure Pvt Ltd formally accepted municipal contract #WO-2026-0043. Mobilization commences.",
+        "actor": "CleanAqua Infrastructure Pvt Ltd",
+        "actorRole": "Industry Solution Partner",
+        "timestamp": "25 Sept 2026, 11:02 am",
+        "completed": true
+      }
+    ],
+    "officerNotes": [
+      {
+        "id": "note-1790247280112",
+        "author": "Social-X AI System",
+        "authorRole": "Automated Classifier",
+        "note": "Incident automatically routed to Tamil Nadu Water Supply & Drainage Board based on severity score (High Municipal Risk).",
+        "timestamp": "24 Sept 2026, 4:24 pm"
+      },
+      {
+        "id": "note-1790247285373",
+        "author": "Dr. K. Vijayakumar, Superintending Engineer",
+        "authorRole": "Government Authority",
+        "note": "Work Order issued to CleanAqua Infrastructure Pvt Ltd. Instructions: Strict compliance with safety standards and milestone timeline.",
+        "timestamp": "24 Sept 2026, 4:24 pm"
+      }
+    ],
+    "resolutionHistory": [
+      {
+        "id": "rh-1790247280112-1",
+        "action": "Complaint Created",
+        "performedBy": "Dr. Ananya Sundaram",
+        "role": "Citizen",
+        "details": "Issue filed with status Submitted. Generated Issue ID: SOC-2026-000131.",
+        "timestamp": "24 Sept 2026, 4:24 pm"
+      },
+      {
+        "id": "rh-1790247280112-2",
+        "action": "AI Routing",
+        "performedBy": "AI Router",
+        "role": "System",
+        "details": "Assigned to Tamil Nadu Water Supply & Drainage Board (Officer: Thiru S. Sivakumar, IAS).",
+        "timestamp": "24 Sept 2026, 4:24 pm"
+      }
+    ],
+    "createdAt": "2026-09-24T10:54:40.111Z",
+    "updatedAt": "2026-09-25T05:32:30.649Z",
+    "slaDeadline": "25 Sept 2026, 4:24 pm (24h SLA)",
+    "resolutionMode": "industry",
+    "assignedCompanyId": "comp-ind-001",
+    "assignedCompanyName": "CleanAqua Infrastructure Pvt Ltd",
+    "workOrderId": "WO-2026-0043",
+    "workOrderStatus": "accepted",
+    "budget": 375000,
+    "paymentStatus": "pending",
+    "paymentReference": "INV-2026-0043"
+  },
+  {
+    "id": "SOC-2026-000132",
+    "title": "High-Pressure Main Pipeline Rupture Flooding Sub-Station",
+    "description": "Massive underground water main burst near the electrical sub-station. Pours 5000L/min. Municipal crew lacks trenchless robotic welding equipment.",
+    "category": "Water Supply & Sanitation",
+    "priority": "critical",
+    "status": "in_progress",
+    "citizenId": "usr-cit-01",
+    "citizenName": "Karthik Subramanian",
+    "citizenPhone": "+91 98401 23456",
+    "citizenEmail": "karthik.sub@example.com",
+    "location": "Koyambedu Wholesale Complex, Near Sub-Station 4",
+    "district": "Chennai",
+    "state": "Tamil Nadu",
+    "wardNo": "Ward 118",
+    "gpsCoordinates": {
+      "lat": 13.0425,
+      "lng": 80.2514
+    },
+    "assignedDepartment": "Tamil Nadu Water Supply & Drainage Board",
+    "assignedOfficer": "Er. K. Ramanathan, SE",
+    "officerId": "off-tn-004",
+    "aiConfidence": 98.3,
+    "aiPrediction": {
+      "severity": "Critical Life-Safety Emergency",
+      "estimatedResolutionHours": 12,
+      "recommendedMaterial": [
+        "900mm DI Feeder Conduit",
+        "Hydraulic De-watering Pump (15HP)",
+        "Repair Clamps & Gaskets"
+      ],
+      "suggestedSlaHours": 12
+    },
+    "attachments": {
+      "images": [
+        {
+          "id": "img-1790247473724-1",
+          "url": "https://images.unsplash.com/photo-1541888946425-d0fbb18086f6?auto=format&fit=crop&w=800&q=80",
+          "label": "High-Pressure Main Pipeline Rupture Flooding Sub-Station"
+        }
+      ],
+      "videos": [],
+      "voiceNotes": [],
+      "documents": []
+    },
+    "timeline": [
+      {
+        "id": "tl-1790247473732-1",
+        "stage": "Submission",
+        "title": "Grievance Logged",
+        "description": "Citizen filed complaint. Status set to Submitted.",
+        "actor": "Karthik Subramanian",
+        "actorRole": "Citizen",
+        "timestamp": "24 Sept 2026, 4:27 pm",
+        "completed": true,
+        "isCurrent": false
+      },
+      {
+        "id": "tl-1790247473732-2",
+        "stage": "AI Multimodal Routing",
+        "title": "AI Classified & Department Assigned",
+        "description": "Neural classifier verified issue with 98.3% confidence. Routed to Tamil Nadu Water Supply & Drainage Board. Priority: CRITICAL.",
+        "actor": "Social-X AI Neural Engine",
+        "actorRole": "AI Orchestrator",
+        "timestamp": "24 Sept 2026, 4:27 pm",
+        "completed": true,
+        "isCurrent": true
+      },
+      {
+        "id": "tl-1790247473732-3",
+        "stage": "Department Dispatch",
+        "title": "Docketed in Tamil Nadu Water Supply & Drainage Board Queue",
+        "description": "Officer Thiru S. Sivakumar, IAS assigned. SLA timer initialized for 12 hours.",
+        "actor": "Municipal Routing Gateway",
+        "actorRole": "Government Gateway",
+        "timestamp": "24 Sept 2026, 4:27 pm",
+        "completed": false,
+        "isCurrent": false
+      },
+      {
+        "id": "tl-1790247473797",
+        "stage": "Government Assigned",
+        "title": "Handled Internally by Government",
+        "description": "Official review completed. Assigned internally to Officer Er. K. Ramanathan, SE (Tamil Nadu Water Supply & Drainage Board). Field team mobilization initiated.",
+        "actor": "Er. K. Ramanathan, SE",
+        "actorRole": "Government Authority",
+        "timestamp": "24 Sept 2026, 4:27 pm",
+        "completed": true
+      }
+    ],
+    "officerNotes": [
+      {
+        "id": "note-1790247473732",
+        "author": "Social-X AI System",
+        "authorRole": "Automated Classifier",
+        "note": "Incident automatically routed to Tamil Nadu Water Supply & Drainage Board based on severity score (Critical Life-Safety Emergency).",
+        "timestamp": "24 Sept 2026, 4:27 pm"
+      },
+      {
+        "id": "note-1790247473797",
+        "author": "Er. K. Ramanathan, SE",
+        "authorRole": "Government Authority",
+        "note": "Assigned to Ward 107 emergency road maintenance squad.",
+        "timestamp": "24 Sept 2026, 4:27 pm"
+      }
+    ],
+    "resolutionHistory": [
+      {
+        "id": "rh-1790247473732-1",
+        "action": "Complaint Created",
+        "performedBy": "Karthik Subramanian",
+        "role": "Citizen",
+        "details": "Issue filed with status Submitted. Generated Issue ID: SOC-2026-000132.",
+        "timestamp": "24 Sept 2026, 4:27 pm"
+      },
+      {
+        "id": "rh-1790247473732-2",
+        "action": "AI Routing",
+        "performedBy": "AI Router",
+        "role": "System",
+        "details": "Assigned to Tamil Nadu Water Supply & Drainage Board (Officer: Thiru S. Sivakumar, IAS).",
+        "timestamp": "24 Sept 2026, 4:27 pm"
+      }
+    ],
+    "createdAt": "2026-09-24T10:57:53.725Z",
+    "updatedAt": "2026-09-24T10:57:53.797Z",
+    "slaDeadline": "25 Sept 2026, 4:27 am (12h SLA)",
+    "resolutionMode": "internal"
+  },
+  {
+    "id": "SOC-2026-000133",
+    "title": "High-Tech IoT Leakage & Deep Submersible Pump Motor Overhaul",
+    "description": "Deep bore water well system sensor array failure and structural crack requiring specialized sonar ultrasonic inspection and robotic repair.",
+    "category": "Water Supply & Sanitation",
+    "priority": "high",
+    "status": "resolved",
+    "citizenId": "usr-cit-01",
+    "citizenName": "Dr. Ananya Sundaram",
+    "citizenPhone": "+91 97890 55432",
+    "citizenEmail": "ananya.sundaram@techpark.in",
+    "location": "Peelamedu Tech Park Zone, Ward 22",
+    "district": "Chennai",
+    "state": "Tamil Nadu",
+    "wardNo": "Ward 118",
+    "gpsCoordinates": {
+      "lat": 13.0425,
+      "lng": 80.2514
+    },
+    "assignedDepartment": "Tamil Nadu Water Supply & Drainage Board",
+    "assignedOfficer": "Thiru S. Sivakumar, IAS",
+    "officerId": "off-tn-001",
+    "aiConfidence": 97.7,
+    "aiPrediction": {
+      "severity": "High Municipal Risk",
+      "estimatedResolutionHours": 24,
+      "recommendedMaterial": [
+        "900mm DI Feeder Conduit",
+        "Hydraulic De-watering Pump (15HP)",
+        "Repair Clamps & Gaskets"
+      ],
+      "suggestedSlaHours": 24
+    },
+    "attachments": {
+      "images": [
+        {
+          "id": "img-1790247473814-1",
+          "url": "https://images.unsplash.com/photo-1541888946425-d0fbb18086f6?auto=format&fit=crop&w=800&q=80",
+          "label": "High-Tech IoT Leakage & Deep Submersible Pump Motor Overhaul"
+        }
+      ],
+      "videos": [],
+      "voiceNotes": [],
+      "documents": []
+    },
+    "timeline": [
+      {
+        "id": "tl-1790247473815-1",
+        "stage": "Submission",
+        "title": "Grievance Logged",
+        "description": "Citizen filed complaint. Status set to Submitted.",
+        "actor": "Dr. Ananya Sundaram",
+        "actorRole": "Citizen",
+        "timestamp": "24 Sept 2026, 4:27 pm",
+        "completed": true,
+        "isCurrent": false
+      },
+      {
+        "id": "tl-1790247473815-2",
+        "stage": "AI Multimodal Routing",
+        "title": "AI Classified & Department Assigned",
+        "description": "Neural classifier verified issue with 97.7% confidence. Routed to Tamil Nadu Water Supply & Drainage Board. Priority: HIGH.",
+        "actor": "Social-X AI Neural Engine",
+        "actorRole": "AI Orchestrator",
+        "timestamp": "24 Sept 2026, 4:27 pm",
+        "completed": true,
+        "isCurrent": true
+      },
+      {
+        "id": "tl-1790247473815-3",
+        "stage": "Department Dispatch",
+        "title": "Docketed in Tamil Nadu Water Supply & Drainage Board Queue",
+        "description": "Officer Thiru S. Sivakumar, IAS assigned. SLA timer initialized for 24 hours.",
+        "actor": "Municipal Routing Gateway",
+        "actorRole": "Government Gateway",
+        "timestamp": "24 Sept 2026, 4:27 pm",
+        "completed": false,
+        "isCurrent": false
+      },
+      {
+        "id": "tl-1790247473883",
+        "stage": "Assigned to Industry",
+        "title": "Municipal Work Order Issued to Partner",
+        "description": "Government outsourced specialized repair to registered industry partner CleanAqua Infrastructure Pvt Ltd under Work Order #WO-2026-0044 (Budget: ₹3,75,000).",
+        "actor": "Dr. K. Vijayakumar, Superintending Engineer",
+        "actorRole": "Government Authority",
+        "timestamp": "24 Sept 2026, 4:27 pm",
+        "completed": true
+      },
+      {
+        "id": "tl-1790247476192",
+        "stage": "Industry Accepted",
+        "title": "Work Order Accepted by Industry Partner",
+        "description": "CleanAqua Infrastructure Pvt Ltd formally accepted municipal contract #WO-2026-0044. Mobilization commences.",
+        "actor": "CleanAqua Infrastructure Pvt Ltd",
+        "actorRole": "Industry Solution Partner",
+        "timestamp": "24 Sept 2026, 4:27 pm",
+        "completed": true
+      },
+      {
+        "id": "tl-1790247477855",
+        "stage": "Solution Plan Approved",
+        "title": "Technical Blueprint & Milestones Lodged",
+        "description": "CleanAqua Infrastructure Pvt Ltd submitted engineering plan with 3 milestones and deployed 3 specialized machinery units.",
+        "actor": "CleanAqua Infrastructure Pvt Ltd",
+        "actorRole": "Industry Solution Partner",
+        "timestamp": "24 Sept 2026, 4:27 pm",
+        "completed": true
+      },
+      {
+        "id": "tl-1790247479913",
+        "stage": "Field Progress Log",
+        "title": "Work Progress: 65% Completed",
+        "description": "Robotic welding sleeve installed. Sonar confirms zero leakage at 10 bar.",
+        "actor": "CleanAqua Infrastructure Pvt Ltd",
+        "actorRole": "Industry Solution Partner",
+        "timestamp": "24 Sept 2026, 4:27 pm",
+        "completed": true
+      },
+      {
+        "id": "tl-1790247482509",
+        "stage": "Inspection Pending",
+        "title": "Industry Work Completed - Site Inspection Awaited",
+        "description": "CleanAqua Infrastructure Pvt Ltd submitted final completion report and test certificates. Awaiting official Government engineering inspection.",
+        "actor": "CleanAqua Infrastructure Pvt Ltd",
+        "actorRole": "Industry Solution Partner",
+        "timestamp": "24 Sept 2026, 4:28 pm",
+        "completed": true
+      },
+      {
+        "id": "tl-1790247491767",
+        "stage": "Government Inspection Passed",
+        "title": "Government Site Inspection Passed - Grievance Resolved",
+        "description": "Inspected by Officer Dr. K. Vijayakumar, Superintending Engineer. Quality metrics verified. Remarks: Inspected at 15:30. Water pressure restored to normal 4.2 bar. No seepage detected. Road patched smoothly.. Grievance declared resolved.",
+        "actor": "Dr. K. Vijayakumar, Superintending Engineer",
+        "actorRole": "Government Authority",
+        "timestamp": "24 Sept 2026, 4:28 pm",
+        "completed": true
+      },
+      {
+        "id": "tl-1790247499170",
+        "stage": "Payment Released",
+        "title": "Treasury Payment Approved & Released (₹3,75,000)",
+        "description": "Officer Dr. K. Vijayakumar, Superintending Engineer authorized government treasury payment of ₹3,75,000 to CleanAqua Infrastructure Pvt Ltd. Reference: TXN-RBI-499155-3838.",
+        "actor": "Dr. K. Vijayakumar, Superintending Engineer",
+        "actorRole": "Treasury Authority",
+        "timestamp": "24 Sept 2026, 4:28 pm",
+        "completed": true
+      }
+    ],
+    "officerNotes": [
+      {
+        "id": "note-1790247473815",
+        "author": "Social-X AI System",
+        "authorRole": "Automated Classifier",
+        "note": "Incident automatically routed to Tamil Nadu Water Supply & Drainage Board based on severity score (High Municipal Risk).",
+        "timestamp": "24 Sept 2026, 4:27 pm"
+      },
+      {
+        "id": "note-1790247473886",
+        "author": "Dr. K. Vijayakumar, Superintending Engineer",
+        "authorRole": "Government Authority",
+        "note": "Work Order issued to CleanAqua Infrastructure Pvt Ltd. Instructions: Strict compliance with safety standards and milestone timeline.",
+        "timestamp": "24 Sept 2026, 4:27 pm"
+      }
+    ],
+    "resolutionHistory": [
+      {
+        "id": "rh-1790247473815-1",
+        "action": "Complaint Created",
+        "performedBy": "Dr. Ananya Sundaram",
+        "role": "Citizen",
+        "details": "Issue filed with status Submitted. Generated Issue ID: SOC-2026-000133.",
+        "timestamp": "24 Sept 2026, 4:27 pm"
+      },
+      {
+        "id": "rh-1790247473815-2",
+        "action": "AI Routing",
+        "performedBy": "AI Router",
+        "role": "System",
+        "details": "Assigned to Tamil Nadu Water Supply & Drainage Board (Officer: Thiru S. Sivakumar, IAS).",
+        "timestamp": "24 Sept 2026, 4:27 pm"
+      }
+    ],
+    "createdAt": "2026-09-24T10:57:53.814Z",
+    "updatedAt": "2026-09-24T10:57:56.192Z",
+    "slaDeadline": "25 Sept 2026, 4:27 pm (24h SLA)",
+    "resolutionMode": "industry",
+    "assignedCompanyId": "comp-ind-001",
+    "assignedCompanyName": "CleanAqua Infrastructure Pvt Ltd",
+    "workOrderId": "WO-2026-0044",
+    "workOrderStatus": "completed",
+    "budget": 375000,
+    "paymentStatus": "released",
+    "paymentReference": "INV-2026-0044",
+    "resolvedAt": "2026-09-24T10:58:11.767Z"
+  },
+  {
+    "id": "SOC-2026-000134",
+    "title": "Subterranean Water Main Rupture with Cavity Formation",
+    "description": "Severe high-pressure pipeline blowout causing soil sinkholes on Outer Ring Road. Requires specialized acoustic sensing and trenchless composite patching.",
+    "category": "Water Supply & Sewerage (Metro Water)",
+    "priority": "critical",
+    "status": "submitted",
+    "citizenId": "cit-test-001",
+    "citizenName": "R. Vikash",
+    "citizenPhone": "+91 98401 23456",
+    "citizenEmail": "vikash@socialx.org",
+    "location": "Outer Ring Road Junction, Velachery, Chennai",
+    "district": "Chennai",
+    "state": "Tamil Nadu",
+    "wardNo": "Ward 118",
+    "gpsCoordinates": {
+      "lat": 13.0425,
+      "lng": 80.2514
+    },
+    "assignedDepartment": "Chennai Metro Water (CMWSSB)",
+    "assignedOfficer": "Thiru S. Sivakumar, IAS",
+    "officerId": "off-tn-001",
+    "aiConfidence": 98.5,
+    "aiPrediction": {
+      "severity": "Critical Life-Safety Emergency",
+      "estimatedResolutionHours": 12,
+      "recommendedMaterial": [
+        "900mm DI Feeder Conduit",
+        "Hydraulic De-watering Pump (15HP)",
+        "Repair Clamps & Gaskets"
+      ],
+      "suggestedSlaHours": 12
+    },
+    "attachments": {
+      "images": [
+        {
+          "id": "img-1790264564822-1",
+          "url": "https://images.unsplash.com/photo-1541888946425-d0fbb18086f6?auto=format&fit=crop&w=800&q=80",
+          "label": "Subterranean Water Main Rupture with Cavity Formation"
+        }
+      ],
+      "videos": [],
+      "voiceNotes": [],
+      "documents": []
+    },
+    "timeline": [
+      {
+        "id": "tl-1790264564828-1",
+        "stage": "Submission",
+        "title": "Grievance Logged",
+        "description": "Citizen filed complaint. Status set to Submitted.",
+        "actor": "R. Vikash",
+        "actorRole": "Citizen",
+        "timestamp": "24 Sept 2026, 9:12 pm",
+        "completed": true,
+        "isCurrent": false
+      },
+      {
+        "id": "tl-1790264564828-2",
+        "stage": "AI Multimodal Routing",
+        "title": "AI Classified & Department Assigned",
+        "description": "Neural classifier verified issue with 98.5% confidence. Routed to Chennai Metro Water (CMWSSB). Priority: CRITICAL.",
+        "actor": "Social-X AI Neural Engine",
+        "actorRole": "AI Orchestrator",
+        "timestamp": "24 Sept 2026, 9:12 pm",
+        "completed": true,
+        "isCurrent": true
+      },
+      {
+        "id": "tl-1790264564828-3",
+        "stage": "Department Dispatch",
+        "title": "Docketed in Chennai Metro Water (CMWSSB) Queue",
+        "description": "Officer Thiru S. Sivakumar, IAS assigned. SLA timer initialized for 12 hours.",
+        "actor": "Municipal Routing Gateway",
+        "actorRole": "Government Gateway",
+        "timestamp": "24 Sept 2026, 9:12 pm",
+        "completed": false,
+        "isCurrent": false
+      }
+    ],
+    "officerNotes": [
+      {
+        "id": "note-1790264564828",
+        "author": "Social-X AI System",
+        "authorRole": "Automated Classifier",
+        "note": "Incident automatically routed to Chennai Metro Water (CMWSSB) based on severity score (Critical Life-Safety Emergency).",
+        "timestamp": "24 Sept 2026, 9:12 pm"
+      }
+    ],
+    "resolutionHistory": [
+      {
+        "id": "rh-1790264564828-1",
+        "action": "Complaint Created",
+        "performedBy": "R. Vikash",
+        "role": "Citizen",
+        "details": "Issue filed with status Submitted. Generated Issue ID: SOC-2026-000134.",
+        "timestamp": "24 Sept 2026, 9:12 pm"
+      },
+      {
+        "id": "rh-1790264564828-2",
+        "action": "AI Routing",
+        "performedBy": "AI Router",
+        "role": "System",
+        "details": "Assigned to Chennai Metro Water (CMWSSB) (Officer: Thiru S. Sivakumar, IAS).",
+        "timestamp": "24 Sept 2026, 9:12 pm"
+      }
+    ],
+    "createdAt": "2026-09-24T15:42:44.823Z",
+    "updatedAt": "2026-09-24T15:42:44.823Z",
+    "slaDeadline": "25 Sept 2026, 9:12 am (12h SLA)"
+  },
+  {
+    "id": "SOC-2026-000135",
+    "title": "Subterranean Water Main Rupture with Cavity Formation",
+    "description": "Severe high-pressure pipeline blowout causing soil sinkholes on Outer Ring Road. Requires specialized acoustic sensing and trenchless composite patching.",
+    "category": "Water Supply & Sewerage (Metro Water)",
+    "priority": "critical",
+    "status": "student_development",
+    "citizenId": "cit-test-001",
+    "citizenName": "R. Vikash",
+    "citizenPhone": "+91 98401 23456",
+    "citizenEmail": "vikash@socialx.org",
+    "location": "Outer Ring Road Junction, Velachery, Chennai",
+    "district": "Chennai",
+    "state": "Tamil Nadu",
+    "wardNo": "Ward 118",
+    "gpsCoordinates": {
+      "lat": 13.0425,
+      "lng": 80.2514
+    },
+    "assignedDepartment": "Chennai Metro Water (CMWSSB)",
+    "assignedOfficer": "Thiru S. Sivakumar, IAS",
+    "officerId": "off-tn-001",
+    "aiConfidence": 96.6,
+    "aiPrediction": {
+      "severity": "Critical Life-Safety Emergency",
+      "estimatedResolutionHours": 12,
+      "recommendedMaterial": [
+        "900mm DI Feeder Conduit",
+        "Hydraulic De-watering Pump (15HP)",
+        "Repair Clamps & Gaskets"
+      ],
+      "suggestedSlaHours": 12
+    },
+    "attachments": {
+      "images": [
+        {
+          "id": "img-1790264742068-1",
+          "url": "https://images.unsplash.com/photo-1541888946425-d0fbb18086f6?auto=format&fit=crop&w=800&q=80",
+          "label": "Subterranean Water Main Rupture with Cavity Formation"
+        }
+      ],
+      "videos": [],
+      "voiceNotes": [],
+      "documents": []
+    },
+    "timeline": [
+      {
+        "id": "tl-1790264742070-1",
+        "stage": "Submission",
+        "title": "Grievance Logged",
+        "description": "Citizen filed complaint. Status set to Submitted.",
+        "actor": "R. Vikash",
+        "actorRole": "Citizen",
+        "timestamp": "24 Sept 2026, 9:15 pm",
+        "completed": true,
+        "isCurrent": false
+      },
+      {
+        "id": "tl-1790264742070-2",
+        "stage": "AI Multimodal Routing",
+        "title": "AI Classified & Department Assigned",
+        "description": "Neural classifier verified issue with 96.6% confidence. Routed to Chennai Metro Water (CMWSSB). Priority: CRITICAL.",
+        "actor": "Social-X AI Neural Engine",
+        "actorRole": "AI Orchestrator",
+        "timestamp": "24 Sept 2026, 9:15 pm",
+        "completed": true,
+        "isCurrent": true
+      },
+      {
+        "id": "tl-1790264742070-3",
+        "stage": "Department Dispatch",
+        "title": "Docketed in Chennai Metro Water (CMWSSB) Queue",
+        "description": "Officer Thiru S. Sivakumar, IAS assigned. SLA timer initialized for 12 hours.",
+        "actor": "Municipal Routing Gateway",
+        "actorRole": "Government Gateway",
+        "timestamp": "24 Sept 2026, 9:15 pm",
+        "completed": false,
+        "isCurrent": false
+      },
+      {
+        "id": "tl-1790264742141",
+        "stage": "Assigned to Industry",
+        "title": "Municipal Work Order Issued to Partner",
+        "description": "Government outsourced specialized repair to registered industry partner CleanAqua Infrastructure Pvt Ltd under Work Order #WO-2026-0045 (Budget: ₹4,50,000).",
+        "actor": "Er. K. Murugesan (Superintending Engineer)",
+        "actorRole": "Government Authority",
+        "timestamp": "24 Sept 2026, 9:15 pm",
+        "completed": true
+      },
+      {
+        "id": "tl-1790264742265",
+        "stage": "Industry Accepted",
+        "title": "Work Order Accepted by Industry Partner",
+        "description": "CleanAqua Infrastructure Pvt Ltd formally accepted municipal contract #WO-2026-0045. Mobilization commences.",
+        "actor": "CleanAqua Infrastructure Pvt Ltd",
+        "actorRole": "Industry Solution Partner",
+        "timestamp": "24 Sept 2026, 9:15 pm",
+        "completed": true
+      },
+      {
+        "id": "tl-1790264744260",
+        "stage": "Assigned to University",
+        "title": "Industry Initiated University Research & Prototyping",
+        "description": "CleanAqua Infrastructure Pvt Ltd partnered with Indian Institute of Technology Madras (Civil Engineering) under Research Grant ₹1,25,000. Faculty Mentor: Dr. R. Ramanujam, Ph.D..",
+        "actor": "CleanAqua Infrastructure Pvt Ltd",
+        "actorRole": "Industry Solution Partner",
+        "timestamp": "24 Sept 2026, 9:15 pm",
+        "completed": true
+      },
+      {
+        "id": "tl-1790264750290",
+        "stage": "Faculty Accepted",
+        "title": "Faculty Mentor Accepted Collaboration",
+        "description": "Faculty Mentor Dr. R. Ramanujam, Ph.D. accepted project terms. Student teams are being assembled.",
+        "actor": "Dr. R. Ramanujam, Ph.D.",
+        "actorRole": "Faculty Mentor",
+        "timestamp": "24 Sept 2026, 9:15 pm",
+        "completed": true
+      },
+      {
+        "id": "tl-1790264754422",
+        "stage": "Student Development",
+        "title": "Assigned to Student Team: Team AquaSense AI",
+        "description": "Faculty Mentor Dr. R. Ramanujam, Ph.D. allocated the innovation sprint to Team AquaSense AI (Lead: Aditya Krishnan). Target: 3 milestones.",
+        "actor": "Dr. R. Ramanujam, Ph.D.",
+        "actorRole": "Faculty Mentor",
+        "timestamp": "24 Sept 2026, 9:15 pm",
+        "completed": true
+      }
+    ],
+    "officerNotes": [
+      {
+        "id": "note-1790264742070",
+        "author": "Social-X AI System",
+        "authorRole": "Automated Classifier",
+        "note": "Incident automatically routed to Chennai Metro Water (CMWSSB) based on severity score (Critical Life-Safety Emergency).",
+        "timestamp": "24 Sept 2026, 9:15 pm"
+      },
+      {
+        "id": "note-1790264742141",
+        "author": "Er. K. Murugesan (Superintending Engineer)",
+        "authorRole": "Government Authority",
+        "note": "Work Order issued to CleanAqua Infrastructure Pvt Ltd. Instructions: Priority repair with trenchless technology. Field deployment within 7 days.",
+        "timestamp": "24 Sept 2026, 9:15 pm"
+      }
+    ],
+    "resolutionHistory": [
+      {
+        "id": "rh-1790264742070-1",
+        "action": "Complaint Created",
+        "performedBy": "R. Vikash",
+        "role": "Citizen",
+        "details": "Issue filed with status Submitted. Generated Issue ID: SOC-2026-000135.",
+        "timestamp": "24 Sept 2026, 9:15 pm"
+      },
+      {
+        "id": "rh-1790264742070-2",
+        "action": "AI Routing",
+        "performedBy": "AI Router",
+        "role": "System",
+        "details": "Assigned to Chennai Metro Water (CMWSSB) (Officer: Thiru S. Sivakumar, IAS).",
+        "timestamp": "24 Sept 2026, 9:15 pm"
+      }
+    ],
+    "createdAt": "2026-09-24T15:45:42.069Z",
+    "updatedAt": "2026-09-24T15:45:44.260Z",
+    "slaDeadline": "25 Sept 2026, 9:15 am (12h SLA)",
+    "resolutionMode": "industry",
+    "assignedCompanyId": "comp-ind-001",
+    "assignedCompanyName": "CleanAqua Infrastructure Pvt Ltd",
+    "workOrderId": "WO-2026-0045",
+    "workOrderStatus": "accepted",
+    "budget": 450000,
+    "paymentStatus": "pending",
+    "paymentReference": "INV-2026-0045",
+    "universityCollaborationId": "CR-2026-0013",
+    "universityName": "Indian Institute of Technology Madras",
+    "facultyMentorName": "Dr. R. Ramanujam, Ph.D.",
+    "studentTeamName": "Team AquaSense AI"
+  },
+  {
+    "id": "SOC-2026-000136",
+    "title": "Subterranean Water Main Rupture with Cavity Formation",
+    "description": "Severe high-pressure pipeline blowout causing soil sinkholes on Outer Ring Road. Requires specialized acoustic sensing and trenchless composite patching.",
+    "category": "Water Supply & Sewerage (Metro Water)",
+    "priority": "critical",
+    "status": "government_inspection",
+    "citizenId": "cit-test-001",
+    "citizenName": "R. Vikash",
+    "citizenPhone": "+91 98401 23456",
+    "citizenEmail": "vikash@socialx.org",
+    "location": "Outer Ring Road Junction, Velachery, Chennai",
+    "district": "Chennai",
+    "state": "Tamil Nadu",
+    "wardNo": "Ward 118",
+    "gpsCoordinates": {
+      "lat": 13.0425,
+      "lng": 80.2514
+    },
+    "assignedDepartment": "Chennai Metro Water (CMWSSB)",
+    "assignedOfficer": "Thiru S. Sivakumar, IAS",
+    "officerId": "off-tn-001",
+    "aiConfidence": 96.9,
+    "aiPrediction": {
+      "severity": "Critical Life-Safety Emergency",
+      "estimatedResolutionHours": 12,
+      "recommendedMaterial": [
+        "900mm DI Feeder Conduit",
+        "Hydraulic De-watering Pump (15HP)",
+        "Repair Clamps & Gaskets"
+      ],
+      "suggestedSlaHours": 12
+    },
+    "attachments": {
+      "images": [
+        {
+          "id": "img-1790264927470-1",
+          "url": "https://images.unsplash.com/photo-1541888946425-d0fbb18086f6?auto=format&fit=crop&w=800&q=80",
+          "label": "Subterranean Water Main Rupture with Cavity Formation"
+        }
+      ],
+      "videos": [],
+      "voiceNotes": [],
+      "documents": []
+    },
+    "timeline": [
+      {
+        "id": "tl-1790264927471-1",
+        "stage": "Submission",
+        "title": "Grievance Logged",
+        "description": "Citizen filed complaint. Status set to Submitted.",
+        "actor": "R. Vikash",
+        "actorRole": "Citizen",
+        "timestamp": "24 Sept 2026, 9:18 pm",
+        "completed": true,
+        "isCurrent": false
+      },
+      {
+        "id": "tl-1790264927472-2",
+        "stage": "AI Multimodal Routing",
+        "title": "AI Classified & Department Assigned",
+        "description": "Neural classifier verified issue with 96.9% confidence. Routed to Chennai Metro Water (CMWSSB). Priority: CRITICAL.",
+        "actor": "Social-X AI Neural Engine",
+        "actorRole": "AI Orchestrator",
+        "timestamp": "24 Sept 2026, 9:18 pm",
+        "completed": true,
+        "isCurrent": true
+      },
+      {
+        "id": "tl-1790264927472-3",
+        "stage": "Department Dispatch",
+        "title": "Docketed in Chennai Metro Water (CMWSSB) Queue",
+        "description": "Officer Thiru S. Sivakumar, IAS assigned. SLA timer initialized for 12 hours.",
+        "actor": "Municipal Routing Gateway",
+        "actorRole": "Government Gateway",
+        "timestamp": "24 Sept 2026, 9:18 pm",
+        "completed": false,
+        "isCurrent": false
+      },
+      {
+        "id": "tl-1790264927557",
+        "stage": "Assigned to Industry",
+        "title": "Municipal Work Order Issued to Partner",
+        "description": "Government outsourced specialized repair to registered industry partner CleanAqua Infrastructure Pvt Ltd under Work Order #WO-2026-0046 (Budget: ₹4,50,000).",
+        "actor": "Er. K. Murugesan (Superintending Engineer)",
+        "actorRole": "Government Authority",
+        "timestamp": "24 Sept 2026, 9:18 pm",
+        "completed": true
+      },
+      {
+        "id": "tl-1790264927729",
+        "stage": "Industry Accepted",
+        "title": "Work Order Accepted by Industry Partner",
+        "description": "CleanAqua Infrastructure Pvt Ltd formally accepted municipal contract #WO-2026-0046. Mobilization commences.",
+        "actor": "CleanAqua Infrastructure Pvt Ltd",
+        "actorRole": "Industry Solution Partner",
+        "timestamp": "24 Sept 2026, 9:18 pm",
+        "completed": true
+      },
+      {
+        "id": "tl-1790264927835",
+        "stage": "Assigned to University",
+        "title": "Industry Initiated University Research & Prototyping",
+        "description": "CleanAqua Infrastructure Pvt Ltd partnered with Indian Institute of Technology Madras (Civil Engineering) under Research Grant ₹1,25,000. Faculty Mentor: Dr. R. Ramanujam, Ph.D..",
+        "actor": "CleanAqua Infrastructure Pvt Ltd",
+        "actorRole": "Industry Solution Partner",
+        "timestamp": "24 Sept 2026, 9:18 pm",
+        "completed": true
+      },
+      {
+        "id": "tl-1790264927894",
+        "stage": "Faculty Accepted",
+        "title": "Faculty Mentor Accepted Collaboration",
+        "description": "Faculty Mentor Dr. R. Ramanujam, Ph.D. accepted project terms. Student teams are being assembled.",
+        "actor": "Dr. R. Ramanujam, Ph.D.",
+        "actorRole": "Faculty Mentor",
+        "timestamp": "24 Sept 2026, 9:18 pm",
+        "completed": true
+      },
+      {
+        "id": "tl-1790264927962",
+        "stage": "Student Development",
+        "title": "Assigned to Student Team: Team AquaSense AI",
+        "description": "Faculty Mentor Dr. R. Ramanujam, Ph.D. allocated the innovation sprint to Team AquaSense AI (Lead: Aditya Krishnan). Target: 3 milestones.",
+        "actor": "Dr. R. Ramanujam, Ph.D.",
+        "actorRole": "Faculty Mentor",
+        "timestamp": "24 Sept 2026, 9:18 pm",
+        "completed": true
+      },
+      {
+        "id": "tl-1790264929747",
+        "stage": "Faculty Review",
+        "title": "Students Submitted Innovative Solution",
+        "description": "Student team Team AquaSense AI uploaded prototype schematics and test results for \"HydroShield Acoustic Sonar Sleeve v2.4\". Awaiting Faculty Mentor endorsement.",
+        "actor": "Aditya Krishnan (Team Lead)",
+        "actorRole": "Student Innovator",
+        "timestamp": "24 Sept 2026, 9:18 pm",
+        "completed": true
+      },
+      {
+        "id": "tl-1790264932069",
+        "stage": "Industry Validation",
+        "title": "Faculty Mentor Endorsed & Approved Solution",
+        "description": "Faculty Mentor Dr. R. Ramanujam, Ph.D. endorsed the student prototype. Remarks: \"Hydrostatic test verified 8.5 bar without degradation. Calibrated and recommended for municipal field integration.\". Forwarded to CleanAqua Infrastructure Pvt Ltd for field validation.",
+        "actor": "Dr. R. Ramanujam, Ph.D.",
+        "actorRole": "Faculty Mentor",
+        "timestamp": "24 Sept 2026, 9:18 pm",
+        "completed": true
+      },
+      {
+        "id": "tl-1790264934335",
+        "stage": "Industry Validation Passed",
+        "title": "Industry Integrated University Solution & Deployed Field Fix",
+        "description": "CleanAqua Infrastructure Pvt Ltd validated the university prototype, integrated the solution on-site, and disbursed research grant ₹1,25,000. Certificates & 4 Academic Innovation Credits awarded. Government site inspection requested.",
+        "actor": "CleanAqua Infrastructure Pvt Ltd",
+        "actorRole": "Industry Solution Partner",
+        "timestamp": "24 Sept 2026, 9:18 pm",
+        "completed": true
+      }
+    ],
+    "officerNotes": [
+      {
+        "id": "note-1790264927472",
+        "author": "Social-X AI System",
+        "authorRole": "Automated Classifier",
+        "note": "Incident automatically routed to Chennai Metro Water (CMWSSB) based on severity score (Critical Life-Safety Emergency).",
+        "timestamp": "24 Sept 2026, 9:18 pm"
+      },
+      {
+        "id": "note-1790264927557",
+        "author": "Er. K. Murugesan (Superintending Engineer)",
+        "authorRole": "Government Authority",
+        "note": "Work Order issued to CleanAqua Infrastructure Pvt Ltd. Instructions: Priority repair with trenchless technology. Field deployment within 7 days.",
+        "timestamp": "24 Sept 2026, 9:18 pm"
+      }
+    ],
+    "resolutionHistory": [
+      {
+        "id": "rh-1790264927472-1",
+        "action": "Complaint Created",
+        "performedBy": "R. Vikash",
+        "role": "Citizen",
+        "details": "Issue filed with status Submitted. Generated Issue ID: SOC-2026-000136.",
+        "timestamp": "24 Sept 2026, 9:18 pm"
+      },
+      {
+        "id": "rh-1790264927472-2",
+        "action": "AI Routing",
+        "performedBy": "AI Router",
+        "role": "System",
+        "details": "Assigned to Chennai Metro Water (CMWSSB) (Officer: Thiru S. Sivakumar, IAS).",
+        "timestamp": "24 Sept 2026, 9:18 pm"
+      }
+    ],
+    "createdAt": "2026-09-24T15:48:47.470Z",
+    "updatedAt": "2026-09-24T15:48:47.835Z",
+    "slaDeadline": "25 Sept 2026, 9:18 am (12h SLA)",
+    "resolutionMode": "industry",
+    "assignedCompanyId": "comp-ind-001",
+    "assignedCompanyName": "CleanAqua Infrastructure Pvt Ltd",
+    "workOrderId": "WO-2026-0046",
+    "workOrderStatus": "accepted",
+    "budget": 450000,
+    "paymentStatus": "pending",
+    "paymentReference": "INV-2026-0046",
+    "universityCollaborationId": "CR-2026-0014",
+    "universityName": "Indian Institute of Technology Madras",
+    "facultyMentorName": "Dr. R. Ramanujam, Ph.D.",
+    "studentTeamName": "Team AquaSense AI"
+  }
+]

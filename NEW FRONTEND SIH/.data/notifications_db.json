@@ -1,0 +1,782 @@
+[
+  {
+    "id": "notif-1790326280142-321",
+    "userId": "usr-cit-01",
+    "title": "Complaint Assigned",
+    "message": "Issue #SOC-2026-000130 has been analyzed by AI and assigned to Municipal Administration & Water Supply. Officer: Thiru S. Sivakumar, IAS.",
+    "type": "assignment",
+    "issueId": "SOC-2026-000130",
+    "read": false,
+    "createdAt": "2026-09-25T08:51:20.142Z"
+  },
+  {
+    "id": "notif-1790326280139-704",
+    "userId": "usr-cit-01",
+    "title": "Complaint Submitted Successfully",
+    "message": "Your complaint has been submitted under Issue ID #SOC-2026-000130. Initial status: Submitted.",
+    "type": "status_update",
+    "issueId": "SOC-2026-000130",
+    "read": false,
+    "createdAt": "2026-09-25T08:51:20.139Z"
+  },
+  {
+    "id": "notif-1790314366363-329",
+    "userId": "usr-cit-01",
+    "title": "Academic R&D Mobilized for Your Grievance",
+    "message": "CleanAqua Infrastructure Pvt Ltd has engaged National Institute of Technology Tiruchirappalli for advanced technical innovation on #SOC-2026-008821.",
+    "type": "status_update",
+    "issueId": "SOC-2026-008821",
+    "read": false,
+    "createdAt": "2026-09-25T05:32:46.363Z"
+  },
+  {
+    "id": "notif-1790314366361-282",
+    "userId": "fac-004",
+    "title": "New Industry-University Collaboration Request",
+    "message": "CleanAqua Infrastructure Pvt Ltd invited your lab for R&D on \"Potable Water Main Line Fracture & Flooding\". Grant allocated: ₹1,20,000.",
+    "type": "collaboration_request",
+    "issueId": "SOC-2026-008821",
+    "read": false,
+    "createdAt": "2026-09-25T05:32:46.361Z"
+  },
+  {
+    "id": "notif-1790314350652-278",
+    "userId": "usr-cit-01",
+    "title": "Work Commenced by Partner",
+    "message": "CleanAqua Infrastructure Pvt Ltd has mobilized ground equipment for #SOC-2026-000131.",
+    "type": "status_update",
+    "issueId": "SOC-2026-000131",
+    "read": false,
+    "createdAt": "2026-09-25T05:32:30.652Z"
+  },
+  {
+    "id": "notif-1790314350583-646",
+    "userId": "usr-cit-01",
+    "title": "Work Commenced by Partner",
+    "message": "CleanAqua Infrastructure Pvt Ltd has mobilized ground equipment for #SOC-2026-000131.",
+    "type": "status_update",
+    "issueId": "SOC-2026-000131",
+    "read": false,
+    "createdAt": "2026-09-25T05:32:30.583Z"
+  },
+  {
+    "id": "notif-1790264934350-774",
+    "userId": "cit-test-001",
+    "title": "Field Deployment Complete - Municipal Inspection Underway",
+    "message": "Academic-industrial solution successfully deployed for #SOC-2026-000136. Municipal engineers are conducting final inspection.",
+    "type": "status_update",
+    "issueId": "SOC-2026-000136",
+    "read": false,
+    "createdAt": "2026-09-24T15:48:54.351Z"
+  },
+  {
+    "id": "notif-1790264934343-345",
+    "userId": "off-tn-001",
+    "title": "University-Industry Solution Deployed - Site Inspection Required",
+    "message": "CleanAqua Infrastructure Pvt Ltd in collaboration with Indian Institute of Technology Madras deployed solution for #SOC-2026-000136. Please conduct municipal inspection.",
+    "type": "status_update",
+    "issueId": "SOC-2026-000136",
+    "read": false,
+    "createdAt": "2026-09-24T15:48:54.343Z"
+  },
+  {
+    "id": "notif-1790264932071-990",
+    "userId": "comp-ind-001",
+    "title": "University Solution Ready for Industry Validation",
+    "message": "Dr. R. Ramanujam, Ph.D. has vetted and approved the student prototype for \"Subterranean Water Main Rupture with Cavity Formation\".",
+    "type": "faculty_approval",
+    "issueId": "SOC-2026-000136",
+    "read": false,
+    "createdAt": "2026-09-24T15:48:52.071Z"
+  },
+  {
+    "id": "notif-1790264929750-352",
+    "userId": "fac-001",
+    "title": "Student Prototype Ready for Review",
+    "message": "Team AquaSense AI submitted their solution for \"Subterranean Water Main Rupture with Cavity Formation\". Please review and approve.",
+    "type": "solution_submission",
+    "issueId": "SOC-2026-000136",
+    "read": false,
+    "createdAt": "2026-09-24T15:48:49.750Z"
+  },
+  {
+    "id": "notif-1790264927964-696",
+    "userId": "stu-001",
+    "title": "New Industry Problem Assigned to Your Team",
+    "message": "Your team Team AquaSense AI has been assigned \"Subterranean Water Main Rupture with Cavity Formation\" under mentorship of Dr. R. Ramanujam, Ph.D..",
+    "type": "student_assignment",
+    "issueId": "SOC-2026-000136",
+    "read": false,
+    "createdAt": "2026-09-24T15:48:47.964Z"
+  },
+  {
+    "id": "notif-1790264927895-118",
+    "userId": "comp-ind-001",
+    "title": "Collaboration Accepted by University",
+    "message": "Dr. R. Ramanujam, Ph.D. (Indian Institute of Technology Madras) accepted the collaboration request for \"Subterranean Water Main Rupture with Cavity Formation\".",
+    "type": "status_update",
+    "issueId": "SOC-2026-000136",
+    "read": false,
+    "createdAt": "2026-09-24T15:48:47.895Z"
+  },
+  {
+    "id": "notif-1790264927837-512",
+    "userId": "cit-test-001",
+    "title": "Academic R&D Mobilized for Your Grievance",
+    "message": "CleanAqua Infrastructure Pvt Ltd has engaged Indian Institute of Technology Madras for advanced technical innovation on #SOC-2026-000136.",
+    "type": "status_update",
+    "issueId": "SOC-2026-000136",
+    "read": false,
+    "createdAt": "2026-09-24T15:48:47.837Z"
+  },
+  {
+    "id": "notif-1790264927837-112",
+    "userId": "fac-001",
+    "title": "New Industry-University Collaboration Request",
+    "message": "CleanAqua Infrastructure Pvt Ltd invited your lab for R&D on \"Subterranean Water Main Rupture with Cavity Formation\". Grant allocated: ₹1,25,000.",
+    "type": "collaboration_request",
+    "issueId": "SOC-2026-000136",
+    "read": false,
+    "createdAt": "2026-09-24T15:48:47.837Z"
+  },
+  {
+    "id": "notif-1790264927731-579",
+    "userId": "cit-test-001",
+    "title": "Work Commenced by Partner",
+    "message": "CleanAqua Infrastructure Pvt Ltd has mobilized ground equipment for #SOC-2026-000136.",
+    "type": "status_update",
+    "issueId": "SOC-2026-000136",
+    "read": false,
+    "createdAt": "2026-09-24T15:48:47.731Z"
+  },
+  {
+    "id": "notif-1790264927560-182",
+    "userId": "comp-ind-001",
+    "title": "New Government Work Order Assigned",
+    "message": "Work Order #WO-2026-0046 for \"Subterranean Water Main Rupture with Cavity Formation\" issued by Chennai Metro Water (CMWSSB). Budget: ₹4,50,000.",
+    "type": "work_order",
+    "issueId": "SOC-2026-000136",
+    "read": false,
+    "createdAt": "2026-09-24T15:48:47.560Z"
+  },
+  {
+    "id": "notif-1790264927559-799",
+    "userId": "cit-test-001",
+    "title": "Grievance Assigned to Industry Partner",
+    "message": "Government has partnered with specialized vendor CleanAqua Infrastructure Pvt Ltd under Work Order #WO-2026-0046 for technical execution.",
+    "type": "status_update",
+    "issueId": "SOC-2026-000136",
+    "read": false,
+    "createdAt": "2026-09-24T15:48:47.559Z"
+  },
+  {
+    "id": "notif-1790264927474-310",
+    "userId": "cit-test-001",
+    "title": "Complaint Assigned",
+    "message": "Issue #SOC-2026-000136 has been analyzed by AI and assigned to Chennai Metro Water (CMWSSB). Officer: Thiru S. Sivakumar, IAS.",
+    "type": "assignment",
+    "issueId": "SOC-2026-000136",
+    "read": false,
+    "createdAt": "2026-09-24T15:48:47.474Z"
+  },
+  {
+    "id": "notif-1790264927473-987",
+    "userId": "cit-test-001",
+    "title": "Complaint Submitted Successfully",
+    "message": "Your complaint has been submitted under Issue ID #SOC-2026-000136. Initial status: Submitted.",
+    "type": "status_update",
+    "issueId": "SOC-2026-000136",
+    "read": false,
+    "createdAt": "2026-09-24T15:48:47.473Z"
+  },
+  {
+    "id": "notif-1790264754427-519",
+    "userId": "stu-001",
+    "title": "New Industry Problem Assigned to Your Team",
+    "message": "Your team Team AquaSense AI has been assigned \"Subterranean Water Main Rupture with Cavity Formation\" under mentorship of Dr. R. Ramanujam, Ph.D..",
+    "type": "student_assignment",
+    "issueId": "SOC-2026-000135",
+    "read": false,
+    "createdAt": "2026-09-24T15:45:54.427Z"
+  },
+  {
+    "id": "notif-1790264750299-901",
+    "userId": "comp-ind-001",
+    "title": "Collaboration Accepted by University",
+    "message": "Dr. R. Ramanujam, Ph.D. (Indian Institute of Technology Madras) accepted the collaboration request for \"Subterranean Water Main Rupture with Cavity Formation\".",
+    "type": "status_update",
+    "issueId": "SOC-2026-000135",
+    "read": false,
+    "createdAt": "2026-09-24T15:45:50.299Z"
+  },
+  {
+    "id": "notif-1790264744269-484",
+    "userId": "cit-test-001",
+    "title": "Academic R&D Mobilized for Your Grievance",
+    "message": "CleanAqua Infrastructure Pvt Ltd has engaged Indian Institute of Technology Madras for advanced technical innovation on #SOC-2026-000135.",
+    "type": "status_update",
+    "issueId": "SOC-2026-000135",
+    "read": false,
+    "createdAt": "2026-09-24T15:45:44.269Z"
+  },
+  {
+    "id": "notif-1790264744268-347",
+    "userId": "fac-001",
+    "title": "New Industry-University Collaboration Request",
+    "message": "CleanAqua Infrastructure Pvt Ltd invited your lab for R&D on \"Subterranean Water Main Rupture with Cavity Formation\". Grant allocated: ₹1,25,000.",
+    "type": "collaboration_request",
+    "issueId": "SOC-2026-000135",
+    "read": false,
+    "createdAt": "2026-09-24T15:45:44.268Z"
+  },
+  {
+    "id": "notif-1790264742267-334",
+    "userId": "cit-test-001",
+    "title": "Work Commenced by Partner",
+    "message": "CleanAqua Infrastructure Pvt Ltd has mobilized ground equipment for #SOC-2026-000135.",
+    "type": "status_update",
+    "issueId": "SOC-2026-000135",
+    "read": false,
+    "createdAt": "2026-09-24T15:45:42.267Z"
+  },
+  {
+    "id": "notif-1790264742143-86",
+    "userId": "comp-ind-001",
+    "title": "New Government Work Order Assigned",
+    "message": "Work Order #WO-2026-0045 for \"Subterranean Water Main Rupture with Cavity Formation\" issued by Chennai Metro Water (CMWSSB). Budget: ₹4,50,000.",
+    "type": "work_order",
+    "issueId": "SOC-2026-000135",
+    "read": false,
+    "createdAt": "2026-09-24T15:45:42.143Z"
+  },
+  {
+    "id": "notif-1790264742142-618",
+    "userId": "cit-test-001",
+    "title": "Grievance Assigned to Industry Partner",
+    "message": "Government has partnered with specialized vendor CleanAqua Infrastructure Pvt Ltd under Work Order #WO-2026-0045 for technical execution.",
+    "type": "status_update",
+    "issueId": "SOC-2026-000135",
+    "read": false,
+    "createdAt": "2026-09-24T15:45:42.142Z"
+  },
+  {
+    "id": "notif-1790264742073-307",
+    "userId": "cit-test-001",
+    "title": "Complaint Assigned",
+    "message": "Issue #SOC-2026-000135 has been analyzed by AI and assigned to Chennai Metro Water (CMWSSB). Officer: Thiru S. Sivakumar, IAS.",
+    "type": "assignment",
+    "issueId": "SOC-2026-000135",
+    "read": false,
+    "createdAt": "2026-09-24T15:45:42.073Z"
+  },
+  {
+    "id": "notif-1790264742072-160",
+    "userId": "cit-test-001",
+    "title": "Complaint Submitted Successfully",
+    "message": "Your complaint has been submitted under Issue ID #SOC-2026-000135. Initial status: Submitted.",
+    "type": "status_update",
+    "issueId": "SOC-2026-000135",
+    "read": false,
+    "createdAt": "2026-09-24T15:45:42.072Z"
+  },
+  {
+    "id": "notif-1790264564831-699",
+    "userId": "cit-test-001",
+    "title": "Complaint Assigned",
+    "message": "Issue #SOC-2026-000134 has been analyzed by AI and assigned to Chennai Metro Water (CMWSSB). Officer: Thiru S. Sivakumar, IAS.",
+    "type": "assignment",
+    "issueId": "SOC-2026-000134",
+    "read": false,
+    "createdAt": "2026-09-24T15:42:44.831Z"
+  },
+  {
+    "id": "notif-1790264564830-572",
+    "userId": "cit-test-001",
+    "title": "Complaint Submitted Successfully",
+    "message": "Your complaint has been submitted under Issue ID #SOC-2026-000134. Initial status: Submitted.",
+    "type": "status_update",
+    "issueId": "SOC-2026-000134",
+    "read": false,
+    "createdAt": "2026-09-24T15:42:44.830Z"
+  },
+  {
+    "id": "notif-1790247499200-492",
+    "userId": "comp-ind-001",
+    "title": "Municipal Payment Released",
+    "message": "Treasury released payment of ₹3,75,000 for Work Order #WO-2026-0044 (Txn: TXN-RBI-499155-3838).",
+    "type": "payment",
+    "issueId": "SOC-2026-000133",
+    "read": false,
+    "createdAt": "2026-09-24T10:58:19.200Z"
+  },
+  {
+    "id": "notif-1790247491775-596",
+    "userId": "usr-cit-01",
+    "title": "Resolution Feedback Requested",
+    "message": "Help us improve municipal governance by rating the solution quality for #SOC-2026-000133.",
+    "type": "feedback_request",
+    "issueId": "SOC-2026-000133",
+    "read": false,
+    "createdAt": "2026-09-24T10:58:11.775Z"
+  },
+  {
+    "id": "notif-1790247491773-5",
+    "userId": "usr-cit-01",
+    "title": "Grievance Successfully Resolved",
+    "message": "Government inspection confirmed complete repair of #SOC-2026-000133. Please provide your satisfaction feedback.",
+    "type": "resolution",
+    "issueId": "SOC-2026-000133",
+    "read": false,
+    "createdAt": "2026-09-24T10:58:11.773Z"
+  },
+  {
+    "id": "notif-1790247482527-591",
+    "userId": "usr-cit-01",
+    "title": "Work Completed - Official Inspection Ongoing",
+    "message": "Field repair concluded by CleanAqua Infrastructure Pvt Ltd. Municipal engineers are conducting quality inspection for #SOC-2026-000133.",
+    "type": "status_update",
+    "issueId": "SOC-2026-000133",
+    "read": false,
+    "createdAt": "2026-09-24T10:58:02.527Z"
+  },
+  {
+    "id": "notif-1790247479981-185",
+    "userId": "usr-cit-01",
+    "title": "Repair Progress Update",
+    "message": "CleanAqua Infrastructure Pvt Ltd reported 65% milestone completion for #SOC-2026-000133.",
+    "type": "status_update",
+    "issueId": "SOC-2026-000133",
+    "read": false,
+    "createdAt": "2026-09-24T10:57:59.981Z"
+  },
+  {
+    "id": "notif-1790247476194-696",
+    "userId": "usr-cit-01",
+    "title": "Work Commenced by Partner",
+    "message": "CleanAqua Infrastructure Pvt Ltd has mobilized ground equipment for #SOC-2026-000133.",
+    "type": "status_update",
+    "issueId": "SOC-2026-000133",
+    "read": false,
+    "createdAt": "2026-09-24T10:57:56.194Z"
+  },
+  {
+    "id": "notif-1790247473888-688",
+    "userId": "comp-ind-001",
+    "title": "New Government Work Order Assigned",
+    "message": "Work Order #WO-2026-0044 for \"High-Tech IoT Leakage & Deep Submersible Pump Motor Overhaul\" issued by Tamil Nadu Water Supply & Drainage Board. Budget: ₹3,75,000.",
+    "type": "work_order",
+    "issueId": "SOC-2026-000133",
+    "read": false,
+    "createdAt": "2026-09-24T10:57:53.888Z"
+  },
+  {
+    "id": "notif-1790247473887-254",
+    "userId": "usr-cit-01",
+    "title": "Grievance Assigned to Industry Partner",
+    "message": "Government has partnered with specialized vendor CleanAqua Infrastructure Pvt Ltd under Work Order #WO-2026-0044 for technical execution.",
+    "type": "status_update",
+    "issueId": "SOC-2026-000133",
+    "read": false,
+    "createdAt": "2026-09-24T10:57:53.887Z"
+  },
+  {
+    "id": "notif-1790247473817-570",
+    "userId": "usr-cit-01",
+    "title": "Complaint Assigned",
+    "message": "Issue #SOC-2026-000133 has been analyzed by AI and assigned to Tamil Nadu Water Supply & Drainage Board. Officer: Thiru S. Sivakumar, IAS.",
+    "type": "assignment",
+    "issueId": "SOC-2026-000133",
+    "read": false,
+    "createdAt": "2026-09-24T10:57:53.817Z"
+  },
+  {
+    "id": "notif-1790247473817-701",
+    "userId": "usr-cit-01",
+    "title": "Complaint Submitted Successfully",
+    "message": "Your complaint has been submitted under Issue ID #SOC-2026-000133. Initial status: Submitted.",
+    "type": "status_update",
+    "issueId": "SOC-2026-000133",
+    "read": false,
+    "createdAt": "2026-09-24T10:57:53.817Z"
+  },
+  {
+    "id": "notif-1790247473798-553",
+    "userId": "usr-cit-01",
+    "title": "Grievance Assigned to Government Team",
+    "message": "Your grievance #SOC-2026-000132 is being resolved internally by Tamil Nadu Water Supply & Drainage Board under Officer Er. K. Ramanathan, SE.",
+    "type": "status_update",
+    "issueId": "SOC-2026-000132",
+    "read": false,
+    "createdAt": "2026-09-24T10:57:53.798Z"
+  },
+  {
+    "id": "notif-1790247473735-75",
+    "userId": "usr-cit-01",
+    "title": "Complaint Assigned",
+    "message": "Issue #SOC-2026-000132 has been analyzed by AI and assigned to Tamil Nadu Water Supply & Drainage Board. Officer: Thiru S. Sivakumar, IAS.",
+    "type": "assignment",
+    "issueId": "SOC-2026-000132",
+    "read": false,
+    "createdAt": "2026-09-24T10:57:53.735Z"
+  },
+  {
+    "id": "notif-1790247473734-25",
+    "userId": "usr-cit-01",
+    "title": "Complaint Submitted Successfully",
+    "message": "Your complaint has been submitted under Issue ID #SOC-2026-000132. Initial status: Submitted.",
+    "type": "status_update",
+    "issueId": "SOC-2026-000132",
+    "read": false,
+    "createdAt": "2026-09-24T10:57:53.734Z"
+  },
+  {
+    "id": "notif-1790247285386-494",
+    "userId": "comp-ind-001",
+    "title": "New Government Work Order Assigned",
+    "message": "Work Order #WO-2026-0043 for \"High-Tech IoT Leakage & Deep Submersible Pump Motor Overhaul\" issued by Tamil Nadu Water Supply & Drainage Board. Budget: ₹3,75,000.",
+    "type": "work_order",
+    "issueId": "SOC-2026-000131",
+    "read": false,
+    "createdAt": "2026-09-24T10:54:45.386Z"
+  },
+  {
+    "id": "notif-1790247285384-133",
+    "userId": "usr-cit-01",
+    "title": "Grievance Assigned to Industry Partner",
+    "message": "Government has partnered with specialized vendor CleanAqua Infrastructure Pvt Ltd under Work Order #WO-2026-0043 for technical execution.",
+    "type": "status_update",
+    "issueId": "SOC-2026-000131",
+    "read": false,
+    "createdAt": "2026-09-24T10:54:45.384Z"
+  },
+  {
+    "id": "notif-1790247280115-477",
+    "userId": "usr-cit-01",
+    "title": "Complaint Assigned",
+    "message": "Issue #SOC-2026-000131 has been analyzed by AI and assigned to Tamil Nadu Water Supply & Drainage Board. Officer: Thiru S. Sivakumar, IAS.",
+    "type": "assignment",
+    "issueId": "SOC-2026-000131",
+    "read": false,
+    "createdAt": "2026-09-24T10:54:40.115Z"
+  },
+  {
+    "id": "notif-1790247280114-627",
+    "userId": "usr-cit-01",
+    "title": "Complaint Submitted Successfully",
+    "message": "Your complaint has been submitted under Issue ID #SOC-2026-000131. Initial status: Submitted.",
+    "type": "status_update",
+    "issueId": "SOC-2026-000131",
+    "read": false,
+    "createdAt": "2026-09-24T10:54:40.114Z"
+  },
+  {
+    "id": "notif-1790247280072-307",
+    "userId": "usr-cit-01",
+    "title": "Grievance Assigned to Government Team",
+    "message": "Your grievance #SOC-2026-000130 is being resolved internally by Tamil Nadu Water Supply & Drainage Board under Officer Er. K. Ramanathan, SE.",
+    "type": "status_update",
+    "issueId": "SOC-2026-000130",
+    "read": false,
+    "createdAt": "2026-09-24T10:54:40.072Z"
+  },
+  {
+    "id": "notif-1790247277754-846",
+    "userId": "usr-cit-01",
+    "title": "Complaint Assigned",
+    "message": "Issue #SOC-2026-000130 has been analyzed by AI and assigned to Tamil Nadu Water Supply & Drainage Board. Officer: Thiru S. Sivakumar, IAS.",
+    "type": "assignment",
+    "issueId": "SOC-2026-000130",
+    "read": false,
+    "createdAt": "2026-09-24T10:54:37.754Z"
+  },
+  {
+    "id": "notif-1790247277753-960",
+    "userId": "usr-cit-01",
+    "title": "Complaint Submitted Successfully",
+    "message": "Your complaint has been submitted under Issue ID #SOC-2026-000130. Initial status: Submitted.",
+    "type": "status_update",
+    "issueId": "SOC-2026-000130",
+    "read": false,
+    "createdAt": "2026-09-24T10:54:37.753Z"
+  },
+  {
+    "id": "notif-1790242765458-687",
+    "userId": "usr-cit-01",
+    "title": "Feedback Requested",
+    "message": "How was your resolution experience for #SOC-2026-000129? Please rate the municipal response.",
+    "type": "alert",
+    "issueId": "SOC-2026-000129",
+    "read": false,
+    "createdAt": "2026-09-24T09:39:25.458Z"
+  },
+  {
+    "id": "notif-1790242765458-9",
+    "userId": "usr-cit-01",
+    "title": "Complaint Resolved",
+    "message": "Issue #SOC-2026-000129 has been marked as Resolved by Authorized Government Official. Field repairs verified.",
+    "type": "resolution",
+    "issueId": "SOC-2026-000129",
+    "read": false,
+    "createdAt": "2026-09-24T09:39:25.458Z"
+  },
+  {
+    "id": "notif-1790242765457-696",
+    "userId": "usr-cit-01",
+    "title": "Status Changed: RESOLVED",
+    "message": "Your grievance #SOC-2026-000129 is now RESOLVED. Updated by Authorized Government Official. ",
+    "type": "status_update",
+    "issueId": "SOC-2026-000129",
+    "read": false,
+    "createdAt": "2026-09-24T09:39:25.457Z"
+  },
+  {
+    "id": "notif-1790242765424-640",
+    "userId": "usr-cit-01",
+    "title": "Status Changed: IN PROGRESS",
+    "message": "Your grievance #SOC-2026-000129 is now IN PROGRESS. Updated by Authorized Government Official. ",
+    "type": "status_update",
+    "issueId": "SOC-2026-000129",
+    "read": false,
+    "createdAt": "2026-09-24T09:39:25.424Z"
+  },
+  {
+    "id": "notif-1790242765357-0",
+    "userId": "usr-cit-01",
+    "title": "Complaint Assigned",
+    "message": "Issue #SOC-2026-000129 has been analyzed by AI and assigned to Municipal Administration & Water Supply. Officer: Thiru S. Sivakumar, IAS.",
+    "type": "assignment",
+    "issueId": "SOC-2026-000129",
+    "read": false,
+    "createdAt": "2026-09-24T09:39:25.357Z"
+  },
+  {
+    "id": "notif-1790242765357-964",
+    "userId": "usr-cit-01",
+    "title": "Complaint Submitted Successfully",
+    "message": "Your complaint has been submitted under Issue ID #SOC-2026-000129. Initial status: Submitted.",
+    "type": "status_update",
+    "issueId": "SOC-2026-000129",
+    "read": false,
+    "createdAt": "2026-09-24T09:39:25.357Z"
+  },
+  {
+    "id": "notif-1790242254454-435",
+    "userId": "usr-cit-01",
+    "title": "Feedback Requested",
+    "message": "How was your resolution experience for #SOC-2026-000128? Please rate the municipal response.",
+    "type": "alert",
+    "issueId": "SOC-2026-000128",
+    "read": false,
+    "createdAt": "2026-09-24T09:30:54.454Z"
+  },
+  {
+    "id": "notif-1790242254453-99",
+    "userId": "usr-cit-01",
+    "title": "Complaint Resolved",
+    "message": "Issue #SOC-2026-000128 has been marked as Resolved by Authorized Government Official. Field repairs verified.",
+    "type": "resolution",
+    "issueId": "SOC-2026-000128",
+    "read": false,
+    "createdAt": "2026-09-24T09:30:54.453Z"
+  },
+  {
+    "id": "notif-1790242254453-98",
+    "userId": "usr-cit-01",
+    "title": "Status Changed: RESOLVED",
+    "message": "Your grievance #SOC-2026-000128 is now RESOLVED. Updated by Authorized Government Official. ",
+    "type": "status_update",
+    "issueId": "SOC-2026-000128",
+    "read": false,
+    "createdAt": "2026-09-24T09:30:54.453Z"
+  },
+  {
+    "id": "notif-1790242254410-372",
+    "userId": "usr-cit-01",
+    "title": "Status Changed: IN PROGRESS",
+    "message": "Your grievance #SOC-2026-000128 is now IN PROGRESS. Updated by Authorized Government Official. ",
+    "type": "status_update",
+    "issueId": "SOC-2026-000128",
+    "read": false,
+    "createdAt": "2026-09-24T09:30:54.410Z"
+  },
+  {
+    "id": "notif-1790242254311-388",
+    "userId": "usr-cit-01",
+    "title": "Complaint Assigned",
+    "message": "Issue #SOC-2026-000128 has been analyzed by AI and assigned to Municipal Administration & Water Supply. Officer: Thiru S. Sivakumar, IAS.",
+    "type": "assignment",
+    "issueId": "SOC-2026-000128",
+    "read": false,
+    "createdAt": "2026-09-24T09:30:54.311Z"
+  },
+  {
+    "id": "notif-1790242254311-870",
+    "userId": "usr-cit-01",
+    "title": "Complaint Submitted Successfully",
+    "message": "Your complaint has been submitted under Issue ID #SOC-2026-000128. Initial status: Submitted.",
+    "type": "status_update",
+    "issueId": "SOC-2026-000128",
+    "read": false,
+    "createdAt": "2026-09-24T09:30:54.311Z"
+  },
+  {
+    "id": "notif-1790242215169-606",
+    "userId": "usr-cit-01",
+    "title": "Feedback Requested",
+    "message": "How was your resolution experience for #SOC-2026-000127? Please rate the municipal response.",
+    "type": "alert",
+    "issueId": "SOC-2026-000127",
+    "read": false,
+    "createdAt": "2026-09-24T09:30:15.169Z"
+  },
+  {
+    "id": "notif-1790242215169-287",
+    "userId": "usr-cit-01",
+    "title": "Complaint Resolved",
+    "message": "Issue #SOC-2026-000127 has been marked as Resolved by Authorized Government Official. Field repairs verified.",
+    "type": "resolution",
+    "issueId": "SOC-2026-000127",
+    "read": false,
+    "createdAt": "2026-09-24T09:30:15.169Z"
+  },
+  {
+    "id": "notif-1790242215168-247",
+    "userId": "usr-cit-01",
+    "title": "Status Changed: RESOLVED",
+    "message": "Your grievance #SOC-2026-000127 is now RESOLVED. Updated by Authorized Government Official. ",
+    "type": "status_update",
+    "issueId": "SOC-2026-000127",
+    "read": false,
+    "createdAt": "2026-09-24T09:30:15.168Z"
+  },
+  {
+    "id": "notif-1790242215104-43",
+    "userId": "usr-cit-01",
+    "title": "Status Changed: IN PROGRESS",
+    "message": "Your grievance #SOC-2026-000127 is now IN PROGRESS. Updated by Authorized Government Official. ",
+    "type": "status_update",
+    "issueId": "SOC-2026-000127",
+    "read": false,
+    "createdAt": "2026-09-24T09:30:15.104Z"
+  },
+  {
+    "id": "notif-1790242214961-898",
+    "userId": "usr-cit-01",
+    "title": "Complaint Assigned",
+    "message": "Issue #SOC-2026-000127 has been analyzed by AI and assigned to Municipal Administration & Water Supply. Officer: Thiru S. Sivakumar, IAS.",
+    "type": "assignment",
+    "issueId": "SOC-2026-000127",
+    "read": false,
+    "createdAt": "2026-09-24T09:30:14.961Z"
+  },
+  {
+    "id": "notif-1790242214960-319",
+    "userId": "usr-cit-01",
+    "title": "Complaint Submitted Successfully",
+    "message": "Your complaint has been submitted under Issue ID #SOC-2026-000127. Initial status: Submitted.",
+    "type": "status_update",
+    "issueId": "SOC-2026-000127",
+    "read": false,
+    "createdAt": "2026-09-24T09:30:14.960Z"
+  },
+  {
+    "id": "notif-1790242173441-51",
+    "userId": "usr-cit-01",
+    "title": "Feedback Requested",
+    "message": "How was your resolution experience for #SOC-2026-000126? Please rate the municipal response.",
+    "type": "alert",
+    "issueId": "SOC-2026-000126",
+    "read": false,
+    "createdAt": "2026-09-24T09:29:33.441Z"
+  },
+  {
+    "id": "notif-1790242173440-197",
+    "userId": "usr-cit-01",
+    "title": "Complaint Resolved",
+    "message": "Issue #SOC-2026-000126 has been marked as Resolved by Authorized Government Official. Field repairs verified.",
+    "type": "resolution",
+    "issueId": "SOC-2026-000126",
+    "read": false,
+    "createdAt": "2026-09-24T09:29:33.440Z"
+  },
+  {
+    "id": "notif-1790242173439-816",
+    "userId": "usr-cit-01",
+    "title": "Status Changed: RESOLVED",
+    "message": "Your grievance #SOC-2026-000126 is now RESOLVED. Updated by Authorized Government Official. ",
+    "type": "status_update",
+    "issueId": "SOC-2026-000126",
+    "read": false,
+    "createdAt": "2026-09-24T09:29:33.439Z"
+  },
+  {
+    "id": "notif-1790242173409-560",
+    "userId": "usr-cit-01",
+    "title": "Status Changed: IN PROGRESS",
+    "message": "Your grievance #SOC-2026-000126 is now IN PROGRESS. Updated by Authorized Government Official. ",
+    "type": "status_update",
+    "issueId": "SOC-2026-000126",
+    "read": false,
+    "createdAt": "2026-09-24T09:29:33.409Z"
+  },
+  {
+    "id": "notif-1790242171871-451",
+    "userId": "usr-cit-01",
+    "title": "Complaint Assigned",
+    "message": "Issue #SOC-2026-000126 has been analyzed by AI and assigned to Municipal Administration & Water Supply. Officer: Thiru S. Sivakumar, IAS.",
+    "type": "assignment",
+    "issueId": "SOC-2026-000126",
+    "read": false,
+    "createdAt": "2026-09-24T09:29:31.871Z"
+  },
+  {
+    "id": "notif-1790242171871-229",
+    "userId": "usr-cit-01",
+    "title": "Complaint Submitted Successfully",
+    "message": "Your complaint has been submitted under Issue ID #SOC-2026-000126. Initial status: Submitted.",
+    "type": "status_update",
+    "issueId": "SOC-2026-000126",
+    "read": false,
+    "createdAt": "2026-09-24T09:29:31.871Z"
+  },
+  {
+    "id": "notif-1790242124991-912",
+    "userId": "usr-cit-01",
+    "title": "Complaint Assigned",
+    "message": "Issue #SOC-2026-000125 has been analyzed by AI and assigned to Municipal Administration & Water Supply. Officer: Thiru S. Sivakumar, IAS.",
+    "type": "assignment",
+    "issueId": "SOC-2026-000125",
+    "read": false,
+    "createdAt": "2026-09-24T09:28:44.991Z"
+  },
+  {
+    "id": "notif-1790242124990-683",
+    "userId": "usr-cit-01",
+    "title": "Complaint Submitted Successfully",
+    "message": "Your complaint has been submitted under Issue ID #SOC-2026-000125. Initial status: Submitted.",
+    "type": "status_update",
+    "issueId": "SOC-2026-000125",
+    "read": false,
+    "createdAt": "2026-09-24T09:28:44.990Z"
+  },
+  {
+    "id": "notif-init-1",
+    "userId": "usr-cit-01",
+    "title": "Officer Dispatched",
+    "message": "Er. Ramesh K. has arrived on-site for Water Main Line Fracture (#SOC-2026-008821).",
+    "type": "status_update",
+    "issueId": "SOC-2026-008821",
+    "read": false,
+    "createdAt": "2026-09-24T09:12:13.404Z"
+  },
+  {
+    "id": "notif-init-2",
+    "userId": "usr-cit-01",
+    "title": "Pothole Repair Verified",
+    "message": "BBMP completed asphalt laying for Koramangala 4th Block (#SOC-2026-006402). Please submit your feedback.",
+    "type": "resolution",
+    "issueId": "SOC-2026-006402",
+    "read": true,
+    "createdAt": "2026-09-23T09:27:13.404Z"
+  }
+]

@@ -1,0 +1,3642 @@
+{
+  "nav.overview": {
+    "en": "Overview",
+    "hi": "अवलोकन"
+  },
+  "nav.access_identity": {
+    "en": "Access & Identity",
+    "hi": "पहुंच एवं पहचान"
+  },
+  "nav.stakeholder_ecosystem": {
+    "en": "Stakeholder Ecosystem",
+    "hi": "हितधारक पारिस्थितिकी तंत्र"
+  },
+  "nav.operations_ai": {
+    "en": "Operations & AI",
+    "hi": "संचालन एवं एआई"
+  },
+  "nav.infra_observability": {
+    "en": "Infra & Observability",
+    "hi": "इन्फ्रा एवं वेधशाला"
+  },
+  "nav.field_activities": {
+    "en": "Field Activities & Relief",
+    "hi": "क्षेत्रीय गतिविधियाँ एवं राहत"
+  },
+  "nav.community_workforce": {
+    "en": "Community & Workforce",
+    "hi": "समुदाय एवं कार्यबल"
+  },
+  "nav.governance_comms": {
+    "en": "Governance & Comms",
+    "hi": "शासन एवं संचार"
+  },
+  "nav.csr_investment": {
+    "en": "CSR & Capital Allocation",
+    "hi": "सीएसआर एवं पूंजी आवंटन"
+  },
+  "nav.collaboration_rd": {
+    "en": "Collaboration & R&D",
+    "hi": "सहयोग एवं अनुसंधान"
+  },
+  "nav.student_portal": {
+    "en": "Student Portal",
+    "hi": "छात्र पोर्टल"
+  },
+  "nav.faculty_portal": {
+    "en": "Faculty Portal",
+    "hi": "संकाय पोर्टल"
+  },
+  "nav.dashboard": {
+    "en": "Dashboard",
+    "hi": "डैशबोर्ड"
+  },
+  "nav.my_issues": {
+    "en": "My Grievances",
+    "hi": "मेरी शिकायतें"
+  },
+  "nav.report_problem": {
+    "en": "Report a Problem",
+    "hi": "समस्या दर्ज करें"
+  },
+  "nav.track_issues": {
+    "en": "Track Resolution",
+    "hi": "निवारण ट्रैक करें"
+  },
+  "nav.notifications": {
+    "en": "Notifications",
+    "hi": "सूचनाएं"
+  },
+  "nav.profile": {
+    "en": "Profile",
+    "hi": "प्रोफ़ाइल"
+  },
+  "nav.settings": {
+    "en": "Settings",
+    "hi": "सेटिंग्स"
+  },
+  "nav.help": {
+    "en": "Help & Support",
+    "hi": "सहायता एवं समर्थन"
+  },
+  "nav.logout": {
+    "en": "Logout",
+    "hi": "लॉग आउट"
+  },
+  "nav.login": {
+    "en": "Login",
+    "hi": "लॉग इन"
+  },
+  "nav.analytics": {
+    "en": "Analytics & Reports",
+    "hi": "एनालिटिक्स एवं रिपोर्ट"
+  },
+  "nav.assigned_cases": {
+    "en": "Assigned Cases",
+    "hi": "आवंटित मामले"
+  },
+  "nav.departments": {
+    "en": "Departments",
+    "hi": "विभाग"
+  },
+  "nav.officers": {
+    "en": "Officers Directory",
+    "hi": "अधिकारी निर्देशिका"
+  },
+  "nav.ai_suggestions": {
+    "en": "AI Suggestions",
+    "hi": "एआई सुझाव"
+  },
+  "nav.reports": {
+    "en": "Reports & Audits",
+    "hi": "रिपोर्ट एवं ऑडिट"
+  },
+  "nav.projects": {
+    "en": "Available Projects",
+    "hi": "उपलब्ध परियोजनाएं"
+  },
+  "nav.funding": {
+    "en": "Funding Opportunities",
+    "hi": "वित्तपोषण अवसर"
+  },
+  "nav.csr_analytics": {
+    "en": "CSR Analytics",
+    "hi": "सीएसआर एनालिटिक्स"
+  },
+  "nav.mentorship": {
+    "en": "Mentorship",
+    "hi": "मार्गदर्शन"
+  },
+  "nav.university_collaboration": {
+    "en": "University Collaboration",
+    "hi": "विश्वविद्यालय सहयोग"
+  },
+  "nav.research": {
+    "en": "Research Initiatives",
+    "hi": "अनुसंधान पहल"
+  },
+  "nav.prototypes": {
+    "en": "Prototypes & Demos",
+    "hi": "प्रोटोटाइप एवं डेमो"
+  },
+  "nav.volunteers": {
+    "en": "Volunteer Squads",
+    "hi": "स्वयंसेवक दस्ते"
+  },
+  "nav.field_log": {
+    "en": "Field Evidence Log",
+    "hi": "क्षेत्रीय साक्ष्य लॉग"
+  },
+  "nav.impact": {
+    "en": "Community Impact",
+    "hi": "सामुदायिक प्रभाव"
+  },
+  "nav.certificates": {
+    "en": "Certificates & Badges",
+    "hi": "प्रमाणपत्र एवं बैज"
+  },
+  "nav.lab_tasks": {
+    "en": "Lab Tasks",
+    "hi": "प्रयोगशाला कार्य"
+  },
+  "nav.upload_deliverables": {
+    "en": "Upload Deliverables",
+    "hi": "प्रस्तुति अपलोड करें"
+  },
+  "nav.milestone_timeline": {
+    "en": "Milestone Timeline",
+    "hi": "मील का पत्थर समयरेखा"
+  },
+  "nav.advisor_discussion": {
+    "en": "Advisor Discussion",
+    "hi": "सलाहकार चर्चा"
+  },
+  "nav.milestone_approvals": {
+    "en": "Milestone Approvals",
+    "hi": "मील का पत्थर स्वीकृतियां"
+  },
+  "nav.municipal_proposals": {
+    "en": "Municipal Proposals",
+    "hi": "नगर निगम प्रस्ताव"
+  },
+  "nav.teams": {
+    "en": "Teams & Roster",
+    "hi": "टीमें एवं सूची"
+  },
+  "nav.credits": {
+    "en": "Academic Credits",
+    "hi": "शैक्षणिक क्रेडिट"
+  },
+  "nav.user_management": {
+    "en": "User Management",
+    "hi": "उपयोगकर्ता प्रबंधन"
+  },
+  "nav.role_management": {
+    "en": "Role Management",
+    "hi": "भूमिका प्रबंधन"
+  },
+  "nav.government_management": {
+    "en": "Government Management",
+    "hi": "सरकारी प्रबंधन"
+  },
+  "nav.university_management": {
+    "en": "University Management",
+    "hi": "विश्वविद्यालय प्रबंधन"
+  },
+  "nav.industry_management": {
+    "en": "Industry Management",
+    "hi": "उद्योग प्रबंधन"
+  },
+  "nav.ngo_management": {
+    "en": "NGO Management",
+    "hi": "एनजीओ प्रबंधन"
+  },
+  "nav.research_organizations": {
+    "en": "Research Organizations",
+    "hi": "अनुसंधान संगठन"
+  },
+  "nav.issue_management": {
+    "en": "Issue Management",
+    "hi": "मुद्दा प्रबंधन"
+  },
+  "nav.ai_monitoring": {
+    "en": "AI Monitoring",
+    "hi": "एआई टेलीमेट्री निगरानी"
+  },
+  "nav.workflow_monitoring": {
+    "en": "Workflow Monitoring",
+    "hi": "कार्यप्रवाह निगरानी"
+  },
+  "nav.audit_logs": {
+    "en": "Audit Trail",
+    "hi": "अपरिवर्तनीय ऑडिट ट्रेल"
+  },
+  "nav.system_health": {
+    "en": "System Health",
+    "hi": "सिस्टम स्वास्थ्य"
+  },
+  "nav.landing_features": {
+    "en": "Features",
+    "hi": "विशेषताएं"
+  },
+  "nav.landing_how_it_works": {
+    "en": "How It Works",
+    "hi": "यह कैसे काम करता है"
+  },
+  "nav.landing_about": {
+    "en": "About",
+    "hi": "हमारे बारे में"
+  },
+  "nav.landing_faq": {
+    "en": "FAQ",
+    "hi": "सामान्य प्रश्न"
+  },
+  "nav.landing_contact": {
+    "en": "Contact",
+    "hi": "संपर्क करें"
+  },
+  "nav.role_login": {
+    "en": "Role Login",
+    "hi": "भूमिका लॉगिन"
+  },
+  "nav.citizen_sign_up": {
+    "en": "Citizen Sign Up",
+    "hi": "नागरिक पंजीकरण"
+  },
+  "common.buttons.browseFiles": {
+    "en": "Browse Files",
+    "hi": "फ़ाइलें ब्राउज़ करें"
+  },
+  "common.buttons.openCamera": {
+    "en": "Open Camera",
+    "hi": "कैमरा खोलें"
+  },
+  "common.buttons.startRecording": {
+    "en": "Start Recording",
+    "hi": "रिकॉर्डिंग शुरू करें"
+  },
+  "common.buttons.stopRecording": {
+    "en": "Stop Recording",
+    "hi": "रिकॉर्डिंग बंद करें"
+  },
+  "common.buttons.submit": {
+    "en": "Submit",
+    "hi": "जमा करें"
+  },
+  "common.buttons.cancel": {
+    "en": "Cancel",
+    "hi": "रद्द करें"
+  },
+  "common.buttons.save": {
+    "en": "Save Changes",
+    "hi": "बदलाव सहेजें"
+  },
+  "common.buttons.delete": {
+    "en": "Delete",
+    "hi": "हटाएं"
+  },
+  "common.buttons.search": {
+    "en": "Search",
+    "hi": "खोजें"
+  },
+  "common.buttons.filter": {
+    "en": "Filter",
+    "hi": "फ़िल्टर"
+  },
+  "common.buttons.upload": {
+    "en": "Upload",
+    "hi": "अपलोड करें"
+  },
+  "common.buttons.confirm": {
+    "en": "Confirm",
+    "hi": "पुष्टि करें"
+  },
+  "common.buttons.close": {
+    "en": "Close",
+    "hi": "बंद करें"
+  },
+  "common.buttons.back": {
+    "en": "Back",
+    "hi": "वापस"
+  },
+  "common.buttons.next": {
+    "en": "Next",
+    "hi": "आगे"
+  },
+  "common.buttons.previous": {
+    "en": "Previous",
+    "hi": "पिछला"
+  },
+  "common.buttons.detectLocation": {
+    "en": "Detect Current Location",
+    "hi": "वर्तमान स्थान का पता लगाएं"
+  },
+  "common.buttons.useCurrentGps": {
+    "en": "Use Current GPS",
+    "hi": "वर्तमान GPS का उपयोग करें"
+  },
+  "common.buttons.resetForm": {
+    "en": "Reset Form",
+    "hi": "फ़ॉर्म रीसेट करें"
+  },
+  "common.buttons.submitIssue": {
+    "en": "Submit Grievance",
+    "hi": "शिकायत दर्ज करें"
+  },
+  "common.buttons.viewAll": {
+    "en": "View All",
+    "hi": "सभी देखें"
+  },
+  "common.buttons.export": {
+    "en": "Export Data",
+    "hi": "डेटा निर्यात करें"
+  },
+  "common.buttons.download": {
+    "en": "Download",
+    "hi": "डाउनलोड"
+  },
+  "common.buttons.refresh": {
+    "en": "Refresh",
+    "hi": "रीफ्रेश करें"
+  },
+  "common.buttons.login": {
+    "en": "Login",
+    "hi": "लॉग इन"
+  },
+  "common.buttons.logout": {
+    "en": "Logout",
+    "hi": "लॉग आउट"
+  },
+  "common.buttons.modifyUploads": {
+    "en": "Modify Media Uploads",
+    "hi": "मीडिया अपलोड संशोधित करें"
+  },
+  "common.buttons.removeFile": {
+    "en": "Remove File",
+    "hi": "फ़ाइल हटाएं"
+  },
+  "common.buttons.removeVoiceMemo": {
+    "en": "Remove Voice Memo",
+    "hi": "वॉयस मेमो हटाएं"
+  },
+  "common.buttons.edit": {
+    "en": "Edit",
+    "hi": "संपादित करें"
+  },
+  "common.buttons.view": {
+    "en": "View Details",
+    "hi": "विवरण देखें"
+  },
+  "common.buttons.add": {
+    "en": "Add New",
+    "hi": "नया जोड़ें"
+  },
+  "common.buttons.create": {
+    "en": "Create",
+    "hi": "बनाएं"
+  },
+  "common.buttons.update": {
+    "en": "Update",
+    "hi": "अपडेट करें"
+  },
+  "common.buttons.approve": {
+    "en": "Approve",
+    "hi": "स्वीकृत करें"
+  },
+  "common.buttons.reject": {
+    "en": "Reject",
+    "hi": "अस्वीकार करें"
+  },
+  "common.buttons.reassign": {
+    "en": "Reassign",
+    "hi": "पुनः सौंपें"
+  },
+  "common.buttons.escalate": {
+    "en": "Escalate",
+    "hi": "वृद्धि ट्रिगर करें"
+  },
+  "common.buttons.resolve": {
+    "en": "Resolve Case",
+    "hi": "मामला हल करें"
+  },
+  "common.buttons.assign": {
+    "en": "Assign",
+    "hi": "आवंटित करें"
+  },
+  "common.buttons.verify": {
+    "en": "Verify",
+    "hi": "सत्यापित करें"
+  },
+  "common.buttons.downloadReport": {
+    "en": "Download Report",
+    "hi": "रिपोर्ट डाउनलोड करें"
+  },
+  "common.buttons.syncTelemetry": {
+    "en": "Sync Telemetry",
+    "hi": "टेलीमेट्री सिंक करें"
+  },
+  "common.buttons.applyFilters": {
+    "en": "Apply Filters",
+    "hi": "फ़िल्टर लागू करें"
+  },
+  "common.buttons.clearFilters": {
+    "en": "Clear Filters",
+    "hi": "फ़िल्टर साफ़ करें"
+  },
+  "common.buttons.viewDetails": {
+    "en": "View Details",
+    "hi": "विवरण देखें"
+  },
+  "common.buttons.sendNotification": {
+    "en": "Send Notification",
+    "hi": "सूचना भेजें"
+  },
+  "common.buttons.inviteMember": {
+    "en": "Invite Member",
+    "hi": "सदस्य आमंत्रित करें"
+  },
+  "common.buttons.print": {
+    "en": "Print",
+    "hi": "प्रिंट करें"
+  },
+  "common.buttons.share": {
+    "en": "Share",
+    "hi": "साझा करें"
+  },
+  "common.buttons.copyLink": {
+    "en": "Copy Link",
+    "hi": "लिंक कॉपी करें"
+  },
+  "common.buttons.proceed": {
+    "en": "Proceed",
+    "hi": "आगे बढ़ें"
+  },
+  "common.buttons.retry": {
+    "en": "Retry",
+    "hi": "पुनः प्रयास करें"
+  },
+  "common.buttons.dismiss": {
+    "en": "Dismiss",
+    "hi": "खारिज करें"
+  },
+  "common.buttons.accept": {
+    "en": "Accept",
+    "hi": "स्वीकार करें"
+  },
+  "common.buttons.decline": {
+    "en": "Decline",
+    "hi": "अस्वीकार करें"
+  },
+  "common.labels.dashboard": {
+    "en": "Dashboard",
+    "hi": "डैशबोर्ड"
+  },
+  "common.labels.profile": {
+    "en": "Profile",
+    "hi": "प्रोफ़ाइल"
+  },
+  "common.labels.settings": {
+    "en": "Settings",
+    "hi": "सेटिंग्स"
+  },
+  "common.labels.notifications": {
+    "en": "Notifications",
+    "hi": "सूचनाएं"
+  },
+  "common.labels.help": {
+    "en": "Help & Support",
+    "hi": "सहायता एवं समर्थन"
+  },
+  "common.labels.logout": {
+    "en": "Logout",
+    "hi": "लॉग आउट"
+  },
+  "common.labels.login": {
+    "en": "Login",
+    "hi": "लॉग इन"
+  },
+  "common.labels.status": {
+    "en": "Status",
+    "hi": "स्थिति"
+  },
+  "common.labels.priority": {
+    "en": "Priority",
+    "hi": "प्राथमिकता"
+  },
+  "common.labels.department": {
+    "en": "Department",
+    "hi": "विभाग"
+  },
+  "common.labels.category": {
+    "en": "Category",
+    "hi": "श्रेणी"
+  },
+  "common.labels.district": {
+    "en": "District",
+    "hi": "ज़िला"
+  },
+  "common.labels.ward": {
+    "en": "Ward",
+    "hi": "वार्ड"
+  },
+  "common.labels.address": {
+    "en": "Address",
+    "hi": "पता"
+  },
+  "common.labels.landmark": {
+    "en": "Landmark",
+    "hi": "सीमाचिह्न"
+  },
+  "common.labels.title": {
+    "en": "Title",
+    "hi": "शीर्षक"
+  },
+  "common.labels.description": {
+    "en": "Description",
+    "hi": "विवरण"
+  },
+  "common.labels.location": {
+    "en": "Location",
+    "hi": "स्थान"
+  },
+  "common.labels.latitude": {
+    "en": "Latitude",
+    "hi": "अक्षांश"
+  },
+  "common.labels.longitude": {
+    "en": "Longitude",
+    "hi": "देशांतर"
+  },
+  "common.labels.accuracy": {
+    "en": "Accuracy",
+    "hi": "सटीकता"
+  },
+  "common.labels.date": {
+    "en": "Date",
+    "hi": "दिनांक"
+  },
+  "common.labels.action": {
+    "en": "Action",
+    "hi": "कार्रवाई"
+  },
+  "common.labels.actions": {
+    "en": "Actions",
+    "hi": "कार्रवाइयां"
+  },
+  "common.labels.all": {
+    "en": "All",
+    "hi": "सभी"
+  },
+  "common.labels.high": {
+    "en": "High",
+    "hi": "उच्च"
+  },
+  "common.labels.medium": {
+    "en": "Medium",
+    "hi": "मध्यम"
+  },
+  "common.labels.low": {
+    "en": "Low",
+    "hi": "कम"
+  },
+  "common.labels.critical": {
+    "en": "Critical",
+    "hi": "गंभीर"
+  },
+  "common.labels.emergency": {
+    "en": "Emergency",
+    "hi": "आपातकालीन"
+  },
+  "common.labels.pending": {
+    "en": "Pending",
+    "hi": "लंबित"
+  },
+  "common.labels.inProgress": {
+    "en": "In Progress",
+    "hi": "प्रगति पर है"
+  },
+  "common.labels.resolved": {
+    "en": "Resolved",
+    "hi": "हल किया गया"
+  },
+  "common.labels.closed": {
+    "en": "Closed",
+    "hi": "बंद"
+  },
+  "common.labels.rejected": {
+    "en": "Rejected",
+    "hi": "अस्वीकृत"
+  },
+  "common.labels.verified": {
+    "en": "Verified",
+    "hi": "सत्यापित"
+  },
+  "common.labels.assigned": {
+    "en": "Assigned",
+    "hi": "आवंटित"
+  },
+  "common.labels.recentActivity": {
+    "en": "Recent Activity",
+    "hi": "हाल की गतिविधि"
+  },
+  "common.labels.quickActions": {
+    "en": "Quick Actions",
+    "hi": "त्वरित कार्रवाइयां"
+  },
+  "common.labels.systemHealth": {
+    "en": "System Health",
+    "hi": "सिस्टम स्वास्थ्य"
+  },
+  "common.labels.language": {
+    "en": "Language",
+    "hi": "भाषा"
+  },
+  "common.labels.selectLanguage": {
+    "en": "Select Language",
+    "hi": "भाषा चुनें"
+  },
+  "common.labels.searchLanguage": {
+    "en": "Search languages...",
+    "hi": "भाषाएं खोजें..."
+  },
+  "common.labels.editable": {
+    "en": "Editable",
+    "hi": "संपादन योग्य"
+  },
+  "common.labels.active": {
+    "en": "Active",
+    "hi": "सक्रिय"
+  },
+  "common.labels.inactive": {
+    "en": "Inactive",
+    "hi": "निष्क्रिय"
+  },
+  "common.labels.completed": {
+    "en": "Completed",
+    "hi": "पूर्ण"
+  },
+  "common.labels.failed": {
+    "en": "Failed",
+    "hi": "विफल"
+  },
+  "common.labels.total": {
+    "en": "Total",
+    "hi": "कुल"
+  },
+  "common.labels.count": {
+    "en": "Count",
+    "hi": "गिनती"
+  },
+  "common.labels.rate": {
+    "en": "Rate",
+    "hi": "दर"
+  },
+  "common.labels.percentage": {
+    "en": "Percentage",
+    "hi": "प्रतिशत"
+  },
+  "common.labels.timeRemaining": {
+    "en": "Time Remaining",
+    "hi": "शेष समय"
+  },
+  "common.labels.dueDate": {
+    "en": "Due Date",
+    "hi": "नियत तारीख"
+  },
+  "common.labels.submittedBy": {
+    "en": "Submitted By",
+    "hi": "द्वारा प्रस्तुत"
+  },
+  "common.labels.assignedTo": {
+    "en": "Assigned To",
+    "hi": "आवंटित किया गया"
+  },
+  "common.labels.officerInCharge": {
+    "en": "Officer in Charge",
+    "hi": "प्रभारी अधिकारी"
+  },
+  "common.labels.slaTimer": {
+    "en": "SLA Timer",
+    "hi": "एसएलए उलटी गिनती"
+  },
+  "common.labels.auditTimeline": {
+    "en": "Audit Timeline",
+    "hi": "ऑडिट समयरेखा"
+  },
+  "common.labels.contactInfo": {
+    "en": "Contact Information",
+    "hi": "संपर्क जानकारी"
+  },
+  "common.labels.phoneNumber": {
+    "en": "Phone Number",
+    "hi": "फ़ोन नंबर"
+  },
+  "common.labels.emailAddress": {
+    "en": "Email Address",
+    "hi": "ईमेल पता"
+  },
+  "common.labels.fullName": {
+    "en": "Full Name",
+    "hi": "पूरा नाम"
+  },
+  "common.labels.role": {
+    "en": "Role",
+    "hi": "भूमिका"
+  },
+  "common.labels.organization": {
+    "en": "Organization",
+    "hi": "संगठन"
+  },
+  "common.labels.institution": {
+    "en": "Institution",
+    "hi": "संस्थान"
+  },
+  "common.labels.createdAt": {
+    "en": "Reported Date",
+    "hi": "रिपोर्ट की तारीख"
+  },
+  "common.labels.updatedAt": {
+    "en": "Updated Date",
+    "hi": "अद्यतन तिथि"
+  },
+  "common.status.open": {
+    "en": "Open",
+    "hi": "खुला"
+  },
+  "common.status.submitted": {
+    "en": "Submitted",
+    "hi": "जमा किया गया"
+  },
+  "common.status.verified": {
+    "en": "AI Verified",
+    "hi": "एआई सत्यापित"
+  },
+  "common.status.assigned": {
+    "en": "Assigned",
+    "hi": "आवंटित"
+  },
+  "common.status.in_progress": {
+    "en": "In Progress",
+    "hi": "प्रगति पर है"
+  },
+  "common.status.inProgress": {
+    "en": "In Progress",
+    "hi": "प्रगति पर है"
+  },
+  "common.status.resolved": {
+    "en": "Resolved",
+    "hi": "हल किया गया"
+  },
+  "common.status.closed": {
+    "en": "Closed",
+    "hi": "बंद"
+  },
+  "common.status.rejected": {
+    "en": "Rejected",
+    "hi": "अस्वीकृत"
+  },
+  "common.status.under_review": {
+    "en": "Under Review",
+    "hi": "समीक्षाधीन"
+  },
+  "common.status.under_government_review": {
+    "en": "Under Govt Review",
+    "hi": "सरकारी समीक्षाधीन"
+  },
+  "common.status.assigned_to_government": {
+    "en": "Assigned to Govt",
+    "hi": "सरकार को आवंटित"
+  },
+  "common.status.assigned_to_industry": {
+    "en": "Assigned to Industry",
+    "hi": "उद्योग को आवंटित"
+  },
+  "common.status.industry_review": {
+    "en": "Industry Review",
+    "hi": "उद्योग समीक्षा"
+  },
+  "common.status.assigned_to_university": {
+    "en": "Assigned to University",
+    "hi": "विश्वविद्यालय को आवंटित"
+  },
+  "common.status.student_development": {
+    "en": "Student Development",
+    "hi": "छात्र विकास"
+  },
+  "common.status.faculty_review": {
+    "en": "Faculty Review",
+    "hi": "संकाय समीक्षा"
+  },
+  "common.status.industry_validation": {
+    "en": "Industry Validation",
+    "hi": "उद्योग सत्यापन"
+  },
+  "common.status.inspection": {
+    "en": "Site Inspection",
+    "hi": "स्थल निरीक्षण"
+  },
+  "common.status.feedback_pending": {
+    "en": "Feedback Pending",
+    "hi": "प्रतिक्रिया लंबित"
+  },
+  "common.status.escalated": {
+    "en": "Escalated",
+    "hi": "अग्रसारित"
+  },
+  "common.status.active": {
+    "en": "Active",
+    "hi": "सक्रिय"
+  },
+  "common.status.inactive": {
+    "en": "Inactive",
+    "hi": "निष्क्रिय"
+  },
+  "common.status.completed": {
+    "en": "Completed",
+    "hi": "पूर्ण"
+  },
+  "common.status.approved": {
+    "en": "Approved",
+    "hi": "स्वीकृत"
+  },
+  "common.status.declined": {
+    "en": "Declined",
+    "hi": "अस्वीकृत"
+  },
+  "common.status.pending": {
+    "en": "Pending",
+    "hi": "लंबित"
+  },
+  "common.priority.low": {
+    "en": "Low Priority",
+    "hi": "कम प्राथमिकता"
+  },
+  "common.priority.medium": {
+    "en": "Medium Priority",
+    "hi": "मध्यम प्राथमिकता"
+  },
+  "common.priority.high": {
+    "en": "High Priority",
+    "hi": "उच्च प्राथमिकता"
+  },
+  "common.priority.critical": {
+    "en": "Critical Priority",
+    "hi": "गंभीर प्राथमिकता"
+  },
+  "common.priority.emergency": {
+    "en": "Emergency Priority",
+    "hi": "आपातकालीन प्राथमिकता"
+  },
+  "common.priority.urgent": {
+    "en": "Urgent",
+    "hi": "अति आवश्यक"
+  },
+  "common.departments.waterSupply": {
+    "en": "Water Supply & Drainage",
+    "hi": "जल आपूर्ति एवं जल निकासी"
+  },
+  "common.departments.roadsTransport": {
+    "en": "Roads & Transportation",
+    "hi": "सड़क एवं परिवहन"
+  },
+  "common.departments.electricityPower": {
+    "en": "Electricity & Power Grid",
+    "hi": "विद्युत एवं पावर ग्रिड"
+  },
+  "common.departments.solidWaste": {
+    "en": "Solid Waste & Sanitation",
+    "hi": "ठोस अपशिष्ट एवं स्वच्छता"
+  },
+  "common.departments.publicHealth": {
+    "en": "Public Health & Safety",
+    "hi": "सार्वजनिक स्वास्थ्य एवं सुरक्षा"
+  },
+  "common.departments.urbanPlanning": {
+    "en": "Urban Planning & Town Infra",
+    "hi": "नगर नियोजन एवं शहरी अवसंरचना"
+  },
+  "common.departments.education": {
+    "en": "Education & Youth Affairs",
+    "hi": "शिक्षा एवं युवा मामले"
+  },
+  "common.departments.environmentForest": {
+    "en": "Environment & Forest Dept",
+    "hi": "पर्यावरण एवं वन विभाग"
+  },
+  "common.departments.policeSafety": {
+    "en": "Police & Public Safety",
+    "hi": "पुलिस एवं सार्वजनिक सुरक्षा"
+  },
+  "common.departments.disasterManagement": {
+    "en": "Disaster Management Authority",
+    "hi": "आपदा प्रबंधन प्राधिकरण"
+  },
+  "common.departments.municipalAdmin": {
+    "en": "Municipal Administration",
+    "hi": "नगर पालिका प्रशासन"
+  },
+  "common.categories.water": {
+    "en": "Water Supply & Drainage",
+    "hi": "जल आपूर्ति एवं जल निकासी"
+  },
+  "common.categories.roads": {
+    "en": "Roads & Transportation",
+    "hi": "सड़क एवं परिवहन"
+  },
+  "common.categories.electricity": {
+    "en": "Electricity & Power Grid",
+    "hi": "विद्युत एवं पावर ग्रिड"
+  },
+  "common.categories.waste": {
+    "en": "Solid Waste & Sanitation",
+    "hi": "ठोस अपशिष्ट एवं स्वच्छता"
+  },
+  "common.categories.health": {
+    "en": "Public Health & Safety",
+    "hi": "सार्वजनिक स्वास्थ्य एवं सुरक्षा"
+  },
+  "common.categories.sanitation": {
+    "en": "Sanitation & Drainage",
+    "hi": "स्वच्छता एवं सीवरेज"
+  },
+  "common.categories.infrastructure": {
+    "en": "Public Infrastructure",
+    "hi": "सार्वजनिक अवसंरचना"
+  },
+  "common.categories.streetlights": {
+    "en": "Street Lighting & Power",
+    "hi": "स्ट्रीट लाइट एवं बिजली"
+  },
+  "common.categories.drainage": {
+    "en": "Drainage & Sewerage",
+    "hi": "जल निकासी एवं सीवरेज"
+  },
+  "common.categories.potholes": {
+    "en": "Potholes & Road Repairs",
+    "hi": "गड्ढे एवं सड़क मरम्मत"
+  },
+  "common.categories.traffic": {
+    "en": "Traffic & Road Safety",
+    "hi": "यातायात एवं सड़क सुरक्षा"
+  },
+  "common.categories.pollution": {
+    "en": "Pollution & Environmental Hazard",
+    "hi": "प्रदूषण एवं पर्यावरणीय खतरा"
+  },
+  "common.validation.requiredField": {
+    "en": "This field is required",
+    "hi": "यह फ़ील्ड आवश्यक है"
+  },
+  "common.validation.titleRequired": {
+    "en": "Title is required",
+    "hi": "शीर्षक आवश्यक है"
+  },
+  "common.validation.descriptionRequired": {
+    "en": "Description is required",
+    "hi": "विवरण आवश्यक है"
+  },
+  "common.validation.locationRequired": {
+    "en": "Incident geo-location is required",
+    "hi": "घटना का भौगोलिक स्थान आवश्यक है"
+  },
+  "common.validation.invalidEmail": {
+    "en": "Please enter a valid email address",
+    "hi": "कृपया एक मान्य ईमेल पता दर्ज करें"
+  },
+  "common.validation.invalidPassword": {
+    "en": "Password must be at least 8 characters",
+    "hi": "पासवर्ड कम से कम 8 वर्णों का होना चाहिए"
+  },
+  "common.validation.passwordTooShort": {
+    "en": "Password is too short (minimum 8 characters)",
+    "hi": "पासवर्ड बहुत छोटा है (न्यूनतम 8 वर्ण)"
+  },
+  "common.validation.passwordMismatch": {
+    "en": "Passwords do not match",
+    "hi": "पासवर्ड मेल नहीं खाते"
+  },
+  "common.validation.unsupportedFile": {
+    "en": "Unsupported file format. Please upload JPEG, PNG, MP4, or PDF.",
+    "hi": "असमर्थित फ़ाइल प्रारूप। कृपया JPEG, PNG, MP4 या PDF अपलोड करें।"
+  },
+  "common.validation.maxFileSizeExceeded": {
+    "en": "Maximum file size exceeded (25MB limit)",
+    "hi": "अधिकतम फ़ाइल आकार पार हो गया (25MB सीमा)"
+  },
+  "common.validation.micPermissionDenied": {
+    "en": "Microphone permission denied. Please allow microphone access.",
+    "hi": "माइक्रोफ़ोन अनुमति अस्वीकृत। कृपया माइक्रोफ़ोन पहुंच की अनुमति दें।"
+  },
+  "common.validation.cameraPermissionDenied": {
+    "en": "Camera permission denied. Please allow camera access.",
+    "hi": "कैमरा अनुमति अस्वीकृत। कृपया कैमरा पहुंच की अनुमति दें।"
+  },
+  "common.validation.minLength": {
+    "en": "Input is shorter than minimum length",
+    "hi": "इनपुट न्यूनतम लंबाई से छोटा है"
+  },
+  "common.validation.maxLength": {
+    "en": "Input exceeds maximum allowed length",
+    "hi": "इनपुट अधिकतम अनुमत लंबाई से अधिक है"
+  },
+  "common.validation.uploadFailed": {
+    "en": "Upload failed. Please check connection and try again.",
+    "hi": "अपलोड विफल रहा। कृपया कनेक्शन जांचें और पुनः प्रयास करें।"
+  },
+  "common.validation.uploadSuccessful": {
+    "en": "File uploaded successfully.",
+    "hi": "फ़ाइल सफलतापूर्वक अपलोड की गई।"
+  },
+  "common.validation.loginSuccessful": {
+    "en": "Signed in successfully.",
+    "hi": "सफलतापूर्वक साइन इन किया गया।"
+  },
+  "common.validation.registrationSuccessful": {
+    "en": "Registration completed successfully.",
+    "hi": "पंजीकरण सफलतापूर्वक पूरा हुआ।"
+  },
+  "common.validation.fillRequiredFields": {
+    "en": "Please complete all mandatory fields before submitting.",
+    "hi": "कृपया जमा करने से पहले सभी अनिवार्य फ़ील्ड भरें।"
+  },
+  "common.emptyStates.noData": {
+    "en": "No data available",
+    "hi": "कोई डेटा उपलब्ध नहीं है"
+  },
+  "common.emptyStates.noResults": {
+    "en": "No results found matching your query",
+    "hi": "आपकी खोज से मेल खाता कोई परिणाम नहीं मिला"
+  },
+  "common.emptyStates.noNotifications": {
+    "en": "No new notifications",
+    "hi": "कोई नई सूचना नहीं है"
+  },
+  "common.emptyStates.noIssuesFound": {
+    "en": "No grievances found matching your criteria",
+    "hi": "आपके मानदंडों से मेल खाती कोई शिकायत नहीं मिली"
+  },
+  "common.emptyStates.noProjectsFound": {
+    "en": "No active projects available at this time",
+    "hi": "इस समय कोई सक्रिय परियोजना उपलब्ध नहीं है"
+  },
+  "common.emptyStates.noOfficersFound": {
+    "en": "No officers matching search filters",
+    "hi": "खोज फ़िल्टर से मेल खाते कोई अधिकारी नहीं हैं"
+  },
+  "common.emptyStates.noActivitiesFound": {
+    "en": "No field activities logged yet",
+    "hi": "अभी तक कोई क्षेत्रीय गतिविधि दर्ज नहीं की गई है"
+  },
+  "common.loading.loading": {
+    "en": "Loading...",
+    "hi": "लोड हो रहा है..."
+  },
+  "common.loading.pleaseWait": {
+    "en": "Please wait...",
+    "hi": "कृपया प्रतीक्षा करें..."
+  },
+  "common.loading.fetchingData": {
+    "en": "Fetching latest data...",
+    "hi": "नवीनतम डेटा प्राप्त किया जा रहा है..."
+  },
+  "common.loading.processing": {
+    "en": "Processing your request...",
+    "hi": "आपके अनुरोध पर कार्रवाई की जा रही है..."
+  },
+  "common.loading.uploadingMedia": {
+    "en": "Uploading media...",
+    "hi": "मीडिया अपलोड किया जा रहा है..."
+  },
+  "common.loading.analyzingAi": {
+    "en": "Analyzing with Multimodal AI...",
+    "hi": "मल्टीमॉडल एआई के साथ विश्लेषण किया जा रहा है..."
+  },
+  "common.loading.savingChanges": {
+    "en": "Saving changes...",
+    "hi": "परिवर्तन सहेजे जा रहे हैं..."
+  },
+  "common.pagination.previous": {
+    "en": "Previous",
+    "hi": "पिछला"
+  },
+  "common.pagination.next": {
+    "en": "Next",
+    "hi": "आगे"
+  },
+  "common.pagination.page": {
+    "en": "Page",
+    "hi": "पृष्ठ"
+  },
+  "common.pagination.of": {
+    "en": "of",
+    "hi": "का"
+  },
+  "common.pagination.rowsPerPage": {
+    "en": "Rows per page",
+    "hi": "पंक्तियाँ प्रति पृष्ठ"
+  },
+  "common.pagination.showing": {
+    "en": "Showing",
+    "hi": "दिखाया जा रहा है"
+  },
+  "common.pagination.entries": {
+    "en": "entries",
+    "hi": "प्रविष्टियाँ"
+  },
+  "common.pagination.totalRecords": {
+    "en": "Total records",
+    "hi": "कुल रिकॉर्ड"
+  },
+  "common.search.searchPlaceholder": {
+    "en": "Search grievances, cases, locations...",
+    "hi": "शिकायतें, मामले, स्थान खोजें..."
+  },
+  "common.search.searchGrievances": {
+    "en": "Search grievances...",
+    "hi": "शिकायतें खोजें..."
+  },
+  "common.search.searchUsers": {
+    "en": "Search users...",
+    "hi": "उपयोगकर्ता खोजें..."
+  },
+  "common.search.searchDepartments": {
+    "en": "Search departments...",
+    "hi": "विभाग खोजें..."
+  },
+  "common.search.searchProjects": {
+    "en": "Search projects...",
+    "hi": "परियोजनाएं खोजें..."
+  },
+  "common.search.searchOfficers": {
+    "en": "Search officers...",
+    "hi": "अधिकारी खोजें..."
+  },
+  "common.search.quickNavigator": {
+    "en": "Quick Navigator...",
+    "hi": "त्वरित नेविगेटर..."
+  },
+  "common.search.searchAll": {
+    "en": "Search across the platform...",
+    "hi": "प्लेटफ़ॉर्म पर सभी खोजें..."
+  },
+  "ai.processing": {
+    "en": "AI Processing",
+    "hi": "एआई प्रसंस्करण"
+  },
+  "ai.ocrResult": {
+    "en": "OCR Text Extracted",
+    "hi": "ओसीआर पाठ निकाला गया"
+  },
+  "ai.speechResult": {
+    "en": "Vernacular Speech Transcript",
+    "hi": "स्थानीय भाषा भाषण प्रतिलेख"
+  },
+  "ai.speechTranscript": {
+    "en": "Speech Transcript",
+    "hi": "भाषण प्रतिलेख"
+  },
+  "ai.confidenceScore": {
+    "en": "AI Confidence Score",
+    "hi": "एआई विश्वास स्कोर"
+  },
+  "ai.aiConfidence": {
+    "en": "AI Confidence",
+    "hi": "एआई विश्वास"
+  },
+  "ai.suggestedCategory": {
+    "en": "Suggested Category",
+    "hi": "सुझाई गई श्रेणी"
+  },
+  "ai.suggestedDepartment": {
+    "en": "Suggested Department",
+    "hi": "सुझाया गया विभाग"
+  },
+  "ai.recommendedDepartment": {
+    "en": "Recommended Department",
+    "hi": "अनुशंसित विभाग"
+  },
+  "ai.suggestedIndustry": {
+    "en": "Suggested Industry Partner",
+    "hi": "सुझाया गया उद्योग भागीदार"
+  },
+  "ai.duplicateDetection": {
+    "en": "Duplicate Grievance Detection",
+    "hi": "डुप्लिकेट शिकायत का पता लगाना"
+  },
+  "ai.aiVerification": {
+    "en": "Multimodal Vision Verification",
+    "hi": "मल्टीमॉडल विज़न सत्यापन"
+  },
+  "ai.smartRouting": {
+    "en": "Intelligent Departmental Routing",
+    "hi": "बुद्धिमान विभागीय रूटिंग"
+  },
+  "ai.previewTitle": {
+    "en": "Multimodal AI Extraction Preview",
+    "hi": "मल्टीमॉडल एआई निष्कर्षण पूर्वावलोकन"
+  },
+  "ai.previewSubtitle": {
+    "en": "Our computer vision & speech pipelines extracted the following data. Verify and adjust before dispatching.",
+    "hi": "हमारी कंप्यूटर विज़न और भाषण पाइपलाइनों ने निम्नलिखित डेटा निकाला है। प्रेषण से पहले सत्यापित और समायोजित करें।"
+  },
+  "ai.detectedHeadline": {
+    "en": "Detected Grievance Headline",
+    "hi": "पहचाना गया शिकायत शीर्षक"
+  },
+  "ai.classifiedCategory": {
+    "en": "AI Classified Category",
+    "hi": "एआई वर्गीकृत श्रेणी"
+  },
+  "ai.dispatchedDept": {
+    "en": "Allocated Municipal Department",
+    "hi": "आवंटित नगर पालिका विभाग"
+  },
+  "ai.severityPriority": {
+    "en": "Severity & Urgency Priority",
+    "hi": "गंभीरता एवं तात्कालिकता प्राथमिकता"
+  },
+  "ai.mappedLocation": {
+    "en": "Mapped Incident Location",
+    "hi": "मानचित्रित घटना स्थल"
+  },
+  "ai.confirmSubmit": {
+    "en": "Confirm & Dispatch Grievance",
+    "hi": "पुष्टि करें एवं प्रेषित करें"
+  },
+  "ai.cancel": {
+    "en": "Cancel",
+    "hi": "रद्द करें"
+  },
+  "ai.ocrBadge": {
+    "en": "FastAPI OCR Extracted",
+    "hi": "FastAPI ओसीआर निकाला गया"
+  },
+  "ai.sttBadge": {
+    "en": "Vernacular Speech Transcribed",
+    "hi": "स्थानीय बोली प्रतिलेखित"
+  },
+  "ai.verificationStep": {
+    "en": "Citizen Verification Step",
+    "hi": "नागरिक सत्यापन चरण"
+  },
+  "ai.verificationStepHelp": {
+    "en": "You can directly edit any field below before final dispatch to ensure 100% accuracy.",
+    "hi": "100% सटीकता सुनिश्चित करने के लिए आप अंतिम प्रेषण से पहले नीचे किसी भी फ़ील्ड को सीधे संपादित कर सकते हैं।"
+  },
+  "ai.ocrVision": {
+    "en": "OCR Vision Extraction",
+    "hi": "ओसीआर विज़न निष्कर्षण"
+  },
+  "ai.noOcrText": {
+    "en": "No text detected on signboards",
+    "hi": "साइनबोर्ड पर कोई पाठ नहीं मिला"
+  },
+  "ai.noAudioMemo": {
+    "en": "No audio memo attached",
+    "hi": "कोई ऑडियो मेमो संलग्न नहीं है"
+  },
+  "ai.priorityScore": {
+    "en": "Calculated Priority Score",
+    "hi": "गणना किया गया प्राथमिकता स्कोर"
+  },
+  "ai.estimatedCost": {
+    "en": "Estimated Municipal Cost",
+    "hi": "अनुमानित नगर निगम लागत"
+  },
+  "ai.estimatedTime": {
+    "en": "Estimated Resolution Time",
+    "hi": "अनुमानित समाधान समय"
+  },
+  "ai.recommendation": {
+    "en": "AI Governance Recommendation",
+    "hi": "एआई शासन अनुशंसा"
+  },
+  "ai.confidenceHigh": {
+    "en": "High Confidence (>90%)",
+    "hi": "उच्च विश्वास (>90%)"
+  },
+  "ai.confidenceMedium": {
+    "en": "Medium Confidence (70-90%)",
+    "hi": "मध्यम विश्वास (70-90%)"
+  },
+  "ai.confidenceLow": {
+    "en": "Low Confidence (<70%)",
+    "hi": "कम विश्वास (<70%)"
+  },
+  "ai.duplicateFound": {
+    "en": "Potential Duplicate Detected",
+    "hi": "संभावित डुप्लिकेट का पता चला"
+  },
+  "ai.duplicateScore": {
+    "en": "Similarity Score",
+    "hi": "समानता स्कोर"
+  },
+  "citizen.portalTitle": {
+    "en": "Citizen Civic Portal",
+    "hi": "नागरिक पोर्टल"
+  },
+  "citizen.dashboard.welcomeBack": {
+    "en": "Welcome back",
+    "hi": "वापसी पर स्वागत है"
+  },
+  "citizen.dashboard.totalReported": {
+    "en": "Total Reported",
+    "hi": "कुल रिपोर्ट की गई"
+  },
+  "citizen.dashboard.inProgress": {
+    "en": "In Progress",
+    "hi": "प्रगति पर है"
+  },
+  "citizen.dashboard.resolved": {
+    "en": "Resolved",
+    "hi": "हल किया गया"
+  },
+  "citizen.dashboard.needsVerification": {
+    "en": "Needs Verification",
+    "hi": "सत्यापन की आवश्यकता है"
+  },
+  "citizen.dashboard.communityImpact": {
+    "en": "Community Impact Score",
+    "hi": "सामुदायिक प्रभाव स्कोर"
+  },
+  "citizen.dashboard.avgResolution": {
+    "en": "Average Resolution Time",
+    "hi": "औसत समाधान समय"
+  },
+  "citizen.dashboard.recentGrievances": {
+    "en": "Recent Grievances",
+    "hi": "हाल की शिकायतें"
+  },
+  "citizen.dashboard.reportNewIssue": {
+    "en": "Report a New Grievance",
+    "hi": "नई शिकायत दर्ज करें"
+  },
+  "citizen.dashboard.myIssues": {
+    "en": "My Grievances",
+    "hi": "मेरी शिकायतें"
+  },
+  "citizen.dashboard.trackIssues": {
+    "en": "Track Resolution",
+    "hi": "निवारण ट्रैक करें"
+  },
+  "citizen.dashboard.liveIncidents": {
+    "en": "Live Civic Incidents",
+    "hi": "लाइव नागरिक घटनाएं"
+  },
+  "citizen.dashboard.civicFeed": {
+    "en": "Civic Feed",
+    "hi": "नागरिक फ़ीड"
+  },
+  "citizen.dashboard.satisfactionScore": {
+    "en": "Citizen Satisfaction Rating",
+    "hi": "नागरिक संतुष्टि रेटिंग"
+  },
+  "citizen.dashboard.activeCases": {
+    "en": "Active Grievances",
+    "hi": "सक्रिय शिकायतें"
+  },
+  "citizen.dashboard.resolvedCases": {
+    "en": "Resolved Grievances",
+    "hi": "हल की गई शिकायतें"
+  },
+  "citizen.report.title": {
+    "en": "Report a Societal Grievance",
+    "hi": "सामाजिक शिकायत दर्ज करें"
+  },
+  "citizen.report.subtitle": {
+    "en": "Submit photos, video, audio voice notes, or documents. Our FastAPI AI engine will extract signboards via OCR, transcribe vernacular speech, and generate an interactive AI Preview for your review.",
+    "hi": "फ़ोटो, वीडियो, ऑडियो वॉयस नोट्स या दस्तावेज़ सबमिट करें। हमारा एआई इंजन ओसीआर के माध्यम से साइनबोर्ड निकालेगा और एआई पूर्वावलोकन उत्पन्न करेगा।"
+  },
+  "citizen.report.multimodalBadge": {
+    "en": "Multimodal AI Ingestion",
+    "hi": "मल्टीमॉडल एआई अंतर्ग्रहण"
+  },
+  "citizen.report.moduleBadge": {
+    "en": "Module 1",
+    "hi": "मॉड्यूल 1"
+  },
+  "citizen.report.uploadEvidence": {
+    "en": "Photographic & Document Evidence",
+    "hi": "फ़ोटोग्राफ़िक एवं दस्तावेज़ साक्ष्य"
+  },
+  "citizen.report.uploadSubtitle": {
+    "en": "Upload image of defect, broken hazard signboard, or municipal document",
+    "hi": "दोष, टूटे हुए साइनबोर्ड या नगरपालिका दस्तावेज़ की छवि अपलोड करें"
+  },
+  "citizen.report.dragDrop": {
+    "en": "Drag & Drop Images, Video clips, or Documents",
+    "hi": "छवियां, वीडियो क्लिप या दस्तावेज़ खींचें और छोड़ें"
+  },
+  "citizen.report.supportedFormats": {
+    "en": "Supports JPEG, PNG, MP4, and PDF (Max 25MB). Auto-scanned by FastAPI OCR and computer vision.",
+    "hi": "JPEG, PNG, MP4, और PDF (अधिकतम 25MB) का समर्थन करता है।"
+  },
+  "citizen.report.browseFiles": {
+    "en": "Browse Files",
+    "hi": "फ़ाइलें ब्राउज़ करें"
+  },
+  "citizen.report.openCamera": {
+    "en": "Open Camera",
+    "hi": "कैमरा खोलें"
+  },
+  "citizen.report.uploadingProgress": {
+    "en": "Uploading & Processing Media via AI...",
+    "hi": "एआई के माध्यम से मीडिया अपलोड और संसाधित किया जा रहा है..."
+  },
+  "citizen.report.attachedEvidence": {
+    "en": "Attached Evidence",
+    "hi": "संलग्न साक्ष्य"
+  },
+  "citizen.report.voiceGrievance": {
+    "en": "Voice Audio Grievance",
+    "hi": "वॉयस ऑडियो शिकायत"
+  },
+  "citizen.report.optional": {
+    "en": "Optional",
+    "hi": "वैकल्पिक"
+  },
+  "citizen.report.voiceSubtitle": {
+    "en": "Record a spoken description. Transcribed automatically by Speech-to-Text.",
+    "hi": "बोला गया विवरण रिकॉर्ड करें। स्पीच-टू-टेक्स्ट द्वारा स्वचालित रूप से प्रतिलेखित।"
+  },
+  "citizen.report.pressRecordHelp": {
+    "en": "Press record to describe your issue in any language. Our FastAPI STT engine will transcribe it automatically.",
+    "hi": "किसी भी भाषा में अपनी समस्या का वर्णन करने के लिए रिकॉर्ड दबाएं।"
+  },
+  "citizen.report.startVoiceRecording": {
+    "en": "Start Voice Recording",
+    "hi": "वॉयस रिकॉर्डिंग शुरू करें"
+  },
+  "citizen.report.stopRecording": {
+    "en": "Stop Recording",
+    "hi": "रिकॉर्डिंग बंद करें"
+  },
+  "citizen.report.recording": {
+    "en": "Recording...",
+    "hi": "रिकॉर्डिंग हो रही है..."
+  },
+  "citizen.report.speechProcessing": {
+    "en": "Speech Processing...",
+    "hi": "भाषण प्रसंस्करण..."
+  },
+  "citizen.report.speechConverted": {
+    "en": "Speech Converted Successfully",
+    "hi": "भाषण सफलतापूर्वक परिवर्तित हुआ"
+  },
+  "citizen.report.incidentLocation": {
+    "en": "Incident Geo-Location",
+    "hi": "घटना का भौगोलिक स्थान"
+  },
+  "citizen.report.locationSubtitle": {
+    "en": "Pinpoint exact coordinates for municipal field worker dispatch",
+    "hi": "नगर निगम कार्यकर्ता प्रेषण के लिए सटीक निर्देशांक इंगित करें"
+  },
+  "citizen.report.useCurrentGps": {
+    "en": "Use Current GPS",
+    "hi": "वर्तमान GPS का उपयोग करें"
+  },
+  "citizen.report.streetAddress": {
+    "en": "Street Address / Landmark",
+    "hi": "सड़क का पता / सीमाचिह्न"
+  },
+  "citizen.report.addressPlaceholder": {
+    "en": "e.g. 14th Main Rd, Near Indira Gandhi Circle",
+    "hi": "उदा. 14वां मुख्य मार्ग, इंदिरा गांधी सर्कल के पास"
+  },
+  "citizen.report.mapTip": {
+    "en": "Tip: You can click anywhere on the map or drag the pin to adjust exact coordinates.",
+    "hi": "सुझाव: निर्देशांक समायोजित करने के लिए आप मानचित्र पर कहीं भी क्लिक कर सकते हैं।"
+  },
+  "citizen.report.contextTitle": {
+    "en": "Problem Description",
+    "hi": "समस्या का विवरण"
+  },
+  "citizen.report.contextSubtitle": {
+    "en": "Provide brief context (AI will auto-expand and categorize in the preview)",
+    "hi": "संक्षिप्त संदर्भ प्रदान करें (एआई स्वचालित रूप से वर्गीकृत करेगा)"
+  },
+  "citizen.report.headlineLabel": {
+    "en": "Brief Grievance Headline",
+    "hi": "संक्षिप्त शिकायत शीर्षक"
+  },
+  "citizen.report.headlinePlaceholder": {
+    "en": "e.g., Underground Water Pipe Burst & Road Inundation",
+    "hi": "उदा., भूमिगत पानी की पाइप फटना और सड़क जलभराव"
+  },
+  "citizen.report.detailsLabel": {
+    "en": "Detailed Description",
+    "hi": "विस्तृत विवरण"
+  },
+  "citizen.report.detailsPlaceholder": {
+    "en": "Describe the societal impact, duration, and safety hazards...",
+    "hi": "सामाजिक प्रभाव, अवधि और सुरक्षा खतरों का वर्णन करें..."
+  },
+  "citizen.report.categoryLabel": {
+    "en": "Municipal Category",
+    "hi": "नगर पालिका श्रेणी"
+  },
+  "citizen.report.priorityLabel": {
+    "en": "Urgency Priority",
+    "hi": "तात्कालिकता प्राथमिकता"
+  },
+  "citizen.report.generateAiPreview": {
+    "en": "Generate AI Ingestion Preview",
+    "hi": "एआई अंतर्ग्रहण पूर्वावलोकन उत्पन्न करें"
+  },
+  "citizen.report.processingAi": {
+    "en": "Processing Multimodal AI...",
+    "hi": "मल्टीमॉडल एआई प्रसंस्करण जारी..."
+  },
+  "citizen.report.audioMemo": {
+    "en": "Audio Grievance Memo",
+    "hi": "ऑडियो शिकायत मेमो"
+  },
+  "citizen.report.readyStt": {
+    "en": "Ready for STT parsing",
+    "hi": "एसटीटी पार्सिंग के लिए तैयार"
+  },
+  "citizen.report.incidentCoordinates": {
+    "en": "Grievance Incident Coordinates",
+    "hi": "शिकायत घटना निर्देशांक"
+  },
+  "citizen.report.currentDetectedLocation": {
+    "en": "Current Detected Location",
+    "hi": "वर्तमान पता लगाया गया स्थान"
+  },
+  "citizen.track.title": {
+    "en": "Track Grievance Resolution",
+    "hi": "शिकायत निवारण ट्रैक करें"
+  },
+  "citizen.track.subtitle": {
+    "en": "Monitor live status transitions, assigned departmental engineers, and resolution SLA timers.",
+    "hi": "लाइव स्थिति परिवर्तन, नियुक्त विभागीय इंजीनियरों और एसएलए टाइमर की निगरानी करें।"
+  },
+  "citizen.track.enterId": {
+    "en": "Enter Grievance Tracking ID",
+    "hi": "शिकायत ट्रैकिंग आईडी दर्ज करें"
+  },
+  "citizen.track.searchPlaceholder": {
+    "en": "e.g. SOC-2026-8821",
+    "hi": "उदा. SOC-2026-8821"
+  },
+  "citizen.track.currentStage": {
+    "en": "Current Stage",
+    "hi": "वर्तमान चरण"
+  },
+  "citizen.track.assignedTo": {
+    "en": "Assigned Department",
+    "hi": "आवंटित विभाग"
+  },
+  "citizen.track.officerInCharge": {
+    "en": "Officer in Charge",
+    "hi": "प्रभारी अधिकारी"
+  },
+  "citizen.track.slaTimer": {
+    "en": "SLA Resolution Countdown",
+    "hi": "एसएलए समाधान उलटी गिनती"
+  },
+  "citizen.track.timeline": {
+    "en": "Audit Timeline",
+    "hi": "ऑडिट समयरेखा"
+  },
+  "citizen.track.trackingDetails": {
+    "en": "Tracking Details",
+    "hi": "ट्रैकिंग विवरण"
+  },
+  "citizen.track.liveStatusTransitions": {
+    "en": "Live Status Transitions",
+    "hi": "लाइव स्थिति परिवर्तन"
+  },
+  "citizen.profile.title": {
+    "en": "Citizen Profile",
+    "hi": "नागरिक प्रोफ़ाइल"
+  },
+  "citizen.profile.fullName": {
+    "en": "Full Name",
+    "hi": "पूरा नाम"
+  },
+  "citizen.profile.email": {
+    "en": "Email Address",
+    "hi": "ईमेल पता"
+  },
+  "citizen.profile.phone": {
+    "en": "Phone Number",
+    "hi": "फ़ोन नंबर"
+  },
+  "citizen.profile.district": {
+    "en": "Residential District",
+    "hi": "आवासीय ज़िला"
+  },
+  "citizen.profile.address": {
+    "en": "Permanent Address",
+    "hi": "स्थायी पता"
+  },
+  "citizen.profile.saveProfile": {
+    "en": "Save Profile",
+    "hi": "प्रोफ़ाइल सहेजें"
+  },
+  "citizen.profile.citizenBadge": {
+    "en": "Verified Citizen",
+    "hi": "सत्यापित नागरिक"
+  },
+  "citizen.profile.verificationStatus": {
+    "en": "Identity Verification Status",
+    "hi": "पहचान सत्यापन स्थिति"
+  },
+  "citizen.settings.title": {
+    "en": "Preferences & Settings",
+    "hi": "प्राथमिकताएं एवं सेटिंग्स"
+  },
+  "citizen.settings.notifications": {
+    "en": "Grievance Notifications",
+    "hi": "शिकायत सूचनाएं"
+  },
+  "citizen.settings.emailAlerts": {
+    "en": "Email Alerts",
+    "hi": "ईमेल अलर्ट"
+  },
+  "citizen.settings.smsAlerts": {
+    "en": "SMS Alerts",
+    "hi": "एसएमएस अलर्ट"
+  },
+  "citizen.settings.theme": {
+    "en": "Display Theme",
+    "hi": "प्रदर्शन थीम"
+  },
+  "citizen.settings.language": {
+    "en": "App Language",
+    "hi": "ऐप भाषा"
+  },
+  "citizen.settings.savePreferences": {
+    "en": "Save Preferences",
+    "hi": "प्राथमिकताएं सहेजें"
+  },
+  "government.portalTitle": {
+    "en": "Municipal Command & Control",
+    "hi": "नगर पालिका कमान एवं नियंत्रण"
+  },
+  "government.dashboard.title": {
+    "en": "Government Official Portal",
+    "hi": "सरकारी अधिकारी पोर्टल"
+  },
+  "government.dashboard.overview": {
+    "en": "Municipal Overview",
+    "hi": "नगर पालिका अवलोकन"
+  },
+  "government.dashboard.assignedCases": {
+    "en": "Assigned Grievances",
+    "hi": "आवंटित शिकायतें"
+  },
+  "government.dashboard.liveCases": {
+    "en": "Active Dockets",
+    "hi": "सक्रिय मामले"
+  },
+  "government.dashboard.slaBreachRisk": {
+    "en": "SLA Breach Risk",
+    "hi": "एसएलए उल्लंघन जोखिम"
+  },
+  "government.dashboard.avgTurnaround": {
+    "en": "Average Turnaround",
+    "hi": "औसत समाधान समय"
+  },
+  "government.dashboard.citizenSatisfaction": {
+    "en": "Citizen Satisfaction",
+    "hi": "नागरिक संतुष्टि"
+  },
+  "government.dashboard.urgentDocket": {
+    "en": "Urgent Dispatch Docket",
+    "hi": "अत्यावश्यक प्रेषण डॉकेट"
+  },
+  "government.dashboard.viewQueue": {
+    "en": "View Full Queue",
+    "hi": "पूरी कतार देखें"
+  },
+  "government.dashboard.syncTelemetry": {
+    "en": "Sync Telemetry",
+    "hi": "टेलीमेट्री सिंक करें"
+  },
+  "government.dashboard.telemetryActive": {
+    "en": "Real-time civic telemetry and automated dispatch stream is active.",
+    "hi": "वास्तविक समय नागरिक टेलीमेट्री और स्वचालित प्रेषण स्ट्रीम सक्रिय है।"
+  },
+  "government.dashboard.monthlyTrends": {
+    "en": "Monthly Grievance Trends",
+    "hi": "मासिक शिकायत रुझान"
+  },
+  "government.dashboard.resolutionBreakdown": {
+    "en": "Resolution Breakdown",
+    "hi": "समाधान विवरण"
+  },
+  "government.dashboard.districtHeatmap": {
+    "en": "District Geo-Performance",
+    "hi": "ज़िला भू-प्रदर्शन"
+  },
+  "government.dashboard.departmentEfficiency": {
+    "en": "Department Efficiency Ratings",
+    "hi": "विभागीय दक्षता रेटिंग"
+  },
+  "government.dashboard.docketOverview": {
+    "en": "Docket Overview",
+    "hi": "डॉकेट अवलोकन"
+  },
+  "government.dashboard.statutoryTarget": {
+    "en": "Against 24h statutory state target",
+    "hi": "24 घंटे के वैधानिक राज्य लक्ष्य के विरुद्ध"
+  },
+  "government.officers.title": {
+    "en": "Officers Directory",
+    "hi": "अधिकारी निर्देशिका"
+  },
+  "government.officers.directory": {
+    "en": "Field & Nodal Officers",
+    "hi": "क्षेत्रीय एवं नोडल अधिकारी"
+  },
+  "government.officers.addOfficer": {
+    "en": "Register Officer",
+    "hi": "अधिकारी पंजीकृत करें"
+  },
+  "government.officers.officerName": {
+    "en": "Officer Name",
+    "hi": "अधिकारी का नाम"
+  },
+  "government.officers.designation": {
+    "en": "Designation",
+    "hi": "पदनाम"
+  },
+  "government.officers.department": {
+    "en": "Department",
+    "hi": "विभाग"
+  },
+  "government.officers.contact": {
+    "en": "Contact",
+    "hi": "संपर्क"
+  },
+  "government.officers.assignedCount": {
+    "en": "Assigned Cases",
+    "hi": "आवंटित मामले"
+  },
+  "government.officers.resolutionRate": {
+    "en": "Resolution Rate",
+    "hi": "समाधान दर"
+  },
+  "government.officers.status": {
+    "en": "Duty Status",
+    "hi": "ड्यूटी स्थिति"
+  },
+  "government.officers.actions": {
+    "en": "Actions",
+    "hi": "कार्रवाइयां"
+  },
+  "government.officers.searchOfficers": {
+    "en": "Search officers by name, badge, or department...",
+    "hi": "अधिकारियों को नाम, बैज या विभाग द्वारा खोजें..."
+  },
+  "government.departments.title": {
+    "en": "Municipal Departments",
+    "hi": "नगर पालिका विभाग"
+  },
+  "government.departments.municipalDepartments": {
+    "en": "City Operational Departments",
+    "hi": "शहर के परिचालन विभाग"
+  },
+  "government.departments.addDepartment": {
+    "en": "Add Department",
+    "hi": "विभाग जोड़ें"
+  },
+  "government.departments.deptName": {
+    "en": "Department Name",
+    "hi": "विभाग का नाम"
+  },
+  "government.departments.headOfDept": {
+    "en": "Head of Department",
+    "hi": "विभागाध्यक्ष"
+  },
+  "government.departments.activePersonnel": {
+    "en": "Active Personnel",
+    "hi": "सक्रिय कर्मचारी"
+  },
+  "government.departments.budgetAllocated": {
+    "en": "Budget Allocated",
+    "hi": "आवंटित बजट"
+  },
+  "government.departments.openGrievances": {
+    "en": "Open Grievances",
+    "hi": "खुली शिकायतें"
+  },
+  "government.departments.slaCompliance": {
+    "en": "SLA Compliance",
+    "hi": "एसएलए अनुपालन"
+  },
+  "government.departments.efficiencyRating": {
+    "en": "Efficiency Rating",
+    "hi": "दक्षता रेटिंग"
+  },
+  "government.departments.searchDepartments": {
+    "en": "Search departments...",
+    "hi": "विभाग खोजें..."
+  },
+  "government.assigned.title": {
+    "en": "Assigned Grievances",
+    "hi": "आवंटित शिकायतें"
+  },
+  "government.assigned.caseId": {
+    "en": "Docket ID",
+    "hi": "डॉकेट आईडी"
+  },
+  "government.assigned.citizenName": {
+    "en": "Citizen Name",
+    "hi": "नागरिक का नाम"
+  },
+  "government.assigned.category": {
+    "en": "Category",
+    "hi": "श्रेणी"
+  },
+  "government.assigned.priority": {
+    "en": "Priority",
+    "hi": "प्राथमिकता"
+  },
+  "government.assigned.status": {
+    "en": "Status",
+    "hi": "स्थिति"
+  },
+  "government.assigned.dateReported": {
+    "en": "Date Reported",
+    "hi": "रिपोर्ट की तारीख"
+  },
+  "government.assigned.targetResolution": {
+    "en": "Target Resolution",
+    "hi": "लक्ष्य समाधान"
+  },
+  "government.assigned.reassign": {
+    "en": "Reassign Officer",
+    "hi": "अधिकारी को पुनः सौंपें"
+  },
+  "government.assigned.escalate": {
+    "en": "Trigger Escalation",
+    "hi": "वृद्धि ट्रिगर करें"
+  },
+  "government.assigned.resolveCase": {
+    "en": "Mark Resolved",
+    "hi": "हल के रूप में चिह्नित करें"
+  },
+  "government.assigned.viewCase": {
+    "en": "Inspect Case",
+    "hi": "मामले का निरीक्षण करें"
+  },
+  "government.assigned.filterPriority": {
+    "en": "Filter by Priority",
+    "hi": "प्राथमिकता के अनुसार फ़िल्टर करें"
+  },
+  "government.assigned.filterStatus": {
+    "en": "Filter by Status",
+    "hi": "स्थिति के अनुसार फ़िल्टर करें"
+  },
+  "government.assigned.allCases": {
+    "en": "All Cases",
+    "hi": "सभी मामले"
+  },
+  "government.tracking.title": {
+    "en": "Grievance Geo-Tracking",
+    "hi": "शिकायत भू-ट्रैकिंग"
+  },
+  "government.tracking.subtitle": {
+    "en": "Interactive geographical map showing active and pending issues with field officer telemetry.",
+    "hi": "क्षेत्रीय अधिकारी टेलीमेट्री के साथ सक्रिय और लंबित मुद्दों को दिखाने वाला इंटरेक्टिव भौगोलिक मानचित्र।"
+  },
+  "government.tracking.liveIncidentMap": {
+    "en": "Live Incident Map",
+    "hi": "लाइव घटना मानचित्र"
+  },
+  "government.tracking.filterByWard": {
+    "en": "Filter by Ward",
+    "hi": "वार्ड के अनुसार फ़िल्टर करें"
+  },
+  "government.tracking.filterBySeverity": {
+    "en": "Filter by Severity",
+    "hi": "गंभीरता के अनुसार फ़िल्टर करें"
+  },
+  "government.aiSuggestions.title": {
+    "en": "AI Governance Insights",
+    "hi": "एआई शासन अंतर्दृष्टि"
+  },
+  "government.aiSuggestions.smartRoutingTitle": {
+    "en": "Automated Routing & Triage Recommendations",
+    "hi": "स्वचालित रूटिंग और वर्गीकरण सिफारिशें"
+  },
+  "government.aiSuggestions.recommendedActions": {
+    "en": "Recommended Actions",
+    "hi": "अनुशंसित कार्रवाइयां"
+  },
+  "government.aiSuggestions.anomalyDetection": {
+    "en": "Anomaly Detection",
+    "hi": "विसंगति का पता लगाना"
+  },
+  "government.aiSuggestions.duplicateClusters": {
+    "en": "Identified Duplicate Clusters",
+    "hi": "पहचाने गए डुप्लिकेट समूह"
+  },
+  "government.aiSuggestions.autoTriage": {
+    "en": "Auto-Triage Rule Engine",
+    "hi": "ऑटो-ट्राइएज नियम इंजन"
+  },
+  "government.reports.title": {
+    "en": "Governance Analytics & Reports",
+    "hi": "शासन एनालिटिक्स एवं रिपोर्ट"
+  },
+  "government.reports.generateReport": {
+    "en": "Generate Report",
+    "hi": "रिपोर्ट बनाएं"
+  },
+  "government.reports.downloadPdf": {
+    "en": "Download PDF",
+    "hi": "पीडीएफ डाउनलोड करें"
+  },
+  "government.reports.downloadCsv": {
+    "en": "Export CSV",
+    "hi": "सीएसवी निर्यात करें"
+  },
+  "government.reports.monthlyAudit": {
+    "en": "Monthly Municipal Audit",
+    "hi": "मासिक नगरपालिका ऑडिट"
+  },
+  "government.reports.quarterlyPerformance": {
+    "en": "Quarterly Performance Review",
+    "hi": "त्रैमासिक प्रदर्शन समीक्षा"
+  },
+  "government.reports.exportAnalytics": {
+    "en": "Export Analytics",
+    "hi": "एनालिटिक्स निर्यात करें"
+  },
+  "government.settings.title": {
+    "en": "Portal Administration Settings",
+    "hi": "पोर्टल प्रशासन सेटिंग्स"
+  },
+  "government.settings.slaThresholds": {
+    "en": "SLA Urgency Thresholds",
+    "hi": "एसएलए तात्कालिकता सीमाएं"
+  },
+  "government.settings.notificationRules": {
+    "en": "Alert & Notification Rules",
+    "hi": "चेतावनी एवं अधिसूचना नियम"
+  },
+  "government.settings.escalationMatrix": {
+    "en": "Escalation Matrix",
+    "hi": "वृद्धि मैट्रिक्स"
+  },
+  "government.settings.workingHours": {
+    "en": "Departmental Working Hours",
+    "hi": "विभागीय कार्य के घंटे"
+  },
+  "industry.portalTitle": {
+    "en": "Industry & Corporate CSR Portal",
+    "hi": "उद्योग एवं कॉर्पोरेट सीएसआर पोर्टल"
+  },
+  "industry.dashboard.title": {
+    "en": "Industry CSR Dashboard",
+    "hi": "उद्योग सीएसआर डैशबोर्ड"
+  },
+  "industry.dashboard.overview": {
+    "en": "CSR Capital & Impact",
+    "hi": "सीएसआर पूंजी एवं प्रभाव"
+  },
+  "industry.dashboard.csrFunding": {
+    "en": "CSR Capital Allocation",
+    "hi": "सीएसआर पूंजी आवंटन"
+  },
+  "industry.dashboard.capitalAllocation": {
+    "en": "Capital Allocation",
+    "hi": "पूंजी आवंटन"
+  },
+  "industry.dashboard.availableProjects": {
+    "en": "Vetted Projects",
+    "hi": "जांची गई परियोजनाएं"
+  },
+  "industry.dashboard.liveGrants": {
+    "en": "Active Grants",
+    "hi": "सक्रिय अनुदान"
+  },
+  "industry.dashboard.partnershipPact": {
+    "en": "PPP Agreements",
+    "hi": "पीपीपी समझौते"
+  },
+  "industry.dashboard.totalDisbursed": {
+    "en": "Total Funds Disbursed",
+    "hi": "कुल वितरित धन"
+  },
+  "industry.dashboard.activeProjects": {
+    "en": "Active Funded Projects",
+    "hi": "सक्रिय वित्तपोषित परियोजनाएं"
+  },
+  "industry.dashboard.impactScore": {
+    "en": "Societal Impact Score",
+    "hi": "सामाजिक प्रभाव स्कोर"
+  },
+  "industry.dashboard.viewOpportunities": {
+    "en": "View Opportunities",
+    "hi": "अवसर देखें"
+  },
+  "industry.dashboard.availableCsr": {
+    "en": "Available CSR Budget",
+    "hi": "उपलब्ध सीएसआर बजट"
+  },
+  "industry.dashboard.corporatePartner": {
+    "en": "Corporate Partner",
+    "hi": "कॉर्पोरेट भागीदार"
+  },
+  "industry.dashboard.verifiedEntity": {
+    "en": "Verified CSR Entity",
+    "hi": "सत्यापित सीएसआर इकाई"
+  },
+  "industry.projects.title": {
+    "en": "Available CSR Projects",
+    "hi": "उपलब्ध सीएसआर परियोजनाएं"
+  },
+  "industry.projects.projectCatalog": {
+    "en": "Project Catalog",
+    "hi": "परियोजना सूची"
+  },
+  "industry.projects.fundingGoal": {
+    "en": "Target Funding",
+    "hi": "लक्ष्य वित्तपोषण"
+  },
+  "industry.projects.raisedAmount": {
+    "en": "Funds Raised",
+    "hi": "एकत्रित धन"
+  },
+  "industry.projects.municipalSponsor": {
+    "en": "Municipal Sponsor",
+    "hi": "नगर पालिका प्रायोजक"
+  },
+  "industry.projects.sdgImpact": {
+    "en": "SDG Impact Category",
+    "hi": "एसडीजी प्रभाव श्रेणी"
+  },
+  "industry.projects.applyFunding": {
+    "en": "Commit CSR Funding",
+    "hi": "सीएसआर निधि प्रतिबद्ध करें"
+  },
+  "industry.projects.exploreInitiatives": {
+    "en": "Explore Civic Initiatives",
+    "hi": "नागरिक पहल का अन्वेषण करें"
+  },
+  "industry.projects.searchProjects": {
+    "en": "Search CSR projects by keyword, SDG, or city...",
+    "hi": "कीवर्ड, एसडीजी या शहर द्वारा सीएसआर परियोजनाएं खोजें..."
+  },
+  "industry.funding.title": {
+    "en": "Funding & Capital Allocation",
+    "hi": "वित्तपोषण एवं पूंजी आवंटन"
+  },
+  "industry.funding.grantApplication": {
+    "en": "Grant Proposal",
+    "hi": "अनुदान प्रस्ताव"
+  },
+  "industry.funding.disbursementStatus": {
+    "en": "Disbursement Status",
+    "hi": "वितरण स्थिति"
+  },
+  "industry.funding.corporateDonation": {
+    "en": "Corporate Contribution",
+    "hi": "कॉर्पोरेट योगदान"
+  },
+  "industry.funding.taxBenefit": {
+    "en": "Section 80G / 135 Benefit",
+    "hi": "धारा 80G / 135 लाभ"
+  },
+  "industry.funding.escrowStatus": {
+    "en": "Escrow Account Status",
+    "hi": "एस्क्रो खाता स्थिति"
+  },
+  "industry.funding.fundMilestone": {
+    "en": "Release Milestone Tranche",
+    "hi": "मील का पत्थर किश्त जारी करें"
+  },
+  "industry.csr.title": {
+    "en": "CSR Impact Analytics",
+    "hi": "सीएसआर प्रभाव एनालिटिक्स"
+  },
+  "industry.csr.spendByCategory": {
+    "en": "CSR Spend by Category",
+    "hi": "श्रेणी अनुसार सीएसआर खर्च"
+  },
+  "industry.csr.geographicAllocation": {
+    "en": "Geographic Allocation",
+    "hi": "भौगोलिक आवंटन"
+  },
+  "industry.csr.socialReturnOnInvestment": {
+    "en": "Social Return on Investment (SROI)",
+    "hi": "निवेश पर सामाजिक लाभ (एसआरओआई)"
+  },
+  "industry.csr.auditCompliance": {
+    "en": "Statutory Audit Compliance",
+    "hi": "वैधानिक ऑडिट अनुपालन"
+  },
+  "industry.csr.csrDistribution": {
+    "en": "CSR Distribution",
+    "hi": "सीएसआर वितरण"
+  },
+  "industry.mentorship.title": {
+    "en": "Industry Mentorship Program",
+    "hi": "उद्योग मार्गदर्शन कार्यक्रम"
+  },
+  "industry.mentorship.expertGuidance": {
+    "en": "Provide Expert Guidance",
+    "hi": "विशेषज्ञ मार्गदर्शन प्रदान करें"
+  },
+  "industry.mentorship.studentPrototypes": {
+    "en": "Student Prototypes",
+    "hi": "छात्र प्रोटोटाइप"
+  },
+  "industry.mentorship.industryAdvisors": {
+    "en": "Corporate Advisors",
+    "hi": "कॉर्पोरेट सलाहकार"
+  },
+  "industry.mentorship.scheduleSession": {
+    "en": "Schedule Mentoring Session",
+    "hi": "मार्गदर्शन सत्र निर्धारित करें"
+  },
+  "industry.collaboration.title": {
+    "en": "University Collaboration Hub",
+    "hi": "विश्वविद्यालय सहयोग केंद्र"
+  },
+  "industry.collaboration.academicPacts": {
+    "en": "Academic Alliances",
+    "hi": "शैक्षणिक गठबंधन"
+  },
+  "industry.collaboration.joinConsortium": {
+    "en": "Join Consortium",
+    "hi": "कंसोर्टियम में शामिल हों"
+  },
+  "industry.collaboration.jointResearch": {
+    "en": "Joint R&D Ventures",
+    "hi": "संयुक्त अनुसंधान उपक्रम"
+  },
+  "industry.collaboration.mouSigned": {
+    "en": "MoUs Executed",
+    "hi": "हस्ताक्षरित समझौता ज्ञापन"
+  },
+  "industry.prototypes.title": {
+    "en": "Technology Demonstrators & Prototypes",
+    "hi": "प्रौद्योगिकी प्रदर्शक एवं प्रोटोटाइप"
+  },
+  "industry.prototypes.technologyDemonstrators": {
+    "en": "Civic Prototypes",
+    "hi": "नागरिक प्रोटोटाइप"
+  },
+  "industry.prototypes.readyForDeployment": {
+    "en": "Ready for Pilot Deployment",
+    "hi": "पायलट परिनियोजन के लिए तैयार"
+  },
+  "industry.prototypes.pilotTested": {
+    "en": "Field Pilot Tested",
+    "hi": "क्षेत्रीय परीक्षण किया गया"
+  },
+  "industry.prototypes.commercialize": {
+    "en": "Scale & Adopt",
+    "hi": "विस्तार एवं अंगीकार"
+  },
+  "industry.tracking.title": {
+    "en": "Fund & Milestone Tracking",
+    "hi": "निधि एवं मील का पत्थर ट्रैकिंग"
+  },
+  "industry.tracking.milestoneProgress": {
+    "en": "Milestone Completion",
+    "hi": "मील का पत्थर पूर्णता"
+  },
+  "industry.tracking.verificationCheck": {
+    "en": "Third-Party Audit Check",
+    "hi": "तृतीय-पक्ष ऑडिट जांच"
+  },
+  "industry.tracking.fundRelease": {
+    "en": "Milestone Tranche Release",
+    "hi": "किश्त जारी करना"
+  },
+  "industry.profile.title": {
+    "en": "Organization Profile",
+    "hi": "संगठन प्रोफ़ाइल"
+  },
+  "industry.profile.companyName": {
+    "en": "Company Name",
+    "hi": "कंपनी का नाम"
+  },
+  "industry.profile.cinRegistration": {
+    "en": "Corporate Identification (CIN)",
+    "hi": "कॉर्पोरेट पहचान (CIN)"
+  },
+  "industry.profile.csrBudget": {
+    "en": "Annual CSR Budget",
+    "hi": "वार्षिक सीएसआर बजट"
+  },
+  "industry.profile.contactPerson": {
+    "en": "CSR Head / Contact",
+    "hi": "सीएसआर प्रमुख / संपर्क"
+  },
+  "industry.profile.panNumber": {
+    "en": "Corporate PAN",
+    "hi": "कॉर्पोरेट पैन"
+  },
+  "industry.settings.title": {
+    "en": "CSR Portal Settings",
+    "hi": "सीएसआर पोर्टल सेटिंग्स"
+  },
+  "industry.settings.emailNotifications": {
+    "en": "CSR Activity Alerts",
+    "hi": "सीएसआर गतिविधि अलर्ट"
+  },
+  "industry.settings.bankDetails": {
+    "en": "Escrow & Banking Details",
+    "hi": "एस्क्रो एवं बैंकिंग विवरण"
+  },
+  "industry.settings.complianceDocs": {
+    "en": "Compliance Documentation",
+    "hi": "अनुपालन दस्तावेज़ीकरण"
+  },
+  "ngo.portalTitle": {
+    "en": "Civil Society & Volunteer Portal",
+    "hi": "नागरिक समाज एवं स्वयंसेवक पोर्टल"
+  },
+  "ngo.dashboard.title": {
+    "en": "Civil Society Dashboard",
+    "hi": "नागरिक समाज डैशबोर्ड"
+  },
+  "ngo.dashboard.overview": {
+    "en": "Field Operations Overview",
+    "hi": "क्षेत्रीय संचालन अवलोकन"
+  },
+  "ngo.dashboard.groundSquads": {
+    "en": "Active Volunteer Squads",
+    "hi": "सक्रिय स्वयंसेवक दस्ते"
+  },
+  "ngo.dashboard.activeVolunteers": {
+    "en": "Registered Volunteers",
+    "hi": "पंजीकृत स्वयंसेवक"
+  },
+  "ngo.dashboard.fieldInterventions": {
+    "en": "Field Interventions",
+    "hi": "क्षेत्रीय हस्तक्षेप"
+  },
+  "ngo.dashboard.reliefOperations": {
+    "en": "Relief Operations",
+    "hi": "राहत कार्य"
+  },
+  "ngo.dashboard.communityImpact": {
+    "en": "Lives Positively Impacted",
+    "hi": "सकारात्मक रूप से प्रभावित जीवन"
+  },
+  "ngo.dashboard.certsAwarded": {
+    "en": "Certificates Awarded",
+    "hi": "प्रदान किए गए प्रमाणपत्र"
+  },
+  "ngo.dashboard.urgentReliefCalls": {
+    "en": "Urgent Civic Relief Calls",
+    "hi": "अत्यावश्यक नागरिक राहत कॉल"
+  },
+  "ngo.dashboard.groundTelemetryLive": {
+    "en": "Ground Telemetry Live",
+    "hi": "ग्राउंड टेलीमेट्री लाइव"
+  },
+  "ngo.dashboard.logFieldEvidence": {
+    "en": "Log Field Evidence",
+    "hi": "क्षेत्रीय साक्ष्य लॉग करें"
+  },
+  "ngo.projects.title": {
+    "en": "Community Projects",
+    "hi": "सामुदायिक परियोजनाएं"
+  },
+  "ngo.projects.localGrievances": {
+    "en": "Adopt Civic Grievances",
+    "hi": "नागरिक शिकायतें अपनाएं"
+  },
+  "ngo.projects.adoptIssue": {
+    "en": "Mobilize Squad for Issue",
+    "hi": "मुद्दे के लिए दस्ता जुटाएं"
+  },
+  "ngo.projects.publicWorks": {
+    "en": "Community Action Drives",
+    "hi": "सामुदायिक कार्य अभियान"
+  },
+  "ngo.projects.grassrootInterventions": {
+    "en": "Grassroots Interventions",
+    "hi": "जमीनी स्तर के हस्तक्षेप"
+  },
+  "ngo.assignedProjects.title": {
+    "en": "Assigned NGO Projects",
+    "hi": "आवंटित एनजीओ परियोजनाएं"
+  },
+  "ngo.assignedProjects.operationalSquads": {
+    "en": "Assigned Squads",
+    "hi": "आवंटित दस्ते"
+  },
+  "ngo.assignedProjects.projectTimeline": {
+    "en": "Execution Timeline",
+    "hi": "निष्पादन समयरेखा"
+  },
+  "ngo.assignedProjects.targetCompletion": {
+    "en": "Target Completion Date",
+    "hi": "लक्ष्य पूर्णता तिथि"
+  },
+  "ngo.assignedProjects.submitProgressReport": {
+    "en": "Submit Field Progress Report",
+    "hi": "प्रगति रिपोर्ट जमा करें"
+  },
+  "ngo.fieldActivities.title": {
+    "en": "Field Evidence Log",
+    "hi": "क्षेत्रीय साक्ष्य लॉग"
+  },
+  "ngo.fieldActivities.liveReliefLog": {
+    "en": "Live Field Logs",
+    "hi": "लाइव क्षेत्रीय लॉग"
+  },
+  "ngo.fieldActivities.geoTaggedPhotos": {
+    "en": "Geo-Tagged Photographs",
+    "hi": "जियो-टैग की गई तस्वीरें"
+  },
+  "ngo.fieldActivities.suppliesDistributed": {
+    "en": "Supplies / Aid Distributed",
+    "hi": "वितरित सामग्री / सहायता"
+  },
+  "ngo.fieldActivities.citizensAssisted": {
+    "en": "Citizens Assisted",
+    "hi": "सहायता प्राप्त नागरिक"
+  },
+  "ngo.fieldActivities.addLogEntry": {
+    "en": "Submit New Field Log",
+    "hi": "नया क्षेत्रीय लॉग सबमिट करें"
+  },
+  "ngo.volunteers.title": {
+    "en": "Volunteer Management",
+    "hi": "स्वयंसेवक प्रबंधन"
+  },
+  "ngo.volunteers.registerVolunteer": {
+    "en": "Enrol New Volunteer",
+    "hi": "नए स्वयंसेवक को नामांकित करें"
+  },
+  "ngo.volunteers.skillsDirectory": {
+    "en": "Skills & Expertise Directory",
+    "hi": "कौशल एवं विशेषज्ञता निर्देशिका"
+  },
+  "ngo.volunteers.assignWard": {
+    "en": "Assign to Municipal Ward",
+    "hi": "नगर पालिका वार्ड को सौंपें"
+  },
+  "ngo.volunteers.volunteerSquads": {
+    "en": "Field Squads",
+    "hi": "क्षेत्रीय दस्ते"
+  },
+  "ngo.volunteers.attendance": {
+    "en": "Field Attendance",
+    "hi": "उपस्थिति"
+  },
+  "ngo.impact.title": {
+    "en": "Community Impact Analytics",
+    "hi": "सामुदायिक प्रभाव एनालिटिक्स"
+  },
+  "ngo.impact.livesImpacted": {
+    "en": "Citizens Directly Impacted",
+    "hi": "प्रत्यक्ष रूप से लाभान्वित नागरिक"
+  },
+  "ngo.impact.wardsTransformed": {
+    "en": "Municipal Wards Transformed",
+    "hi": "परिवर्तित नगरपालिका वार्ड"
+  },
+  "ngo.impact.satisfactionIndex": {
+    "en": "Grassroots Satisfaction Index",
+    "hi": "जमीनी स्तर संतुष्टि सूचकांक"
+  },
+  "ngo.impact.volunteerHours": {
+    "en": "Total Volunteer Hours Logged",
+    "hi": "कुल स्वयंसेवी घंटे लॉग किए गए"
+  },
+  "ngo.collaborations.title": {
+    "en": "Partnerships & Alliances",
+    "hi": "साझेदारी एवं गठबंधन"
+  },
+  "ngo.collaborations.municipalMoU": {
+    "en": "Municipal Cooperation Pacts",
+    "hi": "नगर निगम सहयोग समझौते"
+  },
+  "ngo.collaborations.corporateSponsors": {
+    "en": "Corporate CSR Partners",
+    "hi": "कॉर्पोरेट सीएसआर भागीदार"
+  },
+  "ngo.collaborations.universityAlliances": {
+    "en": "University Student Alliances",
+    "hi": "विश्वविद्यालय छात्र गठबंधन"
+  },
+  "ngo.certificates.title": {
+    "en": "Volunteer Certificates & Badges",
+    "hi": "स्वयंसेवक प्रमाणपत्र एवं बैज"
+  },
+  "ngo.certificates.awardCertificate": {
+    "en": "Issue Certificate of Appreciation",
+    "hi": "प्रशस्ति पत्र जारी करें"
+  },
+  "ngo.certificates.downloadBadge": {
+    "en": "Download Digital Badge",
+    "hi": "डिजिटल बैज डाउनलोड करें"
+  },
+  "ngo.certificates.recognitionLetter": {
+    "en": "Municipal Commendation Letter",
+    "hi": "नगर पालिका प्रशंसा पत्र"
+  },
+  "ngo.reports.title": {
+    "en": "Field Audit & Activity Reports",
+    "hi": "क्षेत्रीय ऑडिट एवं गतिविधि रिपोर्ट"
+  },
+  "ngo.reports.fieldAuditReports": {
+    "en": "Field Verification Reports",
+    "hi": "क्षेत्रीय सत्यापन रिपोर्ट"
+  },
+  "ngo.reports.monthlyActivitySummary": {
+    "en": "Monthly Activity Summary",
+    "hi": "मासिक गतिविधि सारांश"
+  },
+  "ngo.reports.incidentLogSheet": {
+    "en": "Incident Response Log",
+    "hi": "घटना प्रतिक्रिया लॉग"
+  },
+  "ngo.reports.submitToGovernment": {
+    "en": "Transmit Report to Government",
+    "hi": "सरकार को रिपोर्ट प्रेषित करें"
+  },
+  "ngo.settings.title": {
+    "en": "NGO Profile & Settings",
+    "hi": "एनजीओ प्रोफ़ाइल एवं सेटिंग्स"
+  },
+  "ngo.settings.registrationDetails": {
+    "en": "Trust / Society Registration",
+    "hi": "ट्रस्ट / सोसायटी पंजीकरण"
+  },
+  "ngo.settings.ngoDarpanId": {
+    "en": "NITI Aayog NGO Darpan ID",
+    "hi": "नीति आयोग एनजीओ दर्पण आईडी"
+  },
+  "ngo.settings.focalPoints": {
+    "en": "Field Coordinators",
+    "hi": "क्षेत्रीय समन्वयक"
+  },
+  "university.portalTitle": {
+    "en": "University & Academia Portal",
+    "hi": "विश्वविद्यालय एवं शिक्षा जगत पोर्टल"
+  },
+  "university.student.dashboard.title": {
+    "en": "Student Innovation Dashboard",
+    "hi": "छात्र नवाचार डैशबोर्ड"
+  },
+  "university.student.dashboard.academicCredits": {
+    "en": "Earned Academic Credits",
+    "hi": "अर्जित शैक्षणिक क्रेडिट"
+  },
+  "university.student.dashboard.assignedTasks": {
+    "en": "Assigned Lab Tasks",
+    "hi": "आवंटित प्रयोगशाला कार्य"
+  },
+  "university.student.dashboard.labProjects": {
+    "en": "Civic R&D Projects",
+    "hi": "नागरिक अनुसंधान परियोजनाएं"
+  },
+  "university.student.dashboard.prototypeChallenges": {
+    "en": "Innovation Challenges",
+    "hi": "नवाचार चुनौतियाँ"
+  },
+  "university.student.dashboard.submitMilestone": {
+    "en": "Submit Project Milestone",
+    "hi": "परियोजना मील का पत्थर जमा करें"
+  },
+  "university.student.tasks.title": {
+    "en": "Lab Tasks & Deliverables",
+    "hi": "प्रयोगशाला कार्य एवं प्रस्तुतियाँ"
+  },
+  "university.student.tasks.pendingTasks": {
+    "en": "Pending Tasks",
+    "hi": "लंबित कार्य"
+  },
+  "university.student.tasks.taskDescription": {
+    "en": "Task Instructions",
+    "hi": "कार्य निर्देश"
+  },
+  "university.student.tasks.dueDate": {
+    "en": "Submission Deadline",
+    "hi": "प्रस्तुति अंतिम तिथि"
+  },
+  "university.student.tasks.submitDeliverable": {
+    "en": "Submit Solution Deliverable",
+    "hi": "समाधान प्रस्तुति जमा करें"
+  },
+  "university.student.tasks.advisorNotes": {
+    "en": "Faculty Advisor Notes",
+    "hi": "संकाय सलाहकार नोट्स"
+  },
+  "university.student.tasks.dueTasks": {
+    "en": "Tasks Due Soon",
+    "hi": "जल्द देय कार्य"
+  },
+  "university.student.uploads.title": {
+    "en": "Upload Deliverables",
+    "hi": "प्रस्तुति अपलोड करें"
+  },
+  "university.student.uploads.researchNotes": {
+    "en": "Research Notes & Reports",
+    "hi": "अनुसंधान नोट्स एवं रिपोर्ट"
+  },
+  "university.student.uploads.projectCode": {
+    "en": "Source Code Repository",
+    "hi": "स्रोत कोड भंडार"
+  },
+  "university.student.uploads.presentationSlides": {
+    "en": "Presentation Deck",
+    "hi": "प्रस्तुति स्लाइड"
+  },
+  "university.student.uploads.submitForGrading": {
+    "en": "Submit for Academic Review",
+    "hi": "शैक्षणिक समीक्षा के लिए जमा करें"
+  },
+  "university.student.timeline.title": {
+    "en": "Milestone Timeline",
+    "hi": "मील का पत्थर समयरेखा"
+  },
+  "university.student.timeline.projectSchedule": {
+    "en": "Project Schedule",
+    "hi": "परियोजना अनुसूची"
+  },
+  "university.student.timeline.semesterDeadlines": {
+    "en": "Semester Milestones",
+    "hi": "सेमेस्टर मील के पत्थर"
+  },
+  "university.student.timeline.facultyReviewDate": {
+    "en": "Scheduled Faculty Review",
+    "hi": "निर्धारित संकाय समीक्षा"
+  },
+  "university.student.messages.title": {
+    "en": "Advisor Discussion",
+    "hi": "सलाहकार चर्चा"
+  },
+  "university.student.messages.chatWithMentor": {
+    "en": "Chat with Faculty Mentor",
+    "hi": "संकाय संरक्षक के साथ बातचीत करें"
+  },
+  "university.student.messages.feedbackThread": {
+    "en": "Feedback & Corrections",
+    "hi": "प्रतिक्रिया एवं सुधार"
+  },
+  "university.student.messages.askQuestion": {
+    "en": "Ask Question",
+    "hi": "प्रश्न पूछें"
+  },
+  "university.faculty.dashboard.title": {
+    "en": "Faculty Mentor Dashboard",
+    "hi": "संकाय संरक्षक डैशबोर्ड"
+  },
+  "university.faculty.dashboard.studentCohorts": {
+    "en": "Student Cohorts",
+    "hi": "छात्र समूह"
+  },
+  "university.faculty.dashboard.mentoredProjects": {
+    "en": "Mentored Projects",
+    "hi": "निर्देशित परियोजनाएं"
+  },
+  "university.faculty.dashboard.pendingApprovals": {
+    "en": "Pending Approvals",
+    "hi": "लंबित स्वीकृतियां"
+  },
+  "university.faculty.dashboard.researchPapers": {
+    "en": "Published Papers",
+    "hi": "प्रकाशित शोध पत्र"
+  },
+  "university.faculty.dashboard.innovationIndex": {
+    "en": "Cohort Innovation Index",
+    "hi": "समूह नवाचार सूचकांक"
+  },
+  "university.faculty.approvals.title": {
+    "en": "Milestone Approvals",
+    "hi": "मील का पत्थर स्वीकृतियां"
+  },
+  "university.faculty.approvals.reviewSubmission": {
+    "en": "Review Student Submission",
+    "hi": "छात्र प्रस्तुति की समीक्षा करें"
+  },
+  "university.faculty.approvals.approveMilestone": {
+    "en": "Approve Milestone",
+    "hi": "मील का पत्थर स्वीकृत करें"
+  },
+  "university.faculty.approvals.rejectMilestone": {
+    "en": "Request Revision",
+    "hi": "संशोधन का अनुरोध करें"
+  },
+  "university.faculty.approvals.provideFeedback": {
+    "en": "Feedback & Evaluation",
+    "hi": "प्रतिक्रिया एवं मूल्यांकन"
+  },
+  "university.faculty.approvals.gradeAwarded": {
+    "en": "Academic Credits Awarded",
+    "hi": "प्रदान किए गए शैक्षणिक क्रेडिट"
+  },
+  "university.faculty.approvals.pendingReviews": {
+    "en": "Pending Reviews",
+    "hi": "लंबित समीक्षाएं"
+  },
+  "university.faculty.proposals.title": {
+    "en": "Municipal Research Proposals",
+    "hi": "नगर निगम अनुसंधान प्रस्ताव"
+  },
+  "university.faculty.proposals.civicResearchTopics": {
+    "en": "Civic Problem Statements",
+    "hi": "नागरिक समस्या विवरण"
+  },
+  "university.faculty.proposals.grantProposals": {
+    "en": "Joint Research Grants",
+    "hi": "संयुक्त अनुसंधान अनुदान"
+  },
+  "university.faculty.proposals.callForPapers": {
+    "en": "Call for Solutions",
+    "hi": "समाधान के लिए आह्वान"
+  },
+  "university.faculty.proposals.openProposals": {
+    "en": "Open Proposals",
+    "hi": "खुले प्रस्ताव"
+  },
+  "university.faculty.teams.title": {
+    "en": "Student Research Teams",
+    "hi": "छात्र अनुसंधान दल"
+  },
+  "university.faculty.teams.teamRoster": {
+    "en": "Team Members",
+    "hi": "टीम के सदस्य"
+  },
+  "university.faculty.teams.assignLead": {
+    "en": "Designate Student Lead",
+    "hi": "छात्र नेता नियुक्त करें"
+  },
+  "university.faculty.teams.performanceReview": {
+    "en": "Periodic Evaluation",
+    "hi": "आवधिक मूल्यांकन"
+  },
+  "university.faculty.teams.academicAdvising": {
+    "en": "Academic Advising",
+    "hi": "शैक्षणिक सलाह"
+  },
+  "university.faculty.reports.title": {
+    "en": "Academic Analytics & Reports",
+    "hi": "शैक्षणिक एनालिटिक्स एवं रिपोर्ट"
+  },
+  "university.faculty.reports.cohortProgress": {
+    "en": "Cohort Progress Tracker",
+    "hi": "समूह प्रगति ट्रैकर"
+  },
+  "university.faculty.reports.publicationOutput": {
+    "en": "Academic Output",
+    "hi": "शैक्षणिक आउटपुट"
+  },
+  "university.faculty.reports.creditDistribution": {
+    "en": "Credit Distribution",
+    "hi": "क्रेडिट वितरण"
+  },
+  "university.shared.projects.title": {
+    "en": "Academic R&D Projects",
+    "hi": "शैक्षणिक अनुसंधान परियोजनाएं"
+  },
+  "university.shared.projects.studentResearch": {
+    "en": "Student Research Initiatives",
+    "hi": "छात्र अनुसंधान पहल"
+  },
+  "university.shared.projects.capstoneProjects": {
+    "en": "Civic Capstone Projects",
+    "hi": "कैपस्टोन परियोजनाएं"
+  },
+  "university.shared.projects.interdisciplinaryTeams": {
+    "en": "Interdisciplinary Teams",
+    "hi": "अंतःविषय टीमें"
+  },
+  "university.shared.research.title": {
+    "en": "Research Hub",
+    "hi": "अनुसंधान केंद्र"
+  },
+  "university.shared.research.publications": {
+    "en": "Whitepapers & Publications",
+    "hi": "श्वेतपत्र एवं प्रकाशन"
+  },
+  "university.shared.research.datasets": {
+    "en": "Open Civic Datasets",
+    "hi": "ओपन नागरिक डेटासेट"
+  },
+  "university.shared.research.patentFiling": {
+    "en": "Patent & IP Disclosures",
+    "hi": "पेटेंट एवं बौद्धिक संपदा"
+  },
+  "university.shared.research.peerReview": {
+    "en": "Peer Review Directory",
+    "hi": "सहकर्मी समीक्षा निर्देशिका"
+  },
+  "university.shared.innovation.title": {
+    "en": "Civic Innovation Lab",
+    "hi": "नागरिक नवाचार प्रयोगशाला"
+  },
+  "university.shared.innovation.innovationChallenges": {
+    "en": "Hackathons & Challenges",
+    "hi": "हैकाथॉन एवं चुनौतियाँ"
+  },
+  "university.shared.innovation.hackathonDemos": {
+    "en": "Prototype Showcase",
+    "hi": "प्रोटोटाइप शोकेस"
+  },
+  "university.shared.innovation.incubatorReady": {
+    "en": "Incubation Stage",
+    "hi": "ऊष्मायन चरण"
+  },
+  "university.shared.innovation.smartCityPrototypes": {
+    "en": "Smart City Tech Demos",
+    "hi": "स्मार्ट सिटी तकनीक डेमो"
+  },
+  "university.shared.credits.title": {
+    "en": "Academic Credits & Recognition",
+    "hi": "शैक्षणिक क्रेडिट एवं मान्यता"
+  },
+  "university.shared.credits.creditsEarned": {
+    "en": "Credits Earned",
+    "hi": "अर्जित क्रेडिट"
+  },
+  "university.shared.credits.skillBadges": {
+    "en": "Skill Badges",
+    "hi": "कौशल बैज"
+  },
+  "university.shared.credits.hallOfFame": {
+    "en": "Hall of Fame",
+    "hi": "हॉल ऑफ फेम"
+  },
+  "university.shared.credits.transcriptVerification": {
+    "en": "Verified Digital Transcript",
+    "hi": "सत्यापित डिजिटल प्रतिलेख"
+  },
+  "university.shared.repository.title": {
+    "en": "Academic Repository",
+    "hi": "शैक्षणिक भंडार"
+  },
+  "university.shared.repository.researchPapersArchive": {
+    "en": "Research Papers Archive",
+    "hi": "शोध पत्र पुरालेख"
+  },
+  "university.shared.repository.openDataVault": {
+    "en": "Open Civic Data Vault",
+    "hi": "ओपन डेटा वॉल्ट"
+  },
+  "university.shared.repository.citationIndex": {
+    "en": "Citation Index",
+    "hi": "उद्धरण सूचकांक"
+  },
+  "university.shared.settings.title": {
+    "en": "University Settings",
+    "hi": "विश्वविद्यालय सेटिंग्स"
+  },
+  "university.shared.settings.facultyProfile": {
+    "en": "Institutional Profile",
+    "hi": "संस्थागत प्रोफ़ाइल"
+  },
+  "university.shared.settings.departmentAffiliation": {
+    "en": "Department Affiliation",
+    "hi": "विभागीय संबद्धता"
+  },
+  "university.shared.settings.orcidId": {
+    "en": "ORCID / Researcher ID",
+    "hi": "ORCID / शोधकर्ता आईडी"
+  },
+  "admin.portalTitle": {
+    "en": "Central Command & Platform Administration",
+    "hi": "केंद्रीय कमान एवं प्लेटफ़ॉर्म प्रशासन"
+  },
+  "admin.dashboard.title": {
+    "en": "Platform Administration Dashboard",
+    "hi": "प्लेटफ़ॉर्म प्रशासन डैशबोर्ड"
+  },
+  "admin.dashboard.totalSystemUsers": {
+    "en": "Total Registered Users",
+    "hi": "कुल पंजीकृत उपयोगकर्ता"
+  },
+  "admin.dashboard.activePortals": {
+    "en": "Active Portals",
+    "hi": "सक्रिय पोर्टल"
+  },
+  "admin.dashboard.aiModelStatus": {
+    "en": "FastAPI AI Model Health",
+    "hi": "एआई मॉडल स्वास्थ्य"
+  },
+  "admin.dashboard.databaseHealth": {
+    "en": "Cluster Database Latency",
+    "hi": "डेटाबेस विलंबता"
+  },
+  "admin.dashboard.unresolvedGrievances": {
+    "en": "Total Open Grievances",
+    "hi": "कुल खुली शिकायतें"
+  },
+  "admin.dashboard.platformLoad": {
+    "en": "Server Infrastructure Load",
+    "hi": "सर्वर इन्फ्रास्ट्रक्चर लोड"
+  },
+  "admin.dashboard.liveEventStream": {
+    "en": "Live Platform Audit Stream",
+    "hi": "लाइव प्लेटफ़ॉर्म ऑडिट स्ट्रीम"
+  },
+  "admin.dashboard.rootConsole": {
+    "en": "ROOT CONSOLE",
+    "hi": "रूट कंसोल"
+  },
+  "admin.dashboard.cpuUsage": {
+    "en": "CPU Utilization",
+    "hi": "सीपीयू उपयोग"
+  },
+  "admin.dashboard.dbLatency": {
+    "en": "Database Query Latency",
+    "hi": "डेटाबेस विलंबता"
+  },
+  "admin.dashboard.uptime": {
+    "en": "System Uptime",
+    "hi": "सिस्टम अपटाइम"
+  },
+  "admin.users.title": {
+    "en": "User & Role Management",
+    "hi": "उपयोगकर्ता एवं भूमिका प्रबंधन"
+  },
+  "admin.users.allUsers": {
+    "en": "All System Users",
+    "hi": "सभी सिस्टम उपयोगकर्ता"
+  },
+  "admin.users.addUser": {
+    "en": "Provision User",
+    "hi": "उपयोगकर्ता जोड़ें"
+  },
+  "admin.users.editRole": {
+    "en": "Modify Roles & Scope",
+    "hi": "भूमिका एवं दायरा संशोधित करें"
+  },
+  "admin.users.suspendUser": {
+    "en": "Suspend Account",
+    "hi": "खाता निलंबित करें"
+  },
+  "admin.users.resetPassword": {
+    "en": "Reset Password",
+    "hi": "पासवर्ड रीसेट करें"
+  },
+  "admin.users.roleFilter": {
+    "en": "Filter by Role",
+    "hi": "भूमिका के अनुसार फ़िल्टर करें"
+  },
+  "admin.users.searchUsers": {
+    "en": "Search by name, email, or user ID...",
+    "hi": "नाम, ईमेल या आईडी द्वारा खोजें..."
+  },
+  "admin.roles.title": {
+    "en": "Role & Permission Management",
+    "hi": "भूमिका एवं अनुमति प्रबंधन"
+  },
+  "admin.roles.permissionsMatrix": {
+    "en": "Access Control Matrix",
+    "hi": "अभिगम नियंत्रण मैट्रिक्स"
+  },
+  "admin.roles.accessControl": {
+    "en": "Security Policies",
+    "hi": "सुरक्षा नीतियां"
+  },
+  "admin.roles.createRole": {
+    "en": "Define Custom Role",
+    "hi": "कस्टम भूमिका परिभाषित करें"
+  },
+  "admin.roles.customRoles": {
+    "en": "Configured Role Definitions",
+    "hi": "कॉन्फ़िगर की गई भूमिकाएं"
+  },
+  "admin.government.title": {
+    "en": "Municipal Administration Control",
+    "hi": "नगर पालिका प्रशासन नियंत्रण"
+  },
+  "admin.government.municipalBOD": {
+    "en": "Municipal Bodies",
+    "hi": "नगर पालिका निकाय"
+  },
+  "admin.government.cityDistricts": {
+    "en": "District Jurisdictions",
+    "hi": "ज़िला क्षेत्राधिकार"
+  },
+  "admin.government.assignWardEngineers": {
+    "en": "Assign Ward Engineers",
+    "hi": "वार्ड इंजीनियर नियुक्त करें"
+  },
+  "admin.universities.title": {
+    "en": "University Accreditation Management",
+    "hi": "विश्वविद्यालय प्रत्यायन प्रबंधन"
+  },
+  "admin.universities.registeredCampuses": {
+    "en": "Affiliated Universities",
+    "hi": "संबद्ध विश्वविद्यालय"
+  },
+  "admin.universities.accreditationVerify": {
+    "en": "NAAC / UGC Verification",
+    "hi": "NAAC / UGC सत्यापन"
+  },
+  "admin.universities.studentCap": {
+    "en": "Enrolment Quota",
+    "hi": "नामांकन कोटा"
+  },
+  "admin.industry.title": {
+    "en": "Industry & Corporate Partner Oversight",
+    "hi": "उद्योग एवं कॉर्पोरेट भागीदार निरीक्षण"
+  },
+  "admin.industry.corporatePartners": {
+    "en": "Registered CSR Partners",
+    "hi": "पंजीकृत सीएसआर भागीदार"
+  },
+  "admin.industry.csrValidation": {
+    "en": "Section 135 Eligibility Check",
+    "hi": "धारा 135 पात्रता जांच"
+  },
+  "admin.industry.escrowAudits": {
+    "en": "Escrow Disbursal Verification",
+    "hi": "एस्क्रो संवितरण सत्यापन"
+  },
+  "admin.ngos.title": {
+    "en": "NGO & Volunteer Oversight",
+    "hi": "एनजीओ एवं स्वयंसेवक निरीक्षण"
+  },
+  "admin.ngos.verifiedNgos": {
+    "en": "Accredited NGOs",
+    "hi": "मान्यता प्राप्त एनजीओ"
+  },
+  "admin.ngos.darpanCheck": {
+    "en": "NGO Darpan Verification",
+    "hi": "एनजीओ दर्पण सत्यापन"
+  },
+  "admin.ngos.groundClearance": {
+    "en": "Field Operation Clearances",
+    "hi": "क्षेत्रीय संचालन मंजूरी"
+  },
+  "admin.research.title": {
+    "en": "Research Institutes Oversight",
+    "hi": "अनुसंधान संस्थान निरीक्षण"
+  },
+  "admin.research.institutePartnerships": {
+    "en": "Research Partners",
+    "hi": "अनुसंधान भागीदार"
+  },
+  "admin.research.ethicsClearance": {
+    "en": "Ethics Review Board",
+    "hi": "नैतिकता समीक्षा बोर्ड"
+  },
+  "admin.research.datasetAccess": {
+    "en": "Data Access Permissions",
+    "hi": "डेटा एक्सेस अनुमतियाँ"
+  },
+  "admin.departments.title": {
+    "en": "Department Master Configuration",
+    "hi": "विभाग मास्टर विन्यास"
+  },
+  "admin.departments.routingRules": {
+    "en": "Automated Routing Rules",
+    "hi": "स्वचालित रूटिंग नियम"
+  },
+  "admin.departments.autoAssignmentEngine": {
+    "en": "AI Dispatch Engine",
+    "hi": "एआई प्रेषण इंजन"
+  },
+  "admin.departments.fallbackQueues": {
+    "en": "Fallback Escalation Queues",
+    "hi": "फ़ॉलबैक कतारें"
+  },
+  "admin.issues.title": {
+    "en": "Platform Grievance Master",
+    "hi": "प्लेटफ़ॉर्म शिकायत मास्टर"
+  },
+  "admin.issues.forceResolve": {
+    "en": "Administrative Resolution",
+    "hi": "प्रशासनिक समाधान"
+  },
+  "admin.issues.reassignCluster": {
+    "en": "Reassign Issue Cluster",
+    "hi": "मुद्दा क्लस्टर पुनः असाइन करें"
+  },
+  "admin.issues.auditLog": {
+    "en": "Immutable Action Log",
+    "hi": "अपरिवर्तनीय एक्शन लॉग"
+  },
+  "admin.issues.purgeTestData": {
+    "en": "Purge Test Data",
+    "hi": "परीक्षण डेटा साफ़ करें"
+  },
+  "admin.aiMonitoring.title": {
+    "en": "AI Vision & Telemetry Monitoring",
+    "hi": "एआई विज़न एवं टेलीमेट्री निगरानी"
+  },
+  "admin.aiMonitoring.geminiVisionUptime": {
+    "en": "Vision Model Uptime",
+    "hi": "विज़न मॉडल अपटाइम"
+  },
+  "admin.aiMonitoring.fastApiOcrStatus": {
+    "en": "FastAPI OCR Pipeline",
+    "hi": "FastAPI ओसीआर पाइपलाइन"
+  },
+  "admin.aiMonitoring.speechToTextLatency": {
+    "en": "STT Transcription Latency",
+    "hi": "एसटीटी प्रतिलेखन विलंबता"
+  },
+  "admin.aiMonitoring.accuracyScore": {
+    "en": "Triage Accuracy Score",
+    "hi": "ट्राइएज सटीकता स्कोर"
+  },
+  "admin.aiMonitoring.confidenceDistribution": {
+    "en": "Confidence Score Distribution",
+    "hi": "विश्वास स्कोर वितरण"
+  },
+  "admin.aiMonitoring.modelLogs": {
+    "en": "Inference Latency Logs",
+    "hi": "अनुमान विलंबता लॉग"
+  },
+  "admin.workflowMonitoring.title": {
+    "en": "Workflow Engine & Queue Telemetry",
+    "hi": "कार्यप्रवाह इंजन एवं कतार टेलीमेट्री"
+  },
+  "admin.workflowMonitoring.stateMachineInspect": {
+    "en": "State Machine Transitions",
+    "hi": "स्टेट मशीन संक्रमण"
+  },
+  "admin.workflowMonitoring.queueDepth": {
+    "en": "Message Queue Depth",
+    "hi": "संदेश कतार गहराई"
+  },
+  "admin.workflowMonitoring.deadLetterQueue": {
+    "en": "Dead-Letter Queue",
+    "hi": "डेड-लेटर कतार"
+  },
+  "admin.workflowMonitoring.retryFailedTasks": {
+    "en": "Retry Failed Tasks",
+    "hi": "विफल कार्यों का पुनः प्रयास करें"
+  },
+  "admin.analytics.title": {
+    "en": "Cross-Platform Macro Analytics",
+    "hi": "क्रॉस-प्लेटफ़ॉर्म मैक्रो एनालिटिक्स"
+  },
+  "admin.analytics.crossPortalActivity": {
+    "en": "Cross-Portal Usage Metrics",
+    "hi": "क्रॉस-पोर्टल उपयोग मेट्रिक्स"
+  },
+  "admin.analytics.municipalPerformanceIndex": {
+    "en": "Municipal Performance Index",
+    "hi": "नगर पालिका प्रदर्शन सूचकांक"
+  },
+  "admin.analytics.peakUsageHours": {
+    "en": "Peak Platform Activity Hours",
+    "hi": "चरम गतिविधि के घंटे"
+  },
+  "admin.systemHealth.title": {
+    "en": "Infrastructure & System Health",
+    "hi": "इन्फ्रास्ट्रक्चर एवं सिस्टम स्वास्थ्य"
+  },
+  "admin.systemHealth.databaseReplicas": {
+    "en": "PostgreSQL & Mongo Replicas",
+    "hi": "डेटाबेस प्रतिकृतियां"
+  },
+  "admin.systemHealth.redisCache": {
+    "en": "Redis In-Memory State",
+    "hi": "रेडिस इन-मेमोरी स्थिति"
+  },
+  "admin.systemHealth.storageUsage": {
+    "en": "Object Storage Volume",
+    "hi": "ऑब्जेक्ट स्टोरेज वॉल्यूम"
+  },
+  "admin.systemHealth.apiGateways": {
+    "en": "FastAPI Microservice Health",
+    "hi": "माइक्रोसर्विस स्वास्थ्य"
+  },
+  "admin.systemHealth.uptime99": {
+    "en": "99.98% High Availability",
+    "hi": "99.98% उच्च उपलब्धता"
+  },
+  "admin.systemHealth.online": {
+    "en": "ONLINE",
+    "hi": "ऑनलाइन"
+  },
+  "admin.systemHealth.maintenance": {
+    "en": "MAINTENANCE",
+    "hi": "रखरखाव"
+  },
+  "admin.settings.title": {
+    "en": "Platform Settings",
+    "hi": "प्लेटफ़ॉर्म सेटिंग्स"
+  },
+  "admin.settings.maintenanceMode": {
+    "en": "Maintenance Mode",
+    "hi": "रखरखाव मोड"
+  },
+  "admin.settings.apiRateLimits": {
+    "en": "API Rate Limiting",
+    "hi": "एपीआई दर सीमित करना"
+  },
+  "admin.settings.backupSchedules": {
+    "en": "Automated Backup Schedules",
+    "hi": "स्वचालित बैकअप अनुसूची"
+  },
+  "admin.settings.smtpConfig": {
+    "en": "SMTP & Email Gateways",
+    "hi": "एसएमटीपी एवं ईमेल गेटवे"
+  },
+  "toast.issueSubmitted": {
+    "en": "Grievance submitted successfully! Routed to responsible department.",
+    "hi": "शिकायत सफलतापूर्वक दर्ज की गई! संबंधित विभाग को भेजी गई।"
+  },
+  "toast.gpsCaptured": {
+    "en": "GPS Coordinates Captured",
+    "hi": "जीपीएस निर्देशांक कैप्चर किए गए"
+  },
+  "toast.gpsCapturedDesc": {
+    "en": "Coordinates linked to grievance report.",
+    "hi": "निर्देशांक शिकायत रिपोर्ट से जुड़े।"
+  },
+  "toast.locationDenied": {
+    "en": "Location permission denied or unavailable. Using default pinpoint.",
+    "hi": "स्थान अनुमति अस्वीकृत या अनुपलब्ध। डिफ़ॉल्ट पिनपॉइंट का उपयोग किया जा रहा है।"
+  },
+  "toast.fileSizeExceeded": {
+    "en": "File exceeds 25MB limit.",
+    "hi": "फ़ाइल 25MB सीमा से अधिक है।"
+  },
+  "toast.audioNotSupported": {
+    "en": "Audio recording is not supported in this browser.",
+    "hi": "इस ब्राउज़र में ऑडियो रिकॉर्डिंग समर्थित नहीं है।"
+  },
+  "toast.micSimulation": {
+    "en": "Microphone simulation active for voice grievance demo.",
+    "hi": "वॉयस शिकायत डेमो के लिए माइक्रोफ़ोन सिमुलेशन सक्रिय है।"
+  },
+  "toast.profileUpdated": {
+    "en": "Profile updated successfully.",
+    "hi": "प्रोफ़ाइल सफलतापूर्वक अपडेट की गई।"
+  },
+  "toast.settingsSaved": {
+    "en": "Preferences saved successfully.",
+    "hi": "प्राथमिकताएं सफलतापूर्वक सहेजी गईं।"
+  },
+  "toast.deleteRequested": {
+    "en": "Account deletion request submitted.",
+    "hi": "खाता हटाने का अनुरोध प्रस्तुत किया गया।"
+  },
+  "toast.languageChanged": {
+    "en": "Language changed successfully.",
+    "hi": "भाषा सफलतापूर्वक बदल दी गई।"
+  },
+  "toast.errorOccurred": {
+    "en": "An error occurred. Please try again.",
+    "hi": "एक त्रुटि उत्पन्न हुई। कृपया पुनः प्रयास करें।"
+  },
+  "toast.caseUpdated": {
+    "en": "Case docket updated successfully.",
+    "hi": "केस डॉकेट सफलतापूर्वक अपडेट किया गया।"
+  },
+  "toast.caseReassigned": {
+    "en": "Case reassigned to nodal officer.",
+    "hi": "मामला नोडल अधिकारी को पुनः सौंपा गया।"
+  },
+  "toast.caseResolved": {
+    "en": "Grievance marked as resolved.",
+    "hi": "शिकायत को हल के रूप में चिह्नित किया गया।"
+  },
+  "toast.volunteerAdded": {
+    "en": "New volunteer registered successfully.",
+    "hi": "नया स्वयंसेवक सफलतापूर्वक पंजीकृत हुआ।"
+  },
+  "toast.grantApproved": {
+    "en": "CSR grant allocation approved.",
+    "hi": "सीएसआर अनुदान आवंटन स्वीकृत।"
+  },
+  "toast.milestoneApproved": {
+    "en": "Academic milestone approved.",
+    "hi": "शैक्षणिक मील का पत्थर स्वीकृत।"
+  },
+  "toast.deliverableUploaded": {
+    "en": "Deliverable uploaded for review.",
+    "hi": "प्रस्तुति समीक्षा के लिए अपलोड की गई।"
+  },
+  "toast.loginSuccess": {
+    "en": "Signed in successfully. Welcome!",
+    "hi": "सफलतापूर्वक साइन इन किया गया। स्वागत है!"
+  },
+  "toast.logoutSuccess": {
+    "en": "Logged out successfully.",
+    "hi": "सफलतापूर्वक लॉग आउट किया गया।"
+  },
+  "toast.accessDenied": {
+    "en": "Access restricted. Insufficient permissions.",
+    "hi": "पहुंच प्रतिबंधित। अपर्याप्त अनुमतियाँ।"
+  },
+  "toast.changesSaved": {
+    "en": "All changes saved successfully.",
+    "hi": "सभी परिवर्तन सफलतापूर्वक सहेजे गए।"
+  },
+  "toast.reportExported": {
+    "en": "Report generated and downloaded.",
+    "hi": "रिपोर्ट उत्पन्न और डाउनलोड की गई।"
+  },
+  "toast.dataRefreshed": {
+    "en": "Telemetry data refreshed.",
+    "hi": "टेलीमेट्री डेटा रीफ्रेश किया गया।"
+  },
+  "language": {
+    "en": "Language",
+    "hi": "भाषा"
+  },
+  "dashboard": {
+    "en": "Dashboard",
+    "hi": "डैशबोर्ड"
+  },
+  "report_issue": {
+    "en": "Report a Problem",
+    "hi": "समस्या दर्ज करें"
+  },
+  "report_problem": {
+    "en": "Report a Problem",
+    "hi": "समस्या दर्ज करें"
+  },
+  "my_issues": {
+    "en": "My Grievances",
+    "hi": "मेरी शिकायतें"
+  },
+  "track_issues": {
+    "en": "Track Resolution",
+    "hi": "निवारण ट्रैक करें"
+  },
+  "notifications": {
+    "en": "Notifications",
+    "hi": "सूचनाएं"
+  },
+  "profile": {
+    "en": "Profile",
+    "hi": "प्रोफ़ाइल"
+  },
+  "settings": {
+    "en": "Settings",
+    "hi": "सेटिंग्स"
+  },
+  "help": {
+    "en": "Help & Support",
+    "hi": "सहायता एवं समर्थन"
+  },
+  "logout": {
+    "en": "Logout",
+    "hi": "लॉग आउट"
+  },
+  "login": {
+    "en": "Login",
+    "hi": "लॉग इन"
+  },
+  "recent_grievances": {
+    "en": "Recent Grievances",
+    "hi": "हाल की शिकायतें"
+  },
+  "issue_id": {
+    "en": "Issue ID",
+    "hi": "शिकायत आईडी"
+  },
+  "citizen_portal": {
+    "en": "Citizen Portal",
+    "hi": "नागरिक पोर्टल"
+  },
+  "government_portal": {
+    "en": "Government Portal",
+    "hi": "सरकारी पोर्टल"
+  },
+  "university_portal": {
+    "en": "University Portal",
+    "hi": "विश्वविद्यालय पोर्टल"
+  },
+  "industry_portal": {
+    "en": "Industry Portal",
+    "hi": "उद्योग पोर्टल"
+  },
+  "ngo_portal": {
+    "en": "NGO Portal",
+    "hi": "एनजीओ पोर्टल"
+  },
+  "admin_portal": {
+    "en": "Admin Portal",
+    "hi": "व्यवस्थापक पोर्टल"
+  },
+  "ai_governance_insight": {
+    "en": "AI Governance Insight",
+    "hi": "एआई शासन अंतर्दृष्टि"
+  },
+  "resolution": {
+    "en": "Resolution",
+    "hi": "समाधान"
+  },
+  "report": {
+    "en": "Reports",
+    "hi": "रिपोर्ट"
+  },
+  "map": {
+    "en": "Incident Map",
+    "hi": "घटना मानचित्र"
+  },
+  "search": {
+    "en": "Search",
+    "hi": "खोजें"
+  },
+  "search_placeholder": {
+    "en": "Search grievances, cases, locations...",
+    "hi": "शिकायतें, मामले, स्थान खोजें..."
+  },
+  "filter": {
+    "en": "Filter",
+    "hi": "फ़िल्टर"
+  },
+  "save": {
+    "en": "Save Changes",
+    "hi": "बदलाव सहेजें"
+  },
+  "cancel": {
+    "en": "Cancel",
+    "hi": "रद्द करें"
+  },
+  "delete": {
+    "en": "Delete",
+    "hi": "हटाएं"
+  },
+  "submit": {
+    "en": "Submit",
+    "hi": "जमा करें"
+  },
+  "upload": {
+    "en": "Upload",
+    "hi": "अपलोड करें"
+  },
+  "location": {
+    "en": "Location",
+    "hi": "स्थान"
+  },
+  "description": {
+    "en": "Description",
+    "hi": "विवरण"
+  },
+  "title": {
+    "en": "Title",
+    "hi": "शीर्षक"
+  },
+  "category": {
+    "en": "Category",
+    "hi": "श्रेणी"
+  },
+  "department": {
+    "en": "Department",
+    "hi": "विभाग"
+  },
+  "created_at": {
+    "en": "Reported Date",
+    "hi": "रिपोर्ट की तारीख"
+  },
+  "action": {
+    "en": "Action",
+    "hi": "कार्रवाई"
+  },
+  "actions": {
+    "en": "Actions",
+    "hi": "कार्रवाइयां"
+  },
+  "view": {
+    "en": "View",
+    "hi": "देखें"
+  },
+  "edit": {
+    "en": "Edit",
+    "hi": "संपादित करें"
+  },
+  "loading": {
+    "en": "Loading...",
+    "hi": "लोड हो रहा है..."
+  },
+  "success": {
+    "en": "Success",
+    "hi": "सफलता"
+  },
+  "error": {
+    "en": "An error occurred",
+    "hi": "एक त्रुटि उत्पन्न हुई"
+  },
+  "welcome_back": {
+    "en": "Welcome back",
+    "hi": "वापसी पर स्वागत है"
+  },
+  "total_issues": {
+    "en": "Total Grievances",
+    "hi": "कुल शिकायतें"
+  },
+  "resolved_issues": {
+    "en": "Resolved Grievances",
+    "hi": "हल की गई शिकायतें"
+  },
+  "in_progress_issues": {
+    "en": "In Progress Grievances",
+    "hi": "प्रगति पर शिकायतें"
+  },
+  "pending_issues": {
+    "en": "Pending Grievances",
+    "hi": "लंबित शिकायतें"
+  },
+  "active_projects": {
+    "en": "Active Projects",
+    "hi": "सक्रिय परियोजनाएं"
+  },
+  "ai_accuracy": {
+    "en": "AI Routing Accuracy",
+    "hi": "एआई रूटिंग सटीकता"
+  },
+  "sla_compliance": {
+    "en": "SLA Compliance Rate",
+    "hi": "एसएलए अनुपालन दर"
+  },
+  "civic_engagement": {
+    "en": "Civic Engagement Index",
+    "hi": "नागरिक जुड़ाव सूचकांक"
+  },
+  "recent_activity": {
+    "en": "Recent Activity",
+    "hi": "हाल की गतिविधि"
+  },
+  "quick_actions": {
+    "en": "Quick Actions",
+    "hi": "त्वरित कार्रवाइयां"
+  },
+  "live_incidents": {
+    "en": "Live Civic Incidents",
+    "hi": "लाइव नागरिक घटनाएं"
+  },
+  "all": {
+    "en": "All",
+    "hi": "सभी"
+  },
+  "high": {
+    "en": "High Priority",
+    "hi": "उच्च"
+  },
+  "medium": {
+    "en": "Medium Priority",
+    "hi": "मध्यम"
+  },
+  "low": {
+    "en": "Low Priority",
+    "hi": "कम"
+  },
+  "critical": {
+    "en": "Critical Priority",
+    "hi": "गंभीर"
+  },
+  "emergency": {
+    "en": "Emergency Priority",
+    "hi": "आपातकालीन"
+  },
+  "pending": {
+    "en": "Pending",
+    "hi": "लंबित"
+  },
+  "in_progress": {
+    "en": "In Progress",
+    "hi": "प्रगति पर है"
+  },
+  "resolved": {
+    "en": "Resolved",
+    "hi": "हल किया गया"
+  },
+  "closed": {
+    "en": "Closed",
+    "hi": "बंद"
+  },
+  "rejected": {
+    "en": "Rejected",
+    "hi": "अस्वीकृत"
+  },
+  "approved": {
+    "en": "Approved",
+    "hi": "स्वीकृत"
+  },
+  "declined": {
+    "en": "Declined",
+    "hi": "अस्वीकृत"
+  },
+  "export": {
+    "en": "Export Data",
+    "hi": "डेटा निर्यात करें"
+  },
+  "download": {
+    "en": "Download",
+    "hi": "डाउनलोड"
+  },
+  "confirm": {
+    "en": "Confirm",
+    "hi": "पुष्टि करें"
+  },
+  "close": {
+    "en": "Close",
+    "hi": "बंद करें"
+  },
+  "back": {
+    "en": "Back",
+    "hi": "वापस"
+  },
+  "next": {
+    "en": "Next",
+    "hi": "आगे"
+  },
+  "previous": {
+    "en": "Previous",
+    "hi": "पिछला"
+  },
+  "no_results": {
+    "en": "No results found",
+    "hi": "कोई परिणाम नहीं मिला"
+  },
+  "view_all": {
+    "en": "View All",
+    "hi": "सभी देखें"
+  },
+  "home": {
+    "en": "Home",
+    "hi": "होम"
+  },
+  "feed": {
+    "en": "Civic Feed",
+    "hi": "नागरिक फ़ीड"
+  },
+  "analytics": {
+    "en": "AI Analytics",
+    "hi": "एआई एनालिटिक्स"
+  },
+  "optional": {
+    "en": "Optional",
+    "hi": "वैकल्पिक"
+  },
+  "faculty": {
+    "en": "Faculty Mentor",
+    "hi": "संकाय"
+  },
+  "student": {
+    "en": "Student Cohort",
+    "hi": "छात्र"
+  },
+  "projects": {
+    "en": "Projects",
+    "hi": "परियोजनाएं"
+  },
+  "research": {
+    "en": "Research Hub",
+    "hi": "अनुसंधान"
+  },
+  "innovation": {
+    "en": "Innovation Challenges",
+    "hi": "नवाचार"
+  },
+  "teams": {
+    "en": "Teams",
+    "hi": "टीमें"
+  },
+  "credits": {
+    "en": "Academic Credits",
+    "hi": "शैक्षणिक क्रेडिट"
+  },
+  "officers": {
+    "en": "Officers Directory",
+    "hi": "अधिकारी"
+  },
+  "assigned": {
+    "en": "Assigned Cases",
+    "hi": "आवंटित"
+  },
+  "under_review": {
+    "en": "Under Review",
+    "hi": "समीक्षाधीन"
+  },
+  "industry_assigned": {
+    "en": "Assigned to Industry",
+    "hi": "उद्योग को आवंटित"
+  },
+  "industry_review": {
+    "en": "Industry Review",
+    "hi": "उद्योग समीक्षा"
+  },
+  "univ_assigned": {
+    "en": "Assigned to University",
+    "hi": "विश्वविद्यालय को आवंटित"
+  },
+  "student_dev": {
+    "en": "Student Development",
+    "hi": "छात्र विकास"
+  },
+  "faculty_review": {
+    "en": "Faculty Review",
+    "hi": "संकाय समीक्षा"
+  },
+  "industry_val": {
+    "en": "Industry Validation",
+    "hi": "उद्योग सत्यापन"
+  },
+  "inspection": {
+    "en": "Govt Site Inspection",
+    "hi": "स्थल निरीक्षण"
+  },
+  "feedback": {
+    "en": "Feedback Pending",
+    "hi": "प्रतिक्रिया लंबित"
+  }
+}

@@ -1,0 +1,236 @@
+[
+  {
+    "id": "WO-2026-0001",
+    "issueId": "SOC-2026-008821",
+    "issueTitle": "Potable Water Main Line Fracture & Flooding",
+    "issueCategory": "Water Supply & Drainage",
+    "location": "14th Main Rd, Indiranagar, Bengaluru, Karnataka 560038",
+    "district": "Bengaluru Urban",
+    "department": "Municipal Administration & Water Supply",
+    "authorizingOfficer": "Thiru S. Sivakumar, IAS",
+    "authorizingOfficerId": "off-tn-001",
+    "companyId": "comp-ind-001",
+    "companyName": "CleanAqua Infrastructure Pvt Ltd",
+    "scopeOfWork": "Deploy hydraulic line-stopple bypass, replace 900mm fractured ductile iron section, conduct pressure hydrostatic test at 6 bar, and restore road surface bedding.",
+    "budget": 450000,
+    "issuedAt": "2026-09-22T22:54:37.741Z",
+    "deadline": "2026-09-25T10:54:37.741Z",
+    "status": "in_progress",
+    "solutionPlan": {
+      "technicalApproach": "Excavate 2.5m trench using laser shoring, isolate sub-circuit valves 14A and 14B, weld high-density sleeve.",
+      "milestones": [
+        {
+          "title": "Trench excavation & flow bypass",
+          "targetDate": "Day 1",
+          "percentage": 30
+        },
+        {
+          "title": "Sleeve welding & flange anchoring",
+          "targetDate": "Day 2",
+          "percentage": 70
+        },
+        {
+          "title": "Hydrostatic test & backfill",
+          "targetDate": "Day 3",
+          "percentage": 100
+        }
+      ],
+      "equipmentDeployed": [
+        "Hydraulic Pipe Stopper",
+        "Welding Rig 450A",
+        "Laser Shoring Shields"
+      ],
+      "submittedAt": "2026-09-23T04:54:37.741Z"
+    },
+    "progressReports": [
+      {
+        "id": "pr-001",
+        "progressPercentage": 45,
+        "description": "Completed isolation of water junction, excavation complete, replacement 900mm pipe segment arrived on-site.",
+        "evidenceUrls": [
+          "https://images.unsplash.com/photo-1541888946425-d0fbb18086f6?auto=format&fit=crop&w=800&q=80"
+        ],
+        "submittedAt": "2026-09-23T20:54:37.741Z",
+        "reviewedByOfficer": "Thiru S. Sivakumar, IAS",
+        "officerRemarks": "Progress verified on field. Proceed with flange anchoring.",
+        "status": "approved"
+      }
+    ],
+    "payment": {
+      "id": "pay-wo-001",
+      "invoiceRef": "INV-2026-008821",
+      "amount": 450000,
+      "status": "pending"
+    },
+    "createdAt": "2026-09-22T22:54:37.741Z",
+    "updatedAt": "2026-09-25T05:32:46.341Z",
+    "universityCollaborationId": "CR-2026-0013",
+    "universityCollaborationStatus": "requested"
+  },
+  {
+    "id": "WO-2026-0043",
+    "issueId": "SOC-2026-000131",
+    "issueTitle": "High-Tech IoT Leakage & Deep Submersible Pump Motor Overhaul",
+    "issueCategory": "Water Supply & Sanitation",
+    "location": "Peelamedu Tech Park Zone, Ward 22",
+    "district": "Chennai",
+    "department": "Tamil Nadu Water Supply & Drainage Board",
+    "authorizingOfficer": "Dr. K. Vijayakumar, Superintending Engineer",
+    "authorizingOfficerId": "off-cbe-002",
+    "companyId": "comp-ind-001",
+    "companyName": "CleanAqua Infrastructure Pvt Ltd",
+    "scopeOfWork": "Deploy robotic pipe inspection camera, seal leak with food-grade epoxy composite, calibrate flow sensors.",
+    "budget": 375000,
+    "issuedAt": "2026-09-24T10:54:45.345Z",
+    "deadline": "2026-09-27T10:54:45.341Z",
+    "status": "accepted",
+    "progressReports": [],
+    "payment": {
+      "id": "pay-WO-2026-0043",
+      "invoiceRef": "INV-2026-0043",
+      "amount": 375000,
+      "status": "pending"
+    },
+    "createdAt": "2026-09-24T10:54:45.345Z",
+    "updatedAt": "2026-09-25T05:32:30.649Z"
+  },
+  {
+    "id": "WO-2026-0044",
+    "issueId": "SOC-2026-000133",
+    "issueTitle": "High-Tech IoT Leakage & Deep Submersible Pump Motor Overhaul",
+    "issueCategory": "Water Supply & Sanitation",
+    "location": "Peelamedu Tech Park Zone, Ward 22",
+    "district": "Chennai",
+    "department": "Tamil Nadu Water Supply & Drainage Board",
+    "authorizingOfficer": "Dr. K. Vijayakumar, Superintending Engineer",
+    "authorizingOfficerId": "off-cbe-002",
+    "companyId": "comp-ind-001",
+    "companyName": "CleanAqua Infrastructure Pvt Ltd",
+    "scopeOfWork": "Deploy robotic pipe inspection camera, seal leak with food-grade epoxy composite, calibrate flow sensors.",
+    "budget": 375000,
+    "issuedAt": "2026-09-24T10:57:53.882Z",
+    "deadline": "2026-09-29T10:57:53.849Z",
+    "status": "completed",
+    "progressReports": [
+      {
+        "id": "pr-9905",
+        "progressPercentage": 65,
+        "description": "Robotic welding sleeve installed. Sonar confirms zero leakage at 10 bar.",
+        "evidenceUrls": [
+          "https://images.unsplash.com/photo-1504307651254-35680f356dfd"
+        ],
+        "submittedAt": "2026-09-24T10:57:59.913Z",
+        "status": "submitted"
+      }
+    ],
+    "payment": {
+      "id": "pay-WO-2026-0044",
+      "invoiceRef": "INV-2026-0044",
+      "amount": 375000,
+      "status": "released",
+      "approvedAt": "2026-09-24T10:58:19.155Z",
+      "approvedBy": "Dr. K. Vijayakumar, Superintending Engineer",
+      "releasedAt": "2026-09-24T10:58:19.156Z",
+      "transactionHash": "TXN-RBI-499155-3838"
+    },
+    "createdAt": "2026-09-24T10:57:53.882Z",
+    "updatedAt": "2026-09-24T10:58:19.156Z",
+    "solutionPlan": {
+      "technicalApproach": "Phase 1: Sonar scan. Phase 2: Trenchless epoxy sleeve deployment. Phase 3: Pressure test at 12 bar.",
+      "milestones": [
+        {
+          "title": "Sonar Acoustic Inspection",
+          "targetDate": "Day 1",
+          "percentage": 25
+        },
+        {
+          "title": "Robotic Sleeve Installation",
+          "targetDate": "Day 3",
+          "percentage": 70
+        },
+        {
+          "title": "Water Quality & Flow Calibration",
+          "targetDate": "Day 5",
+          "percentage": 100
+        }
+      ],
+      "equipmentDeployed": [
+        "Acoustic Correlator",
+        "Robotic Sleeve Expander",
+        "Digital Pressure Rig"
+      ],
+      "submittedAt": "2026-09-24T10:57:57.855Z"
+    },
+    "completionReport": {
+      "completionSummary": "Robotic structural sleeve curing complete. Tested at 12 bar for 2 hours with 0 pressure loss. Area restored.",
+      "evidenceUrls": [
+        "https://example.gov.in/docs/pressure_certificate.pdf",
+        "https://images.unsplash.com/photo-1541888946425-d0fbb18f13f7"
+      ],
+      "testResults": "Hydrostatic test passed at 12 bar.",
+      "submittedAt": "2026-09-24T10:58:02.509Z",
+      "verified": true,
+      "inspectionOfficer": "Dr. K. Vijayakumar, Superintending Engineer",
+      "inspectionDate": "24 Sept 2026, 4:28 pm",
+      "inspectionRemarks": "Inspected at 15:30. Water pressure restored to normal 4.2 bar. No seepage detected. Road patched smoothly."
+    }
+  },
+  {
+    "id": "WO-2026-0045",
+    "issueId": "SOC-2026-000135",
+    "issueTitle": "Subterranean Water Main Rupture with Cavity Formation",
+    "issueCategory": "Water Supply & Sewerage (Metro Water)",
+    "location": "Outer Ring Road Junction, Velachery, Chennai",
+    "district": "Chennai",
+    "department": "Chennai Metro Water (CMWSSB)",
+    "authorizingOfficer": "Er. K. Murugesan (Superintending Engineer)",
+    "authorizingOfficerId": "off-cmwssb-001",
+    "companyId": "comp-ind-001",
+    "companyName": "CleanAqua Infrastructure Pvt Ltd",
+    "scopeOfWork": "Execute subterranean pipeline repair, soil stabilization, and sensor telemetry installation.",
+    "budget": 450000,
+    "issuedAt": "2026-09-24T15:45:42.139Z",
+    "deadline": "2026-09-27T15:45:42.131Z",
+    "status": "in_progress",
+    "progressReports": [],
+    "payment": {
+      "id": "pay-WO-2026-0045",
+      "invoiceRef": "INV-2026-0045",
+      "amount": 450000,
+      "status": "pending"
+    },
+    "createdAt": "2026-09-24T15:45:42.139Z",
+    "updatedAt": "2026-09-24T15:45:44.258Z",
+    "universityCollaborationId": "CR-2026-0013",
+    "universityCollaborationStatus": "requested"
+  },
+  {
+    "id": "WO-2026-0046",
+    "issueId": "SOC-2026-000136",
+    "issueTitle": "Subterranean Water Main Rupture with Cavity Formation",
+    "issueCategory": "Water Supply & Sewerage (Metro Water)",
+    "location": "Outer Ring Road Junction, Velachery, Chennai",
+    "district": "Chennai",
+    "department": "Chennai Metro Water (CMWSSB)",
+    "authorizingOfficer": "Er. K. Murugesan (Superintending Engineer)",
+    "authorizingOfficerId": "off-cmwssb-001",
+    "companyId": "comp-ind-001",
+    "companyName": "CleanAqua Infrastructure Pvt Ltd",
+    "scopeOfWork": "Execute subterranean pipeline repair, soil stabilization, and sensor telemetry installation.",
+    "budget": 450000,
+    "issuedAt": "2026-09-24T15:48:47.555Z",
+    "deadline": "2026-09-27T15:48:47.554Z",
+    "status": "submitted",
+    "progressReports": [],
+    "payment": {
+      "id": "pay-WO-2026-0046",
+      "invoiceRef": "INV-2026-0046",
+      "amount": 450000,
+      "status": "pending"
+    },
+    "createdAt": "2026-09-24T15:48:47.555Z",
+    "updatedAt": "2026-09-24T15:48:54.352Z",
+    "universityCollaborationId": "CR-2026-0014",
+    "universityCollaborationStatus": "requested"
+  }
+]

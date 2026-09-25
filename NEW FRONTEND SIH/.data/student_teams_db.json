@@ -1,0 +1,130 @@
+[
+  {
+    "id": "team-001",
+    "name": "Team AquaSense AI",
+    "universityId": "univ-001",
+    "universityName": "Indian Institute of Technology Madras",
+    "department": "Artificial Intelligence",
+    "leadStudentId": "stu-001",
+    "leadStudentName": "Aditya Krishnan",
+    "members": [
+      {
+        "studentId": "stu-001",
+        "name": "Aditya Krishnan",
+        "role": "Team Lead & AI/Edge Architect",
+        "email": "aditya.k@smail.iitm.ac.in",
+        "year": "Final Year B.Tech"
+      },
+      {
+        "studentId": "stu-002",
+        "name": "Pooja Sundaram",
+        "role": "Robotics Hardware Specialist",
+        "email": "pooja.s@smail.iitm.ac.in",
+        "year": "3rd Year B.Tech"
+      },
+      {
+        "studentId": "stu-003",
+        "name": "M. Vignesh",
+        "role": "Acoustic Sensor Firmware",
+        "email": "vignesh.m@smail.iitm.ac.in",
+        "year": "Final Year B.Tech"
+      },
+      {
+        "studentId": "stu-004",
+        "name": "Sneha Rao",
+        "role": "Telemetry & Cloud Dashboard",
+        "email": "sneha.r@smail.iitm.ac.in",
+        "year": "3rd Year B.Tech"
+      }
+    ],
+    "skills": [
+      "Ultrasonic Sonar Signal Analysis",
+      "Edge TensorRT Python",
+      "Microcontroller Firmware (STM32)",
+      "CAD 3D Prototyping",
+      "LoRaWAN & IoT"
+    ],
+    "activeProjectsCount": 3,
+    "academicCredits": 16
+  },
+  {
+    "id": "team-002",
+    "name": "Team Trenchless Dynamics",
+    "universityId": "univ-002",
+    "universityName": "Anna University",
+    "department": "Civil Engineering",
+    "leadStudentId": "stu-005",
+    "leadStudentName": "R. Divya",
+    "members": [
+      {
+        "studentId": "stu-005",
+        "name": "R. Divya",
+        "role": "Team Lead & Materials Researcher",
+        "email": "divya.r@ceg.annauniv.edu",
+        "year": "M.Tech Structural Engineering"
+      },
+      {
+        "studentId": "stu-006",
+        "name": "K. Gautham",
+        "role": "Hydraulic Finite Element Analyst",
+        "email": "gautham.k@ceg.annauniv.edu",
+        "year": "Final Year B.E Civil"
+      },
+      {
+        "studentId": "stu-007",
+        "name": "Arunachalam S.",
+        "role": "Polymer Matrix Engineer",
+        "email": "arun.s@ceg.annauniv.edu",
+        "year": "Final Year B.E Civil"
+      }
+    ],
+    "skills": [
+      "Polymeric Resin Composites",
+      "Hydrostatic Stress Analysis",
+      "GIS Pipeline Network Modeling",
+      "Non-Destructive Testing"
+    ],
+    "activeProjectsCount": 1,
+    "academicCredits": 16
+  },
+  {
+    "id": "team-003",
+    "name": "Team RoboWeld Solutions",
+    "universityId": "univ-003",
+    "universityName": "PSG College of Technology",
+    "department": "Mechanical Engineering",
+    "leadStudentId": "stu-008",
+    "leadStudentName": "S. Harish",
+    "members": [
+      {
+        "studentId": "stu-008",
+        "name": "S. Harish",
+        "role": "Lead Mechatronics Engineer",
+        "email": "harish.s@psgtech.ac.in",
+        "year": "Final Year B.E Mechatronics"
+      },
+      {
+        "studentId": "stu-009",
+        "name": "Deepak Raj",
+        "role": "Robotic Arm Actuation Specialist",
+        "email": "deepak.r@psgtech.ac.in",
+        "year": "3rd Year B.E Mechanical"
+      },
+      {
+        "studentId": "stu-010",
+        "name": "Nithya V.",
+        "role": "Computer Vision & Visual Odometry",
+        "email": "nithya.v@psgtech.ac.in",
+        "year": "Final Year B.E Robotics"
+      }
+    ],
+    "skills": [
+      "In-Pipe Robotic Actuation",
+      "Computer Vision Robotic Welding",
+      "Hydrostatic Pressure Testing",
+      "Embedded C++ & ROS"
+    ],
+    "activeProjectsCount": 0,
+    "academicCredits": 8
+  }
+]

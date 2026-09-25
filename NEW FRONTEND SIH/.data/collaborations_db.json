@@ -1,0 +1,181 @@
+[
+  {
+    "id": "CR-2026-0001",
+    "workOrderId": "WO-2026-0001",
+    "issueId": "SOC-2026-008821",
+    "issueTitle": "Potable Water Main Line Fracture & Flooding",
+    "issueCategory": "Water Supply & Drainage",
+    "industryId": "comp-ind-001",
+    "industryName": "CleanAqua Infrastructure Pvt Ltd",
+    "governmentDepartment": "Municipal Administration & Water Supply",
+    "universityId": "univ-001",
+    "universityName": "Indian Institute of Technology Madras",
+    "department": "Artificial Intelligence",
+    "facultyId": "fac-001",
+    "facultyName": "Dr. R. Ramanujam, Ph.D.",
+    "facultyEmail": "ramanujam.ai@iitm.ac.in",
+    "studentTeamId": "team-001",
+    "studentTeamName": "Team AquaSense AI",
+    "researchGrant": 120000,
+    "objectives": "Design an edge AI acoustic sensor node capable of localizing micro-cracks in 900mm ductile iron water mains with sub-meter accuracy to guide trenchless epoxy injection.",
+    "requiredDeliverables": [
+      "Acoustic cross-correlation waveform algorithm",
+      "3D CAD casing with IP68 waterproof rating",
+      "Working prototype tested on simulated 6 bar pipeline testbed",
+      "Technical research dossier with patent search clearance"
+    ],
+    "deadline": "2026-10-01T15:29:08.507Z",
+    "status": "in_development",
+    "createdAt": "2026-09-22T15:29:08.508Z",
+    "updatedAt": "2026-09-24T03:29:08.508Z",
+    "milestones": [
+      {
+        "id": "m-1",
+        "title": "Acoustic baseline spectrum analysis",
+        "targetDays": 2,
+        "deliverable": "Raw spectrogram frequency data",
+        "completed": true
+      },
+      {
+        "id": "m-2",
+        "title": "Miniaturized hydrophone sensor probe PCB",
+        "targetDays": 4,
+        "deliverable": "Hardware schematic & Gerber files",
+        "completed": true
+      },
+      {
+        "id": "m-3",
+        "title": "Robotic crawler deployment & pressure verification",
+        "targetDays": 7,
+        "deliverable": "Integrated field test video & report",
+        "completed": false
+      }
+    ]
+  },
+  {
+    "id": "CR-2026-0013",
+    "workOrderId": "WO-2026-0001",
+    "issueId": "SOC-2026-008821",
+    "issueTitle": "Potable Water Main Line Fracture & Flooding",
+    "issueCategory": "Water Supply & Drainage",
+    "industryId": "comp-ind-001",
+    "industryName": "CleanAqua Infrastructure Pvt Ltd",
+    "governmentDepartment": "Municipal Administration & Water Supply",
+    "universityId": "univ-004",
+    "universityName": "National Institute of Technology Tiruchirappalli",
+    "department": "Civil Engineering",
+    "facultyId": "fac-004",
+    "facultyName": "Dr. S. Anitha, Ph.D.",
+    "facultyEmail": "anitha.grid@nitt.edu",
+    "researchGrant": 120000,
+    "objectives": "Conduct research and prototype innovative engineering solution for Potable Water Main Line Fracture & Flooding.",
+    "requiredDeliverables": [
+      "Technical Design Proposal",
+      "Functional Hardware Prototype",
+      "Laboratory Calibration Video & Report"
+    ],
+    "deadline": "2026-10-05T05:32:46.335Z",
+    "status": "requested",
+    "createdAt": "2026-09-25T05:32:46.336Z",
+    "updatedAt": "2026-09-25T05:32:46.336Z"
+  },
+  {
+    "id": "CR-2026-0014",
+    "workOrderId": "WO-2026-0046",
+    "issueId": "SOC-2026-000136",
+    "issueTitle": "Subterranean Water Main Rupture with Cavity Formation",
+    "issueCategory": "Water Supply & Sewerage (Metro Water)",
+    "industryId": "comp-ind-001",
+    "industryName": "CleanAqua Infrastructure Pvt Ltd",
+    "governmentDepartment": "Chennai Metro Water (CMWSSB)",
+    "universityId": "univ-001",
+    "universityName": "Indian Institute of Technology Madras",
+    "department": "Civil Engineering",
+    "facultyId": "fac-001",
+    "facultyName": "Dr. R. Ramanujam, Ph.D.",
+    "facultyEmail": "ramanujam.ai@iitm.ac.in",
+    "researchGrant": 125000,
+    "objectives": "Develop IoT acoustic leak sensor and rapid polymer curing sleeve for underwater repair.",
+    "requiredDeliverables": [
+      "Acoustic Telemetry CAD & Firmware",
+      "Polymer Patching Lab Prototype",
+      "Field Deployment Report"
+    ],
+    "deadline": "2026-10-04T15:48:47.832Z",
+    "status": "industry_validated",
+    "createdAt": "2026-09-24T15:48:47.833Z",
+    "updatedAt": "2026-09-24T15:48:54.327Z",
+    "studentTeamId": "team-001",
+    "studentTeamName": "Team AquaSense AI",
+    "milestones": [
+      {
+        "id": "ms-1",
+        "title": "Literature & Patent Survey",
+        "targetDays": 2,
+        "deliverable": "Technical proposal dossier",
+        "completed": false
+      },
+      {
+        "id": "ms-2",
+        "title": "CAD / Circuit Prototyping",
+        "targetDays": 4,
+        "deliverable": "Functional prototype build",
+        "completed": false
+      },
+      {
+        "id": "ms-3",
+        "title": "Lab Stress & Validation Testing",
+        "targetDays": 6,
+        "deliverable": "Performance calibration video & report",
+        "completed": false
+      }
+    ],
+    "solutionSubmission": {
+      "title": "HydroShield Acoustic Sonar Sleeve v2.4",
+      "summary": "Non-invasive composite carbon sleeve integrated with piezoelectric acoustic sensors and Bluetooth Mesh telemetry. Detects sub-millimeter micro-fissures and arrests high-pressure leaks up to 8.5 bar.",
+      "prototypeImages": [
+        "https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=800&auto=format&fit=crop&q=80"
+      ],
+      "sourceCodeUrl": "https://github.com/social-x-innovation/hydroshield-iot",
+      "researchPaperUrl": "https://socialx.gov.in/docs/research/CMWSSB_HydroShield_Report.pdf",
+      "submittedAt": "2026-09-24T15:48:49.745Z",
+      "submittedBy": "Aditya Krishnan (Team Lead)"
+    },
+    "facultyReview": {
+      "approved": true,
+      "feedback": "Hydrostatic test verified 8.5 bar without degradation. Calibrated and recommended for municipal field integration.",
+      "reviewedAt": "2026-09-24T15:48:52.069Z",
+      "facultyName": "Dr. R. Ramanujam, Ph.D.",
+      "mentorRating": 5
+    },
+    "industryValidation": {
+      "status": "accepted",
+      "feedback": "Mounted HydroShield sleeve on 900mm pipe. Cavity backfilled and telemetry streaming to municipal SCADA.",
+      "validatedAt": "2026-09-24T15:48:54.327Z",
+      "validatedBy": "CleanAqua Infrastructure Pvt Ltd",
+      "deploymentEvidenceUrl": "https://images.unsplash.com/photo-1541888946425-d0fbb18086f6?w=800&auto=format&fit=crop&q=80"
+    },
+    "certificates": [
+      {
+        "id": "CERT-2026-9335",
+        "recipientId": "fac-001",
+        "recipientName": "Dr. R. Ramanujam, Ph.D.",
+        "recipientRole": "faculty_mentor",
+        "title": "Subterranean Water Main Rupture with Cavity Formation",
+        "certificateNumber": "SX-CERT-FAC-CR-2026-0014",
+        "issuedAt": "2026-09-24T15:48:54.328Z",
+        "academicCreditsAwarded": 4
+      },
+      {
+        "id": "CERT-2026-1437",
+        "recipientId": "team-001",
+        "recipientName": "Team AquaSense AI",
+        "recipientRole": "student_innovator",
+        "title": "Subterranean Water Main Rupture with Cavity Formation",
+        "certificateNumber": "SX-CERT-STU-CR-2026-0014",
+        "issuedAt": "2026-09-24T15:48:54.328Z",
+        "academicCreditsAwarded": 4
+      }
+    ]
+  }
+]
