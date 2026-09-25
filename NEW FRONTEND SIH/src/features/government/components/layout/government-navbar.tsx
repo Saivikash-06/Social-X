@@ -132,10 +132,10 @@ export function GovernmentNavbar({
                 {officer?.name?.charAt(0) || "O"}
               </div>
               <div className="hidden sm:block text-left">
-                <p className="text-xs font-bold text-foreground leading-none truncate max-w-[120px]">
+                <p className="text-xs font-bold text-foreground leading-none truncate max-w-30">
                   {officer?.name?.split(" ")[0]}
                 </p>
-                <p className="text-[10px] text-muted-foreground leading-none mt-0.5 truncate max-w-[120px]">
+                <p className="text-[10px] text-muted-foreground leading-none mt-0.5 truncate max-w-30">
                   {officer?.role ? t(officer.role, officer.role) : t("common.roles.officer", "Officer")}
                 </p>
               </div>
@@ -175,7 +175,7 @@ export function GovernmentNavbar({
             <DropdownMenuSeparator />
             <DropdownMenuItem
               onClick={handleLogout}
-              className="rounded-xl text-rose-600 dark:text-rose-400 cursor-pointer focus:bg-rose-500/10 focus:text-rose-600"
+              className="rounded-xl text-rose-600 dark:text-rose-400 cursor-pointer focus:bg-rose-500/10"
             >
               <LogOut className="h-4 w-4 mr-2" />
               <span>{t("common.buttons.logout", "Logout")}</span>

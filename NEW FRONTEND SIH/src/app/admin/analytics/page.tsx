@@ -60,7 +60,7 @@ export default function AdminAnalyticsPage() {
               92.6% Avg Resolution
             </Badge>
           </div>
-          <div className="h-[300px] w-full pt-2">
+          <div className="h-75 w-full pt-2">
             <ResponsiveContainer width="100%" height="100%">
               <AreaChart data={MONTHLY_TREND_DATA}>
                 <defs>
@@ -93,7 +93,7 @@ export default function AdminAnalyticsPage() {
 
         <Card className="rounded-3xl border-border/80 shadow-sm p-6 space-y-4">
           <h3 className="font-bold text-base">Sector Allocation</h3>
-          <div className="h-[220px] w-full">
+          <div className="h-55 w-full">
             <ResponsiveContainer width="100%" height="100%">
               <PieChart>
                 <Pie

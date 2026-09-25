@@ -723,7 +723,7 @@ export function DepartmentProgressTracker() {
               <select
                 value={officerFilter}
                 onChange={(e) => setOfficerFilter(e.target.value)}
-                className="rounded-xl border border-border/80 bg-muted/30 px-2.5 py-1.5 text-xs font-semibold focus:outline-none focus:ring-1 focus:ring-indigo-500 max-w-[150px] truncate"
+                className="rounded-xl border border-border/80 bg-muted/30 px-2.5 py-1.5 text-xs font-semibold focus:outline-none focus:ring-1 focus:ring-indigo-500 max-w-37.5 truncate"
               >
                 <option value="all">All Officers</option>
                 {departmentOfficersList.map((off) => (
@@ -943,7 +943,7 @@ export function DepartmentProgressTracker() {
                             ? "bg-red-500"
                             : workflow.progressPercentage >= 100
                             ? "bg-emerald-500"
-                            : "bg-gradient-to-r from-indigo-500 to-emerald-500"
+                            : "bg-linear-to-r from-indigo-500 to-emerald-500"
                         }`}
                         style={{ width: `${workflow.progressPercentage}%` }}
                       />
@@ -964,7 +964,7 @@ export function DepartmentProgressTracker() {
 
                     {/* Timeline Horizontal Steps Bar */}
                     <div className="overflow-x-auto pb-2 scrollbar-thin">
-                      <div className="flex items-center gap-2 min-w-[900px] py-1">
+                      <div className="flex items-center gap-2 min-w-225 py-1">
                         {workflow.steps.map((step, idx) => {
                           const isLast = idx === workflow.steps.length - 1;
 
@@ -1266,7 +1266,7 @@ export function DepartmentProgressTracker() {
                                     alt={img.label || "Inspection"}
                                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                                   />
-                                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-2">
+                                  <div className="absolute inset-0 bg-linear-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-2">
                                     <span className="text-[10px] text-white font-medium truncate">
                                       {img.label || "Click to zoom"}
                                     </span>

@@ -89,7 +89,7 @@ export function CitizenSidebar() {
             className="flex items-center gap-3 overflow-hidden focus:outline-none"
             onClick={() => setMobileSidebarOpen(false)}
           >
-            <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-gradient-to-tr from-blue-600 to-teal-400 text-white shadow-md">
+            <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-linear-to-tr from-blue-600 to-teal-400 text-white shadow-md">
               <Sparkles className="h-5 w-5" />
             </div>
             {!isSidebarCollapsed && (

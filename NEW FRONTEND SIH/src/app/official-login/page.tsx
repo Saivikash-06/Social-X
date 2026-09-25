@@ -183,7 +183,7 @@ function OfficialLoginForm() {
         <div className="absolute top-0 right-0 w-64 h-64 bg-indigo-500/10 rounded-full blur-3xl -mr-20 -mt-20 pointer-events-none" />
 
         {/* State Emblem Band */}
-        <div className="bg-gradient-to-r from-indigo-900 via-slate-900 to-indigo-950 text-white px-6 py-4 flex items-center justify-between border-b border-indigo-500/20">
+        <div className="bg-linear-to-r from-indigo-900 via-slate-900 to-indigo-950 text-white px-6 py-4 flex items-center justify-between border-b border-indigo-500/20">
           <div className="flex items-center gap-3">
             <div className="h-10 w-10 rounded-xl bg-white/10 backdrop-blur-md flex items-center justify-center border border-white/20">
               <Landmark className="h-6 w-6 text-indigo-300" />
@@ -290,7 +290,7 @@ function OfficialLoginForm() {
                 {...register("officialPassKey")}
                 type="text"
                 placeholder="TN-CHE-00491-KD82"
-                className="rounded-xl border-border/80 focus-visible:ring-indigo-500 font-mono uppercase tracking-wider text-sm bg-indigo-500/[0.03]"
+                className="rounded-xl border-border/80 focus-visible:ring-indigo-500 font-mono uppercase tracking-wider text-sm bg-indigo-500/3"
               />
               <p className="text-[10px] text-muted-foreground">
                 {t("auth.passKeyNotice", "This is a unique government access key issued by the State Administrator, NOT an OTP.")}

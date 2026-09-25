@@ -330,13 +330,13 @@ export default function AdminGovernmentPage() {
                         </td>
 
                         {/* Department */}
-                        <td className="p-3.5 font-medium text-foreground max-w-[150px] truncate">
+                        <td className="p-3.5 font-medium text-foreground max-w-37.5 truncate">
                           {officer.department}
                         </td>
 
                         {/* Designation & Role */}
                         <td className="p-3.5">
-                          <p className="font-semibold text-foreground truncate max-w-[150px]">
+                          <p className="font-semibold text-foreground truncate max-w-37.5">
                             {officer.designation}
                           </p>
                           <Badge variant="outline" className="text-[9px] font-mono mt-0.5">
@@ -416,7 +416,7 @@ export default function AdminGovernmentPage() {
                                     deptCode: officer.department,
                                   })
                                 }
-                                className="rounded-xl cursor-pointer text-indigo-600 focus:text-indigo-600"
+                                className="rounded-xl cursor-pointer text-indigo-600"
                               >
                                 <KeyRound className="h-3.5 w-3.5 mr-2" />
                                 <span>Generate Official Pass Key</span>
@@ -434,8 +434,8 @@ export default function AdminGovernmentPage() {
                                 onClick={() => toggleOfficerStatusMutation.mutate(officer.id)}
                                 className={`rounded-xl cursor-pointer ${
                                   officer.status === "active"
-                                    ? "text-amber-600 focus:text-amber-600"
-                                    : "text-emerald-600 focus:text-emerald-600"
+                                    ? "text-amber-600"
+                                    : "text-emerald-600"
                                 }`}
                               >
                                 <span>
@@ -453,7 +453,7 @@ export default function AdminGovernmentPage() {
                                     deleteOfficerMutation.mutate(officer.id);
                                   }
                                 }}
-                                className="rounded-xl cursor-pointer text-rose-600 focus:text-rose-600 focus:bg-rose-500/10"
+                                className="rounded-xl cursor-pointer text-rose-600 focus:bg-rose-500/10"
                               >
                                 <Trash2 className="h-3.5 w-3.5 mr-2" />
                                 <span>Delete Officer</span>
@@ -667,7 +667,7 @@ export default function AdminGovernmentPage() {
             </div>
 
             {/* Pass Key Generator */}
-            <div className="space-y-1.5 p-4 rounded-2xl bg-indigo-500/[0.04] border border-indigo-500/20">
+            <div className="space-y-1.5 p-4 rounded-2xl bg-indigo-500/4 border border-indigo-500/20">
               <div className="flex items-center justify-between">
                 <Label className="text-xs font-bold text-indigo-700 dark:text-indigo-400 flex items-center gap-1.5">
                   <KeyRound className="h-3.5 w-3.5" />

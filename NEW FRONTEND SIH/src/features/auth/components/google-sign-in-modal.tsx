@@ -132,7 +132,7 @@ export function GoogleSignInModal({
             <p className="text-[11px] font-semibold text-muted-foreground uppercase tracking-wider px-1">
               Select existing Google Account:
             </p>
-            <div className="divide-y divide-border/60 rounded-2xl border border-border overflow-hidden bg-muted/20">
+            <div className="divide-y rounded-2xl border border-border/60 overflow-hidden bg-muted/20">
               {REGISTERED_GOOGLE_PRESETS.map((preset) => (
                 <button
                   key={preset.email}

@@ -133,10 +133,10 @@ export function NgoNavbar() {
                 </AvatarFallback>
               </Avatar>
               <div className="hidden lg:flex flex-col text-left">
-                <span className="text-xs font-bold leading-none text-foreground truncate max-w-[120px]">
+                <span className="text-xs font-bold leading-none text-foreground truncate max-w-30">
                   {user?.name || "Dr. Arundhati Roy"}
                 </span>
-                <span className="text-[10px] text-muted-foreground truncate max-w-[120px]">
+                <span className="text-[10px] text-muted-foreground truncate max-w-30">
                   {organization?.district || "Maharashtra"}
                 </span>
               </div>
@@ -174,7 +174,7 @@ export function NgoNavbar() {
             <DropdownMenuSeparator />
             <DropdownMenuItem
               onClick={logout}
-              className="rounded-xl cursor-pointer text-destructive focus:text-destructive focus:bg-destructive/10 flex items-center gap-2 text-xs"
+              className="rounded-xl cursor-pointer text-destructive focus:bg-destructive/10 flex items-center gap-2 text-xs"
             >
               <LogOut className="h-4 w-4" />
               <span>{t("common.buttons.logout", "Sign Out")}</span>

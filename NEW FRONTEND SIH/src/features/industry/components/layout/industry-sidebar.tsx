@@ -217,7 +217,7 @@ export function IndustrySidebar() {
             onClick={handleNavClick}
             className="flex items-center gap-3 overflow-hidden focus:outline-none"
           >
-            <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-gradient-to-br from-amber-500 to-amber-700 text-white shadow-md shadow-amber-500/20">
+            <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-linear-to-br from-amber-500 to-amber-700 text-white shadow-md shadow-amber-500/20">
               <Sparkles className="h-5 w-5" />
             </div>
             {!isSidebarCollapsed && (

@@ -161,13 +161,13 @@ export default function GovernmentDepartmentsPage() {
             <div className="space-y-2 text-xs pt-2 border-t border-border/60">
               <div className="flex items-center justify-between text-muted-foreground">
                 <span>Head Officer:</span>
-                <span className="font-semibold text-foreground truncate max-w-[160px]">
+                <span className="font-semibold text-foreground truncate max-w-40">
                   {dept.headOfficerName}
                 </span>
               </div>
               <div className="flex items-center justify-between text-muted-foreground">
                 <span>Official Email:</span>
-                <span className="font-mono text-foreground truncate max-w-[160px]">
+                <span className="font-mono text-foreground truncate max-w-40">
                   {dept.headOfficerEmail}
                 </span>
               </div>

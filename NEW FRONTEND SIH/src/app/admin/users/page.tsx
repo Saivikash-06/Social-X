@@ -79,7 +79,7 @@ export default function AdminUsersPage() {
               setEditingUser(null);
               setUserModalOpen(true);
             }}
-            className="rounded-xl bg-gradient-to-r from-rose-600 to-red-700 hover:from-rose-700 hover:to-red-800 text-white gap-1.5 text-xs font-bold shadow-md shadow-rose-600/20"
+            className="rounded-xl bg-linear-to-r from-rose-600 to-red-700 hover:from-rose-700 hover:to-red-800 text-white gap-1.5 text-xs font-bold shadow-md shadow-rose-600/20"
           >
             <Plus className="h-3.5 w-3.5" />
             <span>Add User</span>

@@ -361,7 +361,7 @@ export default function ReportIssuePage() {
         </Card>
 
         {/* Action Buttons: AI Pre-Analysis or Direct Dispatch */}
-        <div className="p-6 rounded-3xl border border-primary/30 bg-gradient-to-r from-blue-600/10 via-indigo-600/10 to-teal-500/10 flex flex-col sm:flex-row items-center justify-between gap-4">
+        <div className="p-6 rounded-3xl border border-primary/30 bg-linear-to-r from-blue-600/10 via-indigo-600/10 to-teal-500/10 flex flex-col sm:flex-row items-center justify-between gap-4">
           <div className="space-y-1 text-center sm:text-left">
             <h3 className="font-bold text-foreground flex items-center justify-center sm:justify-start gap-2">
               <Sparkles className="h-4 w-4 text-primary" />

@@ -102,7 +102,7 @@ export function MyIssuesTable({ issues, compact = false }: MyIssuesTableProps) {
         <Table>
           <TableHeader>
             <TableRow>
-              <TableHead className="w-[140px]">{t("government.assigned.caseId", "Issue ID")}</TableHead>
+              <TableHead className="w-35">{t("government.assigned.caseId", "Issue ID")}</TableHead>
               <TableHead>{t("common.labels.title", "Title")} & {t("common.labels.category", "Category")}</TableHead>
               <TableHead>{t("common.labels.status", "Status")}</TableHead>
               <TableHead>{t("common.labels.priority", "Priority")}</TableHead>
@@ -128,7 +128,7 @@ export function MyIssuesTable({ issues, compact = false }: MyIssuesTableProps) {
                 <TableCell><StatusBadge status={issue.status} /></TableCell>
                 <TableCell><PriorityBadge priority={issue.priority} /></TableCell>
                 {!compact && (
-                  <TableCell className="text-xs text-muted-foreground max-w-[200px] truncate">
+                  <TableCell className="text-xs text-muted-foreground max-w-50 truncate">
                     {issue.assignedDepartment || t("common.loading.processing", "Routing to Agency...")}
                   </TableCell>
                 )}

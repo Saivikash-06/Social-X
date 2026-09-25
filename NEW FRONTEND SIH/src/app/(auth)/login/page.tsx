@@ -121,7 +121,7 @@ export default function UnifiedLoginPage() {
         <div className="max-w-md mx-auto space-y-6">
           <Card className="border-border/80 bg-card/90 shadow-2xl rounded-3xl backdrop-blur-xl overflow-hidden">
             {/* Gradient Banner */}
-            <div className="bg-gradient-to-r from-blue-600 via-indigo-600 to-teal-500 p-6 sm:p-7 text-white space-y-2">
+            <div className="bg-linear-to-r from-blue-600 via-indigo-600 to-teal-500 p-6 sm:p-7 text-white space-y-2">
               <div className="flex items-center gap-2.5">
                 <div className="flex h-10 w-10 items-center justify-center rounded-2xl bg-white/15 backdrop-blur-xs text-white">
                   <Sparkles className="h-5 w-5" />

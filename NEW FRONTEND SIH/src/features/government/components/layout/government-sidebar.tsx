@@ -109,7 +109,7 @@ export function GovernmentSidebar() {
   return (
     <aside
       className={cn(
-        "fixed inset-y-0 left-0 z-40 bg-card border-r border-border transition-all duration-300 flex flex-col justify-between hidden lg:flex shadow-sm",
+        "fixed inset-y-0 left-0 z-40 bg-card border-r border-border transition-all duration-300 hidden lg:flex flex-col justify-between shadow-sm",
         isSidebarCollapsed ? "w-20" : "w-72"
       )}
     >

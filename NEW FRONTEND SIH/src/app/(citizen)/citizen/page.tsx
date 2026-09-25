@@ -122,7 +122,7 @@ export default function CitizenDashboardPage() {
           </Card>
 
           {/* AI Civic Insights Card */}
-          <Card className="border-border/80 bg-gradient-to-br from-indigo-500/5 via-primary/5 to-teal-500/5 shadow-xs">
+          <Card className="border-border/80 bg-linear-to-br from-indigo-500/5 via-primary/5 to-teal-500/5 shadow-xs">
             <CardContent className="p-5 space-y-3">
               <div className="flex items-center gap-2 text-primary font-bold text-sm">
                 <Sparkles className="h-4 w-4" />

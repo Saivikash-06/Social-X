@@ -128,7 +128,7 @@ export default function AdminUniversitiesPage() {
           <Button
             size="sm"
             onClick={() => setIsRegisterOpen(true)}
-            className="rounded-xl text-xs font-bold bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 text-white gap-1.5 shadow-sm h-9"
+            className="rounded-xl text-xs font-bold bg-linear-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 text-white gap-1.5 shadow-sm h-9"
           >
             <Plus className="h-3.5 w-3.5" />
             <span>Register Institution / Faculty</span>
@@ -452,7 +452,7 @@ export default function AdminUniversitiesPage() {
           ) : (
             <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
               {certificates.map((cert: any) => (
-                <Card key={cert.id} className="rounded-2xl border-border/80 p-4 space-y-2 bg-gradient-to-r from-purple-500/5 via-indigo-500/5 to-transparent shadow-sm">
+                <Card key={cert.id} className="rounded-2xl border-border/80 p-4 space-y-2 bg-linear-to-r from-purple-500/5 via-indigo-500/5 to-transparent shadow-sm">
                   <div className="flex items-start justify-between">
                     <div>
                       <Badge variant="outline" className="font-mono text-[9px] font-bold text-purple-600 border-purple-500/30">
