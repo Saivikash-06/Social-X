@@ -70,7 +70,7 @@ if (-not $FrontendOnly) {
 # 2. Frontend: Next.js
 if (-not $BackendsOnly) {
   Write-Host "`n[Frontend] Starting Next.js Web App on Port 3000..." -ForegroundColor Yellow
-  $Frontend_Path = Join-Path $RootDir "NEW FRONTEND SIH"
+  $Frontend_Path = if (Test-Path (Join-Path $RootDir "frontend")) { Join-Path $RootDir "frontend" } else { Join-Path $RootDir "NEW FRONTEND SIH" }
   Start-ServiceConsole -Title "Frontend: Next.js App (3000)" -WorkingDirectory $Frontend_Path -Command "pnpm run dev"
 }
 
