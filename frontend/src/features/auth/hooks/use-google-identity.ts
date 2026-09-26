@@ -33,7 +33,11 @@ interface UseGoogleIdentityOptions {
 export function useGoogleIdentity({ onSuccess, onError }: UseGoogleIdentityOptions) {
   const [isScriptLoaded, setIsScriptLoaded] = React.useState(false);
   const [isInitializing, setIsInitializing] = React.useState(false);
-  const clientId = process.env.NEXT_PUBLIC_GOOGLE_CLIENT_ID?.trim() || "";
+  const rawClientId = process.env.NEXT_PUBLIC_GOOGLE_CLIENT_ID?.trim() || "";
+  const clientId =
+    rawClientId && !rawClientId.includes(".apps.googleusercontent.com")
+      ? `${rawClientId}.apps.googleusercontent.com`
+      : rawClientId;
   const isConfigured = Boolean(clientId && clientId !== "your-google-client-id-here");
 
   React.useEffect(() => {
