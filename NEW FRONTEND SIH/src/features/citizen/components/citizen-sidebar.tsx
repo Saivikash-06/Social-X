@@ -6,6 +6,7 @@ import { usePathname, useRouter } from "next/navigation";
 import {
   Sparkles,
   LayoutDashboard,
+  ShieldCheck,
   PlusCircle,
   FolderKanban,
   Crosshair,
@@ -26,6 +27,13 @@ import { useTranslation } from "react-i18next";
 
 const NAV_ITEMS = [
   { key: "nav.dashboard", label: "Dashboard", href: "/citizen", icon: LayoutDashboard },
+  {
+    key: "nav.transparency",
+    label: "Transparency",
+    href: "/citizen/transparency",
+    icon: ShieldCheck,
+    badge: "Public",
+  },
   {
     key: "nav.report_problem",
     label: "Report Problem",

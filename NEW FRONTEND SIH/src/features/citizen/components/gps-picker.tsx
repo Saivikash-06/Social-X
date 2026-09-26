@@ -1,11 +1,12 @@
 "use client";
 
 import * as React from "react";
-import { MapPin, Navigation, Compass, Check } from "lucide-react";
+import { MapPin, Navigation, Compass, Check, Loader2 } from "lucide-react";
 import { Button } from "@/features/shared/components/ui/button";
 import { Input } from "@/features/shared/components/ui/input";
 import { Label } from "@/features/shared/components/ui/label";
 import { LeafletMap } from "@/features/shared/components/maps/leaflet-map";
+import { reverseGeocode } from "@/features/shared/services/geocoding-service";
 import { toast } from "sonner";
 import { useTranslation } from "react-i18next";
 
@@ -24,6 +25,58 @@ export function GpsPicker({
 }: GpsPickerProps) {
   const { t } = useTranslation();
   const [isLocating, setIsLocating] = React.useState(false);
+  const [isGeocoding, setIsGeocoding] = React.useState(false);
+
+  // References to prevent outdated geocoding responses from overwriting the latest location
+  const abortControllerRef = React.useRef<AbortController | null>(null);
+  const latestRequestIdRef = React.useRef<number>(0);
+
+  // Cleanup on unmount
+  React.useEffect(() => {
+    return () => {
+      if (abortControllerRef.current) {
+        abortControllerRef.current.abort();
+      }
+    };
+  }, []);
+
+  // Central function to update coordinates and fetch corresponding street address
+  const handleCoordinateSelect = React.useCallback(
+    async (lat: number, lng: number, customSuccessMessage?: string) => {
+      // 1. Immediately sync coordinates with current address
+      onLocationChange(lat, lng, address);
+
+      // 2. Abort previous in-flight geocode requests to prevent race condition
+      if (abortControllerRef.current) {
+        abortControllerRef.current.abort();
+      }
+      const controller = new AbortController();
+      abortControllerRef.current = controller;
+
+      // 3. Increment request sequence ID
+      const requestId = ++latestRequestIdRef.current;
+      setIsGeocoding(true);
+
+      try {
+        const resolvedAddress = await reverseGeocode(lat, lng, controller.signal);
+        // Only update if this is still the latest request
+        if (requestId === latestRequestIdRef.current) {
+          onLocationChange(lat, lng, resolvedAddress);
+          setIsGeocoding(false);
+          if (customSuccessMessage) {
+            toast.success(t("toast.gpsCaptured", "GPS Coordinates Captured"), {
+              description: customSuccessMessage || `${lat.toFixed(5)}, ${lng.toFixed(5)} linked to report.`,
+            });
+          }
+        }
+      } catch (err: any) {
+        if (err.name !== "AbortError") {
+          setIsGeocoding(false);
+        }
+      }
+    },
+    [address, onLocationChange, t]
+  );
 
   const fetchDeviceGps = () => {
     if (!navigator.geolocation) {
@@ -37,18 +90,31 @@ export function GpsPicker({
         setIsLocating(false);
         const lat = pos.coords.latitude;
         const lng = pos.coords.longitude;
-        onLocationChange(lat, lng, address || t("citizen.report.currentDetectedLocation", "Current Detected Location"));
-        toast.success(t("toast.gpsCaptured", "GPS Coordinates Captured"), {
-          description: t("toast.gpsCapturedDesc", `${lat.toFixed(5)}, ${lng.toFixed(5)} linked to report.`),
-        });
+        handleCoordinateSelect(
+          lat,
+          lng,
+          t("toast.gpsCapturedDesc", `${lat.toFixed(5)}, ${lng.toFixed(5)} linked to report.`)
+        );
       },
       (err) => {
         setIsLocating(false);
-        // Fallback default coordinates (e.g. Bangalore center)
         toast.info(t("toast.locationDenied", "Location permission denied or unavailable. Using default ward pinpoint."));
       },
       { enableHighAccuracy: true, timeout: 8000 }
     );
+  };
+
+  const handleManualAddressChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    // If citizen is manually typing an address, abort any pending geocode request
+    // so an in-flight response cannot overwrite the citizen's manual edits
+    if (abortControllerRef.current) {
+      abortControllerRef.current.abort();
+      abortControllerRef.current = null;
+    }
+    latestRequestIdRef.current++;
+    setIsGeocoding(false);
+
+    onLocationChange(latitude, longitude, e.target.value);
   };
 
   return (
@@ -80,20 +146,28 @@ export function GpsPicker({
         longitude={longitude}
         zoom={15}
         interactive={true}
-        onLocationSelect={(lat, lng) => onLocationChange(lat, lng)}
+        onLocationSelect={(lat, lng) => handleCoordinateSelect(lat, lng)}
         markerTitle={t("citizen.report.incidentCoordinates", "Grievance Incident Coordinates")}
         className="h-56"
       />
 
       {/* Address / Landmark text */}
       <div className="space-y-1.5">
-        <Label htmlFor="landmarkAddress" className="text-xs font-semibold">
-          {t("citizen.report.streetAddress", "Street Address / Landmark")}
-        </Label>
+        <div className="flex items-center justify-between">
+          <Label htmlFor="landmarkAddress" className="text-xs font-semibold">
+            {t("citizen.report.streetAddress", "Street Address / Landmark")}
+          </Label>
+          {isGeocoding && (
+            <span className="flex items-center gap-1 text-[11px] text-primary animate-pulse font-medium">
+              <Loader2 className="h-3 w-3 animate-spin" />
+              {t("citizen.report.resolvingAddress", "Detecting address...")}
+            </span>
+          )}
+        </div>
         <Input
           id="landmarkAddress"
           value={address}
-          onChange={(e) => onLocationChange(latitude, longitude, e.target.value)}
+          onChange={handleManualAddressChange}
           placeholder={t("citizen.report.addressPlaceholder", "e.g. 14th Main Rd, Near Indira Gandhi Circle")}
           className="h-10 text-xs rounded-xl"
         />

@@ -112,16 +112,20 @@ axiosClient.interceptors.response.use(
       }
     }
 
-    // Retry Logic for Network Glitches, Timeout, or 502/503/504 Service Unavailable (up to 3 retries)
+    // Retry Logic for Network Glitches, Timeout, compilation 404s, or 502/503/504 Service Unavailable (up to 3 retries)
+    const isCompilation404 =
+      error.response?.status === 404 && (!originalRequest._retryCount || originalRequest._retryCount < 2);
+
     const isRetryable =
       !error.response ||
       error.code === "ECONNABORTED" ||
       error.code === "ERR_NETWORK" ||
-      (error.response.status >= 502 && error.response.status <= 504);
+      (error.response.status >= 502 && error.response.status <= 504) ||
+      isCompilation404;
 
     if (isRetryable && (!originalRequest._retryCount || originalRequest._retryCount < 3)) {
       originalRequest._retryCount = (originalRequest._retryCount || 0) + 1;
-      const delay = Math.pow(2, originalRequest._retryCount) * 400;
+      const delay = Math.pow(2, originalRequest._retryCount) * 350;
       await new Promise((resolve) => setTimeout(resolve, delay));
       return axiosClient(originalRequest);
     }

@@ -17,35 +17,46 @@ import { Card, CardContent } from "@/features/shared/components/ui/card";
 import { useCitizenQueries } from "@/features/citizen/hooks/use-citizen-queries";
 import { useWebSocketNotifications } from "@/features/citizen/hooks/use-websocket-notifications";
 import { cn } from "@/lib/utils";
+import { NotificationItem } from "@/features/citizen/types";
 import { toast } from "sonner";
+
+const EMPTY_NOTIFICATIONS: NotificationItem[] = [];
 
 export default function NotificationsPage() {
   const { useNotifications } = useCitizenQueries();
-  const { data: initialNotifications = [], isLoading } = useNotifications();
+  const { data: initialNotifications = EMPTY_NOTIFICATIONS, isLoading } = useNotifications();
   const { isConnected } = useWebSocketNotifications();
 
-  const [notifications, setNotifications] = React.useState(initialNotifications);
+  const [readIds, setReadIds] = React.useState<Set<string>>(() => new Set());
+  const [allMarkedRead, setAllMarkedRead] = React.useState(false);
+  const [isCleared, setIsCleared] = React.useState(false);
   const [filterType, setFilterType] = React.useState<string>("all");
 
-  React.useEffect(() => {
-    setNotifications(initialNotifications);
-  }, [initialNotifications]);
+  const notifications = React.useMemo(() => {
+    if (isCleared) return [];
+    return (initialNotifications || []).map((n) => ({
+      ...n,
+      read: allMarkedRead || readIds.has(n.id) || !!n.read,
+    }));
+  }, [initialNotifications, readIds, allMarkedRead, isCleared]);
 
   const unreadCount = notifications.filter((n) => !n.read).length;
 
   const markAllRead = () => {
-    setNotifications((prev) => prev.map((n) => ({ ...n, read: true })));
+    setAllMarkedRead(true);
     toast.success("All notifications marked as read");
   };
 
   const markSingleRead = (id: string) => {
-    setNotifications((prev) =>
-      prev.map((n) => (n.id === id ? { ...n, read: true } : n))
-    );
+    setReadIds((prev) => {
+      const next = new Set(prev);
+      next.add(id);
+      return next;
+    });
   };
 
   const clearHistory = () => {
-    setNotifications([]);
+    setIsCleared(true);
     toast.info("Notification history cleared");
   };
 

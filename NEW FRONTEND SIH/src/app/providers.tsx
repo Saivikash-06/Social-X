@@ -15,8 +15,11 @@ export function Providers({ children }: { children: React.ReactNode }) {
     () =>
       new QueryClient({
         queryCache: new QueryCache({
-          onError: (error, query) => {
-            // Deduplicated global handling without duplicate toasts
+          onError: (error: any, query) => {
+            // Do not show global error popup on 404 (allow components to show loading or empty states)
+            const status = error?.statusCode || error?.response?.status;
+            if (status === 404) return;
+
             if (query.meta?.suppressGlobalToast !== true) {
               handleApiError(error, { showToast: true });
             }
@@ -34,14 +37,15 @@ export function Providers({ children }: { children: React.ReactNode }) {
             staleTime: 60 * 1000,
             refetchOnWindowFocus: false,
             retry: (failureCount, error: any) => {
-              // Automatically retry temporary network failures (2–3 retries)
-              if (failureCount >= 3) return false;
               const status = error?.statusCode || error?.response?.status;
-              // Do not retry 4xx client errors
-              if (status && status >= 400 && status < 500) return false;
+              // Allow up to 2 retries on 404 to give dev server time to compile routes
+              if (status === 404 && failureCount < 2) return true;
+              if (failureCount >= 3) return false;
+              // Do not retry permanent client errors (401, 403, 422)
+              if (status && status >= 400 && status < 500 && status !== 404) return false;
               return true;
             },
-            retryDelay: (attemptIndex) => Math.min(1000 * 2 ** attemptIndex, 4000),
+            retryDelay: (attemptIndex) => Math.min(500 * 2 ** attemptIndex, 2500),
           },
           mutations: {
             retry: (failureCount, error: any) => {

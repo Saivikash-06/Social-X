@@ -18,31 +18,39 @@ import { useCitizenStore } from "../hooks/use-citizen-store";
 import { useCitizenQueries } from "../hooks/use-citizen-queries";
 import { useWebSocketNotifications } from "../hooks/use-websocket-notifications";
 
+import { NotificationItem } from "../types";
+
+const EMPTY_NOTIFICATIONS: NotificationItem[] = [];
+
 export function NotificationDrawer() {
   const { isNotificationDrawerOpen, setNotificationDrawerOpen } =
     useCitizenStore();
   const { useNotifications } = useCitizenQueries();
-  const { data: notifications = [] } = useNotifications();
+  const { data: notifications = EMPTY_NOTIFICATIONS } = useNotifications();
   const { isConnected } = useWebSocketNotifications();
 
-  const [localNotifications, setLocalNotifications] = React.useState(notifications);
+  const [readIds, setReadIds] = React.useState<Set<string>>(() => new Set());
+  const [allMarkedRead, setAllMarkedRead] = React.useState(false);
 
-  React.useEffect(() => {
-    setLocalNotifications(notifications);
-  }, [notifications]);
+  const localNotifications = React.useMemo(() => {
+    return (notifications || []).map((item) => ({
+      ...item,
+      read: allMarkedRead || readIds.has(item.id) || !!item.read,
+    }));
+  }, [notifications, readIds, allMarkedRead]);
 
   if (!isNotificationDrawerOpen) return null;
 
   const markAllAsRead = () => {
-    setLocalNotifications((prev) =>
-      prev.map((item) => ({ ...item, read: true }))
-    );
+    setAllMarkedRead(true);
   };
 
   const markSingleRead = (id: string) => {
-    setLocalNotifications((prev) =>
-      prev.map((item) => (item.id === id ? { ...item, read: true } : item))
-    );
+    setReadIds((prev) => {
+      const next = new Set(prev);
+      next.add(id);
+      return next;
+    });
   };
 
   const unreadCount = localNotifications.filter((n) => !n.read).length;

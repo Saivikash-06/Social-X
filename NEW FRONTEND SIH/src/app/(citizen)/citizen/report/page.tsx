@@ -116,6 +116,9 @@ export default function ReportIssuePage() {
           title: title || result.title,
           description: description || result.description,
           category: category || result.category,
+          detectedLocation: address || result.detectedLocation,
+          latitude: latitude,
+          longitude: longitude,
         });
         setShowAiPreview(true);
       },
@@ -272,7 +275,7 @@ export default function ReportIssuePage() {
             onLocationChange={(lat, lng, addr) => {
               setLatitude(lat);
               setLongitude(lng);
-              if (addr) setAddress(addr);
+              if (addr !== undefined) setAddress(addr);
             }}
           />
         </Card>

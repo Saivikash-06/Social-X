@@ -1,5 +1,165 @@
 [
   {
+    "id": "notif-1790400609556-625",
+    "userId": "usr-cit-01",
+    "title": "Complaint Assigned",
+    "message": "Issue #SOC-2026-000132 has been analyzed by AI and assigned to Chennai Metropolitan Water Supply and Sewerage Board (CMWSSB). Officer: Thiru S. Sivakumar, IAS.",
+    "type": "assignment",
+    "issueId": "SOC-2026-000132",
+    "read": false,
+    "createdAt": "2026-09-26T05:30:09.556Z"
+  },
+  {
+    "id": "notif-1790400609556-164",
+    "userId": "usr-cit-01",
+    "title": "Complaint Submitted Successfully",
+    "message": "Your complaint has been submitted under Issue ID #SOC-2026-000132. Initial status: Submitted.",
+    "type": "status_update",
+    "issueId": "SOC-2026-000132",
+    "read": false,
+    "createdAt": "2026-09-26T05:30:09.556Z"
+  },
+  {
+    "id": "notif-1790400609553-719",
+    "userId": "ngo-coord-01",
+    "title": "Community Assistance Project #SOC-2026-000132",
+    "message": "Case #SOC-2026-000132 (Water Supply & Drainage) in Chennai has been recommended for NGO community service & volunteer mobilization.",
+    "type": "ngo_mobilized",
+    "issueId": "SOC-2026-000132",
+    "read": false,
+    "createdAt": "2026-09-26T05:30:09.553Z"
+  },
+  {
+    "id": "notif-1790400513510-984",
+    "userId": "usr-cit-01",
+    "title": "Complaint Assigned",
+    "message": "Issue #SOC-2026-000131 has been analyzed by AI and assigned to Chennai Metropolitan Water Supply and Sewerage Board (CMWSSB). Officer: Thiru S. Sivakumar, IAS.",
+    "type": "assignment",
+    "issueId": "SOC-2026-000131",
+    "read": false,
+    "createdAt": "2026-09-26T05:28:33.510Z"
+  },
+  {
+    "id": "notif-1790400513510-539",
+    "userId": "usr-cit-01",
+    "title": "Complaint Submitted Successfully",
+    "message": "Your complaint has been submitted under Issue ID #SOC-2026-000131. Initial status: Submitted.",
+    "type": "status_update",
+    "issueId": "SOC-2026-000131",
+    "read": false,
+    "createdAt": "2026-09-26T05:28:33.510Z"
+  },
+  {
+    "id": "notif-1790400513507-250",
+    "userId": "ngo-coord-01",
+    "title": "Community Assistance Project #SOC-2026-000131",
+    "message": "Case #SOC-2026-000131 (Water Supply & Drainage) in Chennai has been recommended for NGO community service & volunteer mobilization.",
+    "type": "ngo_mobilized",
+    "issueId": "SOC-2026-000131",
+    "read": false,
+    "createdAt": "2026-09-26T05:28:33.507Z"
+  },
+  {
+    "id": "notif-1790400494531-525",
+    "userId": "usr-cit-01",
+    "title": "Complaint Assigned",
+    "message": "Issue #SOC-2026-000130 has been analyzed by AI and assigned to Chennai Metropolitan Water Supply and Sewerage Board (CMWSSB). Officer: Thiru S. Sivakumar, IAS.",
+    "type": "assignment",
+    "issueId": "SOC-2026-000130",
+    "read": false,
+    "createdAt": "2026-09-26T05:28:14.531Z"
+  },
+  {
+    "id": "notif-1790400494531-601",
+    "userId": "usr-cit-01",
+    "title": "Complaint Submitted Successfully",
+    "message": "Your complaint has been submitted under Issue ID #SOC-2026-000130. Initial status: Submitted.",
+    "type": "status_update",
+    "issueId": "SOC-2026-000130",
+    "read": false,
+    "createdAt": "2026-09-26T05:28:14.531Z"
+  },
+  {
+    "id": "notif-1790400494529-322",
+    "userId": "ngo-coord-01",
+    "title": "Community Assistance Project #SOC-2026-000130",
+    "message": "Case #SOC-2026-000130 (Water Supply & Drainage) in Chennai has been recommended for NGO community service & volunteer mobilization.",
+    "type": "ngo_mobilized",
+    "issueId": "SOC-2026-000130",
+    "read": false,
+    "createdAt": "2026-09-26T05:28:14.529Z"
+  },
+  {
+    "id": "notif-1790396226859-35",
+    "userId": "usr-cit-01",
+    "title": "Repair Progress Update",
+    "message": "CleanAqua Infrastructure Pvt Ltd reported 65% milestone completion for #SOC-2026-000131.",
+    "type": "status_update",
+    "issueId": "SOC-2026-000131",
+    "read": false,
+    "createdAt": "2026-09-26T04:17:06.859Z"
+  },
+  {
+    "id": "notif-1790396216593-818",
+    "userId": "usr-cit-01",
+    "title": "Academic R&D Mobilized for Your Grievance",
+    "message": "CleanAqua Infrastructure Pvt Ltd has engaged PSG College of Technology for advanced technical innovation on #SOC-2026-008821.",
+    "type": "status_update",
+    "issueId": "SOC-2026-008821",
+    "read": false,
+    "createdAt": "2026-09-26T04:16:56.593Z"
+  },
+  {
+    "id": "notif-1790396216590-913",
+    "userId": "fac-004",
+    "title": "New Industry-University Collaboration Request",
+    "message": "CleanAqua Infrastructure Pvt Ltd invited your lab for R&D on \"Potable Water Main Line Fracture & Flooding\". Grant allocated: ₹20,000.",
+    "type": "collaboration_request",
+    "issueId": "SOC-2026-008821",
+    "read": false,
+    "createdAt": "2026-09-26T04:16:56.590Z"
+  },
+  {
+    "id": "notif-1790395896048-440",
+    "userId": "usr-cit-01",
+    "title": "Complaint Assigned",
+    "message": "Issue #SOC-2026-000131 has been analyzed by AI and assigned to Municipal Administration & Water Supply. Officer: Thiru S. Sivakumar, IAS.",
+    "type": "assignment",
+    "issueId": "SOC-2026-000131",
+    "read": false,
+    "createdAt": "2026-09-26T04:11:36.049Z"
+  },
+  {
+    "id": "notif-1790395896046-200",
+    "userId": "usr-cit-01",
+    "title": "Complaint Submitted Successfully",
+    "message": "Your complaint has been submitted under Issue ID #SOC-2026-000131. Initial status: Submitted.",
+    "type": "status_update",
+    "issueId": "SOC-2026-000131",
+    "read": false,
+    "createdAt": "2026-09-26T04:11:36.046Z"
+  },
+  {
+    "id": "notif-1790395890297-45",
+    "userId": "usr-cit-01",
+    "title": "Complaint Assigned",
+    "message": "Issue #SOC-2026-000130 has been analyzed by AI and assigned to Municipal Administration & Water Supply (MAWS). Officer: Thiru S. Sivakumar, IAS.",
+    "type": "assignment",
+    "issueId": "SOC-2026-000130",
+    "read": false,
+    "createdAt": "2026-09-26T04:11:30.297Z"
+  },
+  {
+    "id": "notif-1790395890294-564",
+    "userId": "usr-cit-01",
+    "title": "Complaint Submitted Successfully",
+    "message": "Your complaint has been submitted under Issue ID #SOC-2026-000130. Initial status: Submitted.",
+    "type": "status_update",
+    "issueId": "SOC-2026-000130",
+    "read": false,
+    "createdAt": "2026-09-26T04:11:30.294Z"
+  },
+  {
     "id": "notif-1790326280142-321",
     "userId": "usr-cit-01",
     "title": "Complaint Assigned",

@@ -4,6 +4,16 @@
 ### Custom Project Utilities ###
 git.cmd
 
+### Project-specific ###
+# SQLite databases
+*.db
+
+# Legacy backend backup
+_legacy_backends_backup/
+
+# Python cache
+__pycache__/
+
 ### NextJS ###
 # dependencies
 /node_modules

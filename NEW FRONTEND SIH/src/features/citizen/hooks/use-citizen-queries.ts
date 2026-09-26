@@ -5,46 +5,52 @@ import { toast } from "sonner";
 import { citizenApi } from "../services/citizen-api";
 import { CitizenProfileUpdate, CitizenSettings } from "../types";
 
+// Top-level stable query hooks
+export function useCitizenMetrics() {
+  return useQuery({
+    queryKey: ["citizen-metrics"],
+    queryFn: () => citizenApi.getDashboardMetrics(),
+    staleTime: 30 * 1000,
+  });
+}
+
+export function useCitizenIssues(params?: {
+  status?: string;
+  priority?: string;
+  search?: string;
+  page?: number;
+  limit?: number;
+}) {
+  return useQuery({
+    queryKey: ["citizen-issues", params],
+    queryFn: () => citizenApi.getMyIssues(params),
+    staleTime: 30 * 1000,
+  });
+}
+
+export function useCitizenIssue(id: string) {
+  return useQuery({
+    queryKey: ["citizen-issue", id],
+    queryFn: () => citizenApi.getIssueById(id),
+    enabled: !!id,
+  });
+}
+
+export function useCitizenNotifications() {
+  return useQuery({
+    queryKey: ["citizen-notifications"],
+    queryFn: () => citizenApi.getNotifications(),
+    staleTime: 15 * 1000,
+  });
+}
+
 export function useCitizenQueries() {
   const queryClient = useQueryClient();
 
-  // Metrics query
-  const useMetrics = () =>
-    useQuery({
-      queryKey: ["citizen-metrics"],
-      queryFn: () => citizenApi.getDashboardMetrics(),
-      staleTime: 30 * 1000,
-    });
-
-  // Issues query
-  const useIssues = (params?: {
-    status?: string;
-    priority?: string;
-    search?: string;
-    page?: number;
-    limit?: number;
-  }) =>
-    useQuery({
-      queryKey: ["citizen-issues", params],
-      queryFn: () => citizenApi.getMyIssues(params),
-      staleTime: 30 * 1000,
-    });
-
-  // Single issue details query
-  const useIssue = (id: string) =>
-    useQuery({
-      queryKey: ["citizen-issue", id],
-      queryFn: () => citizenApi.getIssueById(id),
-      enabled: !!id,
-    });
-
-  // Notifications query
-  const useNotifications = () =>
-    useQuery({
-      queryKey: ["citizen-notifications"],
-      queryFn: () => citizenApi.getNotifications(),
-      staleTime: 15 * 1000,
-    });
+  const useMetrics = useCitizenMetrics;
+  const useIssues = useCitizenIssues;
+  const useIssue = useCitizenIssue;
+  const useNotifications = useCitizenNotifications;
 
   // AI Media Analysis Mutation
   const analyzeMediaMutation = useMutation({

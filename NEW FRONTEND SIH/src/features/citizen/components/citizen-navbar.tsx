@@ -48,7 +48,12 @@ export function CitizenNavbar() {
     if (segments.length <= 1) return [{ label: t("nav.dashboard", "Dashboard") }];
 
     const breadcrumbs: BreadcrumbItem[] = [];
-    if (segments[1] === "report") {
+    if (segments[1] === "transparency") {
+      breadcrumbs.push({ label: t("nav.transparency", "Transparency & Accountability"), href: "/citizen/transparency" });
+      if (segments[2]) {
+        breadcrumbs.push({ label: segments[2] });
+      }
+    } else if (segments[1] === "report") {
       breadcrumbs.push({ label: t("nav.report_problem", "Report Issue") });
     } else if (segments[1] === "issues") {
       breadcrumbs.push({ label: t("nav.my_issues", "My Issues"), href: "/citizen/issues" });
@@ -119,7 +124,7 @@ export function CitizenNavbar() {
         >
           <Bell className="h-5 w-5" />
           {unreadCount > 0 && (
-            <span className="absolute right-2 top-2 flex h-4 min-w-[16px] items-center justify-center rounded-full bg-rose-500 px-1 text-[10px] font-bold text-white shadow-xs">
+            <span className="absolute right-2 top-2 flex h-4 min-w-4 items-center justify-center rounded-full bg-rose-500 px-1 text-[10px] font-bold text-white shadow-xs">
               {unreadCount}
             </span>
           )}
@@ -171,7 +176,7 @@ export function CitizenNavbar() {
             <DropdownMenuSeparator />
             <DropdownMenuItem
               onClick={() => logout()}
-              className="cursor-pointer gap-2 text-destructive focus:bg-destructive/10 focus:text-destructive"
+              className="cursor-pointer gap-2 text-destructive focus:bg-destructive/10"
             >
               <LogOut className="h-4 w-4" />
               <span>{t("common.buttons.logout", "Log out")}</span>

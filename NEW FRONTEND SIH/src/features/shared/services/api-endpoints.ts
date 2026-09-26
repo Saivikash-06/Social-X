@@ -3,15 +3,16 @@
  * Centralized API Endpoints Registry across all 4 Microservices
  */
 
-// Backend Base URLs
+// Backend Base URLs (Unified Backend default on Port 8000)
 export const BACKEND_URLS = {
-  CORE: process.env.NEXT_PUBLIC_CORE_API_URL || "http://localhost:8001/api/v1",
-  SOCIAL_X: process.env.NEXT_PUBLIC_SOCIALX_API_URL || "http://localhost:8002/api",
-  AI_SERVICE: process.env.NEXT_PUBLIC_AI_SERVICE_URL || "http://localhost:8002/api/v1",
-  ROUTING: process.env.NEXT_PUBLIC_ROUTING_API_URL || "http://localhost:8003/api/v1",
-  ANALYTICS: process.env.NEXT_PUBLIC_ANALYTICS_API_URL || "http://localhost:8004",
-  ANALYTICS_WS: process.env.NEXT_PUBLIC_ANALYTICS_WS_URL || "ws://localhost:8004/live",
+  CORE: process.env.NEXT_PUBLIC_CORE_API_URL || "http://localhost:8000/api/v1",
+  SOCIAL_X: process.env.NEXT_PUBLIC_SOCIALX_API_URL || "http://localhost:8000/api",
+  AI_SERVICE: process.env.NEXT_PUBLIC_AI_SERVICE_URL || "http://localhost:8000/api/v1",
+  ROUTING: process.env.NEXT_PUBLIC_ROUTING_API_URL || "http://localhost:8000/api/v1",
+  ANALYTICS: process.env.NEXT_PUBLIC_ANALYTICS_API_URL || "http://localhost:8000",
+  ANALYTICS_WS: process.env.NEXT_PUBLIC_ANALYTICS_WS_URL || "ws://localhost:8000/live",
 } as const;
+
 
 export const API_ENDPOINTS = {
   // ---------------------------------------------------------------------------

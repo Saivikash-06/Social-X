@@ -31,9 +31,10 @@ import { GovernmentCase } from "../../types";
 import { useGovernmentMutations } from "../../hooks/use-government-queries";
 import { toast } from "sonner";
 
-import { IndianRupee } from "lucide-react";
+import { IndianRupee, ClipboardCheck } from "lucide-react";
 import { TransferToIndustryDialog } from "./transfer-to-industry-dialog";
 import { HandleInternalDialog } from "./handle-internal-dialog";
+import { RecordMonitoringDialog } from "./record-monitoring-dialog";
 import { useTranslation } from "@/features/shared/i18n";
 
 interface IssueDetailsModalProps {
@@ -57,6 +58,7 @@ export function IssueDetailsModal({
   const [newNote, setNewNote] = React.useState("");
   const [isIndustryDialogOpen, setIsIndustryDialogOpen] = React.useState(false);
   const [isInternalDialogOpen, setIsInternalDialogOpen] = React.useState(false);
+  const [isMonitoringDialogOpen, setIsMonitoringDialogOpen] = React.useState(false);
   const [workOrder, setWorkOrder] = React.useState<any>(null);
   const [approvingPayment, setApprovingPayment] = React.useState(false);
   const [inspectingWork, setInspectingWork] = React.useState(false);
@@ -202,7 +204,7 @@ export function IssueDetailsModal({
         {/* Modal Body */}
         <div className="space-y-6 pt-2">
           {/* PRIMARY GOVERNMENT AUTHORITY DECISION WORKFLOW */}
-          <div className="p-4 rounded-3xl bg-gradient-to-br from-card via-card to-muted/30 border border-border/80 shadow-sm space-y-3">
+          <div className="p-4 rounded-3xl bg-linear-to-br from-card via-card to-muted/30 border border-border/80 shadow-sm space-y-3">
             <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-border/60 pb-3">
               <div>
                 <span className="text-[10px] font-bold uppercase tracking-wider text-indigo-600 dark:text-indigo-400 font-mono">
@@ -213,16 +215,28 @@ export function IssueDetailsModal({
                   <span>{t("government.resolution_strategy", "Resolution Strategy & Resource Allocation")}</span>
                 </h3>
               </div>
-              <Badge variant="outline" className="text-xs font-mono">
-                {t("common.labels.status", "Stage")}: {t(`common.status.${caseData.status}`, caseData.status.toUpperCase())}
-              </Badge>
+              <div className="flex items-center gap-2">
+                <Button
+                  type="button"
+                  size="sm"
+                  variant="outline"
+                  onClick={() => setIsMonitoringDialogOpen(true)}
+                  className="rounded-xl h-7 px-2.5 text-xs font-semibold border-indigo-500/30 text-indigo-700 dark:text-indigo-300 hover:bg-indigo-500/10 gap-1.5"
+                >
+                  <ClipboardCheck className="h-3.5 w-3.5 text-indigo-600" />
+                  <span>Log Monitoring Inspection</span>
+                </Button>
+                <Badge variant="outline" className="text-xs font-mono">
+                  {t("common.labels.status", "Stage")}: {t(`common.status.${caseData.status}`, caseData.status.toUpperCase())}
+                </Badge>
+              </div>
             </div>
 
             {/* If not assigned to industry, show the 2 Primary Options */}
             {caseData.status !== "assigned_to_industry" && (
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-1">
                 {/* OPTION 1: SOLVE INTERNALLY */}
-                <div className="p-3.5 rounded-2xl border border-emerald-500/30 bg-emerald-500/[0.03] space-y-2 flex flex-col justify-between hover:border-emerald-500/60 transition-colors">
+                <div className="p-3.5 rounded-2xl border border-emerald-500/30 bg-emerald-500/3 space-y-2 flex flex-col justify-between hover:border-emerald-500/60 transition-colors">
                   <div className="space-y-1">
                     <div className="flex items-center justify-between">
                       <span className="text-[11px] font-bold text-emerald-700 dark:text-emerald-400 uppercase tracking-wider">
@@ -252,7 +266,7 @@ export function IssueDetailsModal({
                 </div>
 
                 {/* OPTION 2: TRANSFER TO INDUSTRY */}
-                <div className="p-3.5 rounded-2xl border border-indigo-500/30 bg-indigo-500/[0.03] space-y-2 flex flex-col justify-between hover:border-indigo-500/60 transition-colors">
+                <div className="p-3.5 rounded-2xl border border-indigo-500/30 bg-indigo-500/3 space-y-2 flex flex-col justify-between hover:border-indigo-500/60 transition-colors">
                   <div className="space-y-1">
                     <div className="flex items-center justify-between">
                       <span className="text-[11px] font-bold text-indigo-700 dark:text-indigo-400 uppercase tracking-wider">
@@ -285,7 +299,7 @@ export function IssueDetailsModal({
 
             {/* WORK ORDER MONITORING CARD (Shown when Work Order is active) */}
             {workOrder && (
-              <div className="p-4 rounded-2xl border border-indigo-500/40 bg-indigo-500/[0.04] space-y-4 pt-3">
+              <div className="p-4 rounded-2xl border border-indigo-500/40 bg-indigo-500/4 space-y-4 pt-3">
                 <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-indigo-500/20 pb-3">
                   <div className="space-y-0.5">
                     <div className="flex items-center gap-2">
@@ -318,7 +332,7 @@ export function IssueDetailsModal({
                     </div>
                     <div className="h-2 rounded-full bg-muted overflow-hidden">
                       <div
-                        className="h-full bg-gradient-to-r from-indigo-500 to-emerald-500 transition-all duration-500"
+                        className="h-full bg-linear-to-r from-indigo-500 to-emerald-500 transition-all duration-500"
                         style={{
                           width: `${workOrder.progressReports[workOrder.progressReports.length - 1].progressPercentage}%`,
                         }}
@@ -334,7 +348,7 @@ export function IssueDetailsModal({
                 {workOrder.completionReport && (
                   <div className="p-3 rounded-xl bg-card border border-border/80 space-y-1 text-xs">
                     <div className="flex items-center justify-between">
-                      <span className="font-bold text-foreground flex items-center gap-1 text-emerald-600">
+                      <span className="font-bold flex items-center gap-1 text-emerald-600">
                         <CheckCircle2 className="h-3.5 w-3.5" />
                         {t("government.completion_report_submitted", "Final Completion Report Submitted")}
                       </span>
@@ -452,7 +466,7 @@ export function IssueDetailsModal({
           {/* AI Intelligence & Duplicate Detection */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {/* AI Prediction */}
-            <div className="p-4 rounded-2xl bg-indigo-500/[0.03] border border-indigo-500/20 space-y-3">
+            <div className="p-4 rounded-2xl bg-indigo-500/3 border border-indigo-500/20 space-y-3">
               <div className="flex items-center justify-between">
                 <span className="text-xs font-bold text-indigo-700 dark:text-indigo-400 flex items-center gap-1.5">
                   <Sparkles className="h-4 w-4" />
@@ -637,7 +651,7 @@ export function IssueDetailsModal({
             <div className="space-y-2 pl-2 border-l-2 border-indigo-500/40">
               {caseData.timeline.map((event) => (
                 <div key={event.id} className="relative pl-4 space-y-0.5">
-                  <div className="absolute -left-[21px] top-1 h-2.5 w-2.5 rounded-full bg-indigo-600 ring-4 ring-card" />
+                  <div className="absolute -left-5.25 top-1 h-2.5 w-2.5 rounded-full bg-indigo-600 ring-4 ring-card" />
                   <div className="flex items-center gap-2 text-xs">
                     <span className="font-bold text-foreground">{event.title}</span>
                     <span className="text-[10px] text-muted-foreground font-mono">
@@ -734,6 +748,16 @@ export function IssueDetailsModal({
           onClose={() => setIsInternalDialogOpen(false)}
           onSuccess={() => {
             onClose();
+          }}
+        />
+
+        {/* Record Monitoring Dialog */}
+        <RecordMonitoringDialog
+          caseData={caseData}
+          isOpen={isMonitoringDialogOpen}
+          onClose={() => setIsMonitoringDialogOpen(false)}
+          onSuccess={() => {
+            toast.success("Inspection log recorded to public transparency ledger.");
           }}
         />
       </DialogContent>

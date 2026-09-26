@@ -61,23 +61,23 @@
     "industryId": "comp-ind-001",
     "industryName": "CleanAqua Infrastructure Pvt Ltd",
     "governmentDepartment": "Municipal Administration & Water Supply",
-    "universityId": "univ-004",
-    "universityName": "National Institute of Technology Tiruchirappalli",
-    "department": "Civil Engineering",
+    "universityId": "univ-003",
+    "universityName": "PSG College of Technology",
+    "department": "Electronics",
     "facultyId": "fac-004",
     "facultyName": "Dr. S. Anitha, Ph.D.",
     "facultyEmail": "anitha.grid@nitt.edu",
-    "researchGrant": 120000,
+    "researchGrant": 20000,
     "objectives": "Conduct research and prototype innovative engineering solution for Potable Water Main Line Fracture & Flooding.",
     "requiredDeliverables": [
       "Technical Design Proposal",
       "Functional Hardware Prototype",
       "Laboratory Calibration Video & Report"
     ],
-    "deadline": "2026-10-05T05:32:46.335Z",
+    "deadline": "2026-10-06T04:16:56.581Z",
     "status": "requested",
-    "createdAt": "2026-09-25T05:32:46.336Z",
-    "updatedAt": "2026-09-25T05:32:46.336Z"
+    "createdAt": "2026-09-26T04:16:56.583Z",
+    "updatedAt": "2026-09-26T04:16:56.583Z"
   },
   {
     "id": "CR-2026-0014",

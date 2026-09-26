@@ -147,6 +147,7 @@ export function handleApiError(
   error: unknown,
   options: {
     showToast?: boolean;
+    forceToastOn404?: boolean;
     portalContext?: string;
     customTitle?: string;
     customMessage?: string;
@@ -265,7 +266,12 @@ export function handleApiError(
   }
 
   // Show user-friendly Sonner Toast with strict deduplication
+  // Do NOT show toasts for 404 (Resource Not Found) errors unless explicitly requested
   if (options.showToast !== false && typeof window !== "undefined") {
+    if (statusCode === 404 && !options.forceToastOn404) {
+      // Gracefully suppress intrusive 404 toasts during route compilation or initial load
+      return new ApiError(title, userMessage, statusCode, detail, isNetworkError);
+    }
     const toastKey = `${title}:${userMessage}`;
     if (shouldShowToast(toastKey)) {
       toast.error(title, {

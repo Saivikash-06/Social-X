@@ -63,7 +63,7 @@
       "status": "pending"
     },
     "createdAt": "2026-09-22T22:54:37.741Z",
-    "updatedAt": "2026-09-25T05:32:46.341Z",
+    "updatedAt": "2026-09-26T04:16:56.585Z",
     "universityCollaborationId": "CR-2026-0013",
     "universityCollaborationStatus": "requested"
   },
@@ -83,8 +83,19 @@
     "budget": 375000,
     "issuedAt": "2026-09-24T10:54:45.345Z",
     "deadline": "2026-09-27T10:54:45.341Z",
-    "status": "accepted",
-    "progressReports": [],
+    "status": "in_progress",
+    "progressReports": [
+      {
+        "id": "pr-6854",
+        "progressPercentage": 65,
+        "description": "Conducted trench excavation, welded replacement pipe segment.",
+        "evidenceUrls": [
+          "https://images.unsplash.com/photo-1541888946425-d0fbb18086f6?auto=format&fit=crop&w=800&q=80"
+        ],
+        "submittedAt": "2026-09-26T04:17:06.854Z",
+        "status": "submitted"
+      }
+    ],
     "payment": {
       "id": "pay-WO-2026-0043",
       "invoiceRef": "INV-2026-0043",
@@ -92,7 +103,33 @@
       "status": "pending"
     },
     "createdAt": "2026-09-24T10:54:45.345Z",
-    "updatedAt": "2026-09-25T05:32:30.649Z"
+    "updatedAt": "2026-09-26T04:17:06.854Z",
+    "solutionPlan": {
+      "technicalApproach": "Deploy localized hydraulic stopper, weld seamless replacement spool, and restore road surface under 6-bar pressure guarantee.\n",
+      "milestones": [
+        {
+          "title": "Site setup & containment",
+          "targetDate": "Day 1",
+          "percentage": 25
+        },
+        {
+          "title": "Primary engineering replacement",
+          "targetDate": "Day 2",
+          "percentage": 60
+        },
+        {
+          "title": "Testing & civil restoration",
+          "targetDate": "Day 3",
+          "percentage": 100
+        }
+      ],
+      "equipmentDeployed": [
+        "Industrial Excavator",
+        "Pipeline Welder",
+        "Testing Rig"
+      ],
+      "submittedAt": "2026-09-26T04:16:16.250Z"
+    }
   },
   {
     "id": "WO-2026-0044",

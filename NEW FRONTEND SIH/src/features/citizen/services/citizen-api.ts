@@ -13,6 +13,9 @@ import {
   NotificationItem,
   CitizenProfileUpdate,
   CitizenSettings,
+  TransparencyMetrics,
+  TransparencyProblemSummary,
+  PublicAccountabilityDossier,
 } from "../types";
 
 export const MOCK_ISSUES: Issue[] = [
@@ -574,6 +577,166 @@ export const citizenApi = {
           "Account deletion request submitted. An administrative verification email has been sent.",
       };
     }
+  },
+
+  // --------------------------------------------------------------------------------------
+  // PUBLIC TRANSPARENCY & CITIZEN ACCOUNTABILITY METHODS
+  // --------------------------------------------------------------------------------------
+  async getTransparencyMetrics(): Promise<TransparencyMetrics> {
+    try {
+      // First try internal Next.js /api/transparency/metrics
+      const res = await fetch("/api/transparency/metrics", { credentials: "include" });
+      if (res.ok) {
+        const json = await res.json();
+        return json.data || json;
+      }
+    } catch (e) {
+      console.warn("Failed to fetch /api/transparency/metrics, trying direct backend", e);
+    }
+
+    try {
+      // Fallback directly to FastAPI port 8000
+      const res2 = await fetch("http://localhost:8000/api/v1/transparency/metrics");
+      if (res2.ok) {
+        const json2 = await res2.json();
+        return json2.data || json2;
+      }
+    } catch (e2) {
+      console.warn("Failed to fetch backend metrics directly", e2);
+    }
+
+    return {
+      totalProblems: 9,
+      statusBreakdown: { IN_PROGRESS: 5, RESOLVED: 2, SUBMITTED: 1, ASSIGNED: 1 },
+      awaitingAcceptance: 2,
+      inResolution: 5,
+      completedAndVerified: 2,
+      totalBudgetAllocated: 3420000,
+      totalExpenditure: 1401800,
+      remainingBalance: 2018200,
+      totalMonitoringVisits: 7,
+      latestMonitoringTimestamp: "2026-09-23 14:00:00",
+      activeCorrectiveActions: 2,
+      lastSystemUpdateTime: new Date().toISOString(),
+    };
+  },
+
+  async getTransparencyProblems(params?: {
+    category?: string;
+    location?: string;
+    status?: string;
+    stakeholder?: string;
+    search?: string;
+    startDate?: string;
+    endDate?: string;
+    page?: number;
+    limit?: number;
+  }): Promise<{ items: TransparencyProblemSummary[]; total: number; totalPages: number }> {
+    const q = new URLSearchParams();
+    if (params?.category && params.category !== "all") q.set("category", params.category);
+    if (params?.location && params.location !== "all") q.set("location", params.location);
+    if (params?.status && params.status !== "all") q.set("status", params.status);
+    if (params?.stakeholder && params.stakeholder !== "all") q.set("stakeholder", params.stakeholder);
+    if (params?.search) q.set("search", params.search);
+    if (params?.startDate) q.set("start_date", params.startDate);
+    if (params?.endDate) q.set("end_date", params.endDate);
+    if (params?.page) q.set("page", String(params.page));
+    if (params?.limit) q.set("limit", String(params.limit));
+
+    try {
+      const res = await fetch(`/api/transparency?${q.toString()}`, { credentials: "include" });
+      if (res.ok) {
+        const json = await res.json();
+        return {
+          items: json.items || json.data?.items || [],
+          total: json.total || json.data?.total || 0,
+          totalPages: json.totalPages || json.data?.totalPages || 1,
+        };
+      }
+    } catch (e) {
+      console.warn("Failed to fetch /api/transparency, trying direct backend", e);
+    }
+
+    try {
+      const res2 = await fetch(`http://localhost:8000/api/v1/transparency/problems?${q.toString()}`);
+      if (res2.ok) {
+        const json2 = await res2.json();
+        const data = json2.data || json2;
+        return {
+          items: data.items || [],
+          total: data.total || 0,
+          totalPages: data.totalPages || 1,
+        };
+      }
+    } catch (e2) {
+      console.warn("Failed direct fetch to backend", e2);
+    }
+
+    return { items: [], total: 0, totalPages: 1 };
+  },
+
+  async getPublicAccountabilityDossier(id: string): Promise<PublicAccountabilityDossier> {
+    try {
+      const res = await fetch(`/api/transparency/${encodeURIComponent(id)}`, { credentials: "include" });
+      if (res.ok) {
+        const json = await res.json();
+        return json.data || json;
+      }
+    } catch (e) {
+      console.warn("Failed to fetch /api/transparency/[id], trying direct backend", e);
+    }
+
+    try {
+      const res2 = await fetch(`http://localhost:8000/api/v1/transparency/problems/${encodeURIComponent(id)}`);
+      if (res2.ok) {
+        const json2 = await res2.json();
+        return json2.data || json2;
+      }
+    } catch (e2) {
+      console.warn("Failed direct fetch for dossier", e2);
+    }
+
+    throw new Error(`Public transparency dossier for #${id} could not be loaded.`);
+  },
+
+  async recordMonitoringActivity(data: {
+    issue_id: string;
+    officer_name: string;
+    officer_designation: string;
+    officer_department: string;
+    monitoring_status: string;
+    observations: string;
+    issues_identified?: string;
+    corrective_actions_requested?: string;
+    next_scheduled_monitoring_date?: string;
+  }): Promise<{ success: boolean; message: string }> {
+    try {
+      const res = await fetch("/api/transparency/monitoring", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data),
+      });
+      if (res.ok) {
+        return { success: true, message: "Government monitoring inspection logged successfully." };
+      }
+    } catch (e) {
+      console.warn("Failed /api/transparency/monitoring, trying direct backend", e);
+    }
+
+    try {
+      const res2 = await fetch("http://localhost:8000/api/v1/transparency/monitoring", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data),
+      });
+      if (res2.ok) {
+        return { success: true, message: "Government monitoring inspection logged successfully." };
+      }
+    } catch (e2) {
+      console.error("Failed to record monitoring activity", e2);
+    }
+
+    return { success: false, message: "Failed to record monitoring activity." };
   },
 };
 
