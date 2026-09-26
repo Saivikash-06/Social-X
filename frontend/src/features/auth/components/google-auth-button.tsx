@@ -2,26 +2,55 @@
 
 import * as React from "react";
 import { Button } from "@/features/shared/components/ui/button";
+import { useGoogleIdentity } from "../hooks/use-google-identity";
 
 interface GoogleAuthButtonProps {
-  onClick: () => void;
+  onClick?: () => void;
+  onSuccess?: (authData: { accessToken?: string; credential?: string; email?: string }) => void;
   isLoading?: boolean;
   text?: string;
+  showFallbackModal?: () => void;
 }
 
 export function GoogleAuthButton({
   onClick,
+  onSuccess,
   isLoading = false,
   text = "Continue with Google",
+  showFallbackModal,
 }: GoogleAuthButtonProps) {
+  const { isConfigured, triggerGoogleSignIn, isInitializing } = useGoogleIdentity({
+    onSuccess: (data) => {
+      onSuccess?.(data);
+    },
+    onError: (err) => {
+      console.warn("Google Sign-In:", err);
+      // Fallback to modal if error
+      showFallbackModal?.() || onClick?.();
+    },
+  });
+
+  const handleClick = () => {
+    // If real Google OAuth is configured and caller provided onSuccess:
+    if (isConfigured && onSuccess) {
+      const launched = triggerGoogleSignIn();
+      if (!launched) {
+        showFallbackModal?.() || onClick?.();
+      }
+    } else {
+      // Open modal with instructions / presets
+      showFallbackModal?.() || onClick?.();
+    }
+  };
+
   return (
     <Button
       type="button"
       variant="outline"
       size="lg"
-      className="w-full rounded-xl border-border bg-background hover:bg-muted/70 font-semibold text-foreground shadow-2xs transition-all flex items-center justify-center gap-3"
-      onClick={onClick}
-      isLoading={isLoading}
+      className="w-full rounded-xl border-border bg-background hover:bg-muted/70 font-semibold text-foreground shadow-2xs transition-all flex items-center justify-center gap-3 relative group"
+      onClick={handleClick}
+      isLoading={isLoading || isInitializing}
     >
       <svg className="h-5 w-5" viewBox="0 0 24 24">
         <path

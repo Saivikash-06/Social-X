@@ -118,12 +118,15 @@ export const authApi = {
   },
 
   // PHASE 4 – GOOGLE SIGN-IN
-  async loginWithGoogle(googleEmail: string): Promise<LoginResponse> {
+  async loginWithGoogle(
+    googleInput: string | { email?: string; credential?: string; accessToken?: string }
+  ): Promise<LoginResponse> {
+    const payload = typeof googleInput === "string" ? { email: googleInput } : googleInput;
     try {
       const response = await fetch("/api/auth/google", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email: googleEmail }),
+        body: JSON.stringify(payload),
       });
 
       const resData = await response.json();
@@ -142,7 +145,7 @@ export const authApi = {
 
       // Secondary fallback to Backend 2 if available
       try {
-        const resp2 = await socialxClient.post("/auth/google", { email: googleEmail });
+        const resp2 = await socialxClient.post("/auth/google", payload);
         return resp2.data?.data || resp2.data;
       } catch (backendErr: any) {
         const msg =

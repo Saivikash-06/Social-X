@@ -36,7 +36,9 @@ export function useAuthMutations() {
 
   // Google Login Mutation (Phase 4)
   const googleLoginMutation = useMutation({
-    mutationFn: (googleEmail: string) => authApi.loginWithGoogle(googleEmail),
+    mutationFn: (
+      googleInput: string | { email?: string; credential?: string; accessToken?: string }
+    ) => authApi.loginWithGoogle(googleInput),
     onSuccess: (res) => {
       setAuth(res.user, res.tokens);
       const destination = res.redirectUrl || "/citizen";

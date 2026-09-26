@@ -56,8 +56,8 @@ export default function UnifiedLoginPage() {
     loginMutation.mutate(data);
   };
 
-  const handleGoogleSelect = (email: string) => {
-    googleLoginMutation.mutate(email);
+  const handleGoogleSuccess = (authData: { accessToken?: string; credential?: string; email?: string }) => {
+    googleLoginMutation.mutate(authData);
   };
 
   const activeError = loginMutation.error?.message || googleLoginMutation.error?.message;
@@ -70,7 +70,8 @@ export default function UnifiedLoginPage() {
       <GoogleSignInModal
         isOpen={showGoogleModal}
         onClose={() => setShowGoogleModal(false)}
-        onSelectGoogleEmail={handleGoogleSelect}
+        onSelectGoogleEmail={(email) => googleLoginMutation.mutate({ email })}
+        onRealGoogleAuth={handleGoogleSuccess}
         isLoading={googleLoginMutation.isPending}
         errorMessage={googleLoginMutation.error?.message || null}
       />
@@ -161,7 +162,8 @@ export default function UnifiedLoginPage() {
 
               {/* Google Sign In */}
               <GoogleAuthButton
-                onClick={() => setShowGoogleModal(true)}
+                onSuccess={handleGoogleSuccess}
+                showFallbackModal={() => setShowGoogleModal(true)}
                 isLoading={googleLoginMutation.isPending}
                 text="Continue with Google"
               />

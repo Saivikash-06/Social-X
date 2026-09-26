@@ -44,6 +44,10 @@ export default function RegisterCitizenPage() {
   const { registerMutation, verifyOtpMutation, googleLoginMutation } =
     useAuthMutations();
 
+  const handleGoogleSuccess = (authData: { accessToken?: string; credential?: string; email?: string }) => {
+    googleLoginMutation.mutate({ ...authData, autoRegister: true } as any);
+  };
+
   const {
     register,
     handleSubmit,
@@ -123,14 +127,16 @@ export default function RegisterCitizenPage() {
           <GoogleSignInModal
             isOpen={showGoogleModal}
             onClose={() => setShowGoogleModal(false)}
-            onSelectGoogleEmail={(email) => googleLoginMutation.mutate(email)}
+            onSelectGoogleEmail={(email) => googleLoginMutation.mutate({ email, autoRegister: true } as any)}
+            onRealGoogleAuth={handleGoogleSuccess}
             isLoading={googleLoginMutation.isPending}
             errorMessage={googleLoginMutation.error?.message || null}
           />
 
           {/* Google Quick Sign-Up */}
           <GoogleAuthButton
-            onClick={() => setShowGoogleModal(true)}
+            onSuccess={handleGoogleSuccess}
+            showFallbackModal={() => setShowGoogleModal(true)}
             isLoading={googleLoginMutation.isPending}
             text="Continue with Google"
           />

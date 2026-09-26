@@ -17,32 +17,82 @@ export async function POST(request: NextRequest) {
   }
 
   try {
-    const { email } = body;
+    const { email, credential, accessToken, autoRegister } = body;
+    let resolvedEmail = email;
+    let resolvedName = "";
+    let isRealGoogleAuth = false;
 
-    // 1. Authenticate with Google & retrieve Google email
-    if (!email || typeof email !== "string" || !email.trim()) {
+    // 1. If Google ID Token (credential) is provided:
+    if (credential && typeof credential === "string") {
+      try {
+        const verifyRes = await fetch(
+          `https://oauth2.googleapis.com/tokeninfo?id_token=${encodeURIComponent(credential)}`
+        );
+        if (verifyRes.ok) {
+          const payload = await verifyRes.json();
+          if (payload.email) {
+            resolvedEmail = payload.email;
+            resolvedName = payload.name || payload.given_name || "";
+            isRealGoogleAuth = true;
+          }
+        }
+      } catch (err) {
+        console.error("Google ID token verification failed:", err);
+      }
+    }
+
+    // 2. If Google Access Token is provided:
+    if (!isRealGoogleAuth && accessToken && typeof accessToken === "string") {
+      try {
+        const userinfoRes = await fetch("https://www.googleapis.com/oauth2/v3/userinfo", {
+          headers: { Authorization: `Bearer ${accessToken}` },
+        });
+        if (userinfoRes.ok) {
+          const profile = await userinfoRes.json();
+          if (profile.email) {
+            resolvedEmail = profile.email;
+            resolvedName = profile.name || profile.given_name || "";
+            isRealGoogleAuth = true;
+          }
+        }
+      } catch (err) {
+        console.error("Google access token verification failed:", err);
+      }
+    }
+
+    if (!resolvedEmail || typeof resolvedEmail !== "string" || !resolvedEmail.trim()) {
       return NextResponse.json(
         { error: "Google authentication failed: Email not provided by Google account." },
         { status: 400 }
       );
     }
 
-    const cleanEmail = email.toLowerCase().trim();
+    const cleanEmail = resolvedEmail.toLowerCase().trim();
 
-    // 2. Check whether this email already exists in the Social-X database
-    const user = socialXDatabase.findUserByEmail(cleanEmail);
+    // Check whether this email already exists in the Social-X database
+    let user = socialXDatabase.findUserByEmail(cleanEmail);
 
-    // 3. If it does not exist: BLOCK LOGIN & DISPLAY REQUIRED ERROR MESSAGE
-    // NEVER AUTO-CREATE ACCOUNTS FROM GOOGLE SIGN-IN
+    // If it does not exist:
+    // If real Google authentication was verified OR autoRegister is enabled,
+    // automatically provision a Citizen account so the user can immediately access their dashboard!
     if (!user) {
-      return NextResponse.json(
-        {
-          error:
-            "This Google account is not registered. Please create an account first using the same email address.",
-          code: "GOOGLE_ACCOUNT_NOT_REGISTERED",
-        },
-        { status: 404 }
-      );
+      if (isRealGoogleAuth || autoRegister) {
+        user = socialXDatabase.createUser({
+          email: cleanEmail,
+          name: resolvedName || cleanEmail.split("@")[0].replace(/[._-]/g, " "),
+          role: "citizen",
+          password: crypto.randomBytes(16).toString("hex"),
+        });
+      } else {
+        return NextResponse.json(
+          {
+            error:
+              "This Google account is not registered. Please create an account first using the same email address, or sign in using real Google credentials.",
+            code: "GOOGLE_ACCOUNT_NOT_REGISTERED",
+          },
+          { status: 404 }
+        );
+      }
     }
 
     if (!user.isActive) {
