@@ -112,7 +112,7 @@ lib/
 lib64/
 
 # But allow Next.js frontend lib directory
-!NEW FRONTEND SIH/src/lib/
+!frontend/src/lib/
 parts/
 sdist/
 var/
@@ -198,3 +198,6 @@ Icon
 *.icloud
 
 # End of gitignore.io template
+
+# Legacy local folder migrated to frontend/
+NEW FRONTEND SIH/
