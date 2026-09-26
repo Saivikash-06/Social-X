@@ -5,7 +5,8 @@ const supabaseUrl =
   "https://gvqnniateoyfmqaakzim.supabase.co";
 
 const supabaseAnonKey =
-  process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY?.trim() || "";
+  process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY?.trim() ||
+  "sb_publishable_m69Cdo352DmOGcyUV3U2dA_vIQ_Di_2";
 
 export const isSupabaseConfigured = Boolean(
   supabaseUrl &&
